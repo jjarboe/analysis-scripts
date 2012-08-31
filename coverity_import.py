@@ -1,3 +1,4 @@
+import sys
 import json
 import os.path
 
@@ -10,17 +11,28 @@ class InvalidFormatException(Exception):
     def __str__(self):
         return '%s: "%s"' % (self._msg, self._arg)
 
+class IssueLocation(object):
+    def __init__(self, line, filename, description):
+        self.line = line
+        self.filename = filename
+        self.description = description
+
 class Issue(object):
-    def __init__(self, **kw):
-        for k,v in kw.items():
-            setattr(self, k.lower(), v)
+    def __init__(self, checker, tag, extra='', function='', subcategory='', description=''):
+        self.checker = checker
+        self.tag = tag
+        self.extra = extra
+        self.function = function
+        self.subcategory = subcategory
+        self.description = description
         self._locs = []
 
-    def add_location(self, line, file, description=None):
-        parts = filter(None, os.path.split(file))
+    def add_location(self, line, filename, description = None):
+        parts = filter(None, os.path.split(filename))
         if len(parts) <= 1:
-            raise InvalidFormatException('Filename must be absolute path', file)
-        self._locs.append({'line':int(line), 'filename':file, 'description':description})
+            raise InvalidFormatException('Filename must be absolute path', filename)
+
+        self._locs.append(IssueLocation(int(line), filename, description))
 
 class CoverityThirdPartyIntegration(object):
     '''
@@ -47,9 +59,15 @@ class CoverityIssueCollector(object):
     A basic collector for issue reports.  Not appropriate to be
     used directly; you should implement a subclass.
     '''
-    def __init__(self):
-        self._messages = set()
+    _checker_prefix = None
+    _build_dir = None
+
+    def __init__(self, default_encoding='ASCII', checker_prefix=None, build_dir=None):
+        self._issues = set()
         self._files = set()
+        self._default_encoding = default_encoding
+        if checker_prefix: self._checker_prefix = checker_prefix
+        if build_dir is not None: self._build_dir = build_dir
 
     def process(self, f):
         '''
@@ -58,21 +76,46 @@ class CoverityIssueCollector(object):
         raise NotImplementedException('You need to implement the process() method')
 
     def sources(self):
-        raise NotImplementedException('You need to implement the sources() method')
+        return [{'file': f, 'encoding': self._default_encoding}
+                for f in self._files]
 
     def issues(self):
-        raise NotImplementedException('You need to implement the issues() method')
+        return [
+        {
+            'checker': '.'.join(filter(None, [self._checker_prefix,i.checker])),
+            'extra': i.extra,
+            'file': i._locs[0].filename,
+            'function': i.function,
+            'subcategory': i.subcategory,
+            'events': [
+                {
+                'tag': i.tag,
+                'description': i._locs[0].description or i.description,
+                'line': i._locs[0].line,
+                'main': True
+                }
+            ] + [
+                {
+                'tag': 'Related event',
+                'description': x.description or i.description,
+                'line': x.line,
+                'main': False
+                }
+                for x in i._locs[1:]
+            ]
+        }
+        for i in self._issues]
 
-def main(collector):
-    import sys
-
-    for fn in sys.argv[1:]:
+    def run(self, *inputs):
+      for fn in inputs:
         if fn == '-':
-            collector.process(sys.stdin)
+            self.process(sys.stdin)
         else:
             f = open(fn,'r')
-            collector.process(f)
+            self.process(f)
             f.close()
  
-    outputter = CoverityThirdPartyIntegration(collector)
-    print outputter.output()
+      return CoverityThirdPartyIntegration(self).output()
+
+def main(collector):
+    print collector.run(sys.argv[1:])

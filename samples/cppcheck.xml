@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+  <cppcheck version="1.57"/>
+  <errors>
+  <error id="redundantAssignment" severity="performance" msg="Variable 'res' is reassigned a value before the old one has been used." verbose="Variable 'res' is reassigned a value before the old one has been used.">
+    <location file="/missing_indent_source.c" line="9"/>
+    <location file="/missing_indent_source.c" line="7"/>
+  </error>
+  <error id="unusedFunction" severity="style" msg="The function 'do_something' is never used." verbose="The function 'do_something' is never used.">
+    <location file="/missing_indent_source.c" line="17"/>
+  </error>
+  </errors>
+</results>

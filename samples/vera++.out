@@ -1,0 +1,2127 @@
+aligned_storage.hpp:35: (T009) comma should not be preceded by whitespace
+aligned_storage.hpp:43: (T009) comma should not be preceded by whitespace
+aligned_storage.hpp:53: (T009) comma should not be preceded by whitespace
+aligned_storage.hpp:54: (T009) comma should not be preceded by whitespace
+aligned_storage.hpp:59: (T011) closing curly bracket not in the same line or column
+aligned_storage.hpp:59: (T011) closing curly bracket not in the same line or column
+aligned_storage.hpp:63: (T009) comma should not be preceded by whitespace
+aligned_storage.hpp:77: (T009) comma should not be preceded by whitespace
+aligned_storage.hpp:81: (T009) comma should not be preceded by whitespace
+aligned_storage.hpp:124: (T012) negation operator used in its short form
+aligned_storage.hpp:145: (T009) comma should be followed by whitespace
+aligned_storage.hpp:147: (T009) comma should be followed by whitespace
+aligned_storage.hpp:158: (T009) comma should be followed by whitespace
+aligned_storage.hpp:160: (L001) trailing whitespace
+aligned_storage.hpp:162: (L001) trailing whitespace
+aligned_storage.hpp:166: (T011) closing curly bracket not in the same line or column
+any.hpp:74: (T012) negation operator used in its short form
+any.hpp:188: (T012) negation operator used in its short form
+any.hpp:192: (T008) keyword 'if' not followed by a single space
+any.hpp:192: (T012) negation operator used in its short form
+any.hpp:193: (T019) full block {} expected in the control structure
+any.hpp:205: (T012) negation operator used in its short form
+any.hpp:209: (T008) keyword 'if' not followed by a single space
+any.hpp:209: (T012) negation operator used in its short form
+any.hpp:210: (T019) full block {} expected in the control structure
+array.hpp:64: (L004) line is longer than 100 characters
+array.hpp:64: (T012) negation operator used in its short form
+array.hpp:64: (T012) negation operator used in its short form
+array.hpp:64: (T012) negation operator used in its short form
+array.hpp:67: (L004) line is longer than 100 characters
+array.hpp:72: (L004) line is longer than 100 characters
+array.hpp:75: (T009) comma should be followed by whitespace
+array.hpp:76: (T009) comma should be followed by whitespace
+array.hpp:82: (T011) closing curly bracket not in the same line or column
+array.hpp:86: (T011) closing curly bracket not in the same line or column
+array.hpp:89: (L001) trailing whitespace
+array.hpp:90: (L001) trailing whitespace
+array.hpp:91: (L001) trailing whitespace
+array.hpp:95: (L001) trailing whitespace
+array.hpp:96: (L001) trailing whitespace
+array.hpp:97: (L001) trailing whitespace
+array.hpp:98: (L001) trailing whitespace
+array.hpp:104: (L001) trailing whitespace
+array.hpp:106: (L001) trailing whitespace
+array.hpp:107: (L001) trailing whitespace
+array.hpp:108: (L001) trailing whitespace
+array.hpp:111: (L001) trailing whitespace
+array.hpp:116: (L001) trailing whitespace
+array.hpp:117: (L001) trailing whitespace
+array.hpp:118: (L001) trailing whitespace
+array.hpp:121: (L001) trailing whitespace
+array.hpp:122: (L001) trailing whitespace
+array.hpp:123: (L001) trailing whitespace
+array.hpp:133: (T009) comma should be followed by whitespace
+array.hpp:134: (T009) comma should be followed by whitespace
+array.hpp:134: (T009) comma should be followed by whitespace
+array.hpp:135: (T011) closing curly bracket not in the same line or column
+array.hpp:146: (T009) comma should be followed by whitespace
+array.hpp:146: (T009) comma should be followed by whitespace
+array.hpp:147: (T009) comma should be followed by whitespace
+array.hpp:149: (T011) closing curly bracket not in the same line or column
+array.hpp:154: (T009) comma should be followed by whitespace
+array.hpp:154: (T009) comma should be followed by whitespace
+array.hpp:161: (T011) closing curly bracket not in the same line or column
+array.hpp:162: (T011) closing curly bracket not in the same line or column
+array.hpp:164: (T011) closing curly bracket not in the same line or column
+array.hpp:166: (T012) negation operator used in its short form
+array.hpp:182: (L004) line is longer than 100 characters
+array.hpp:187: (L004) line is longer than 100 characters
+array.hpp:187: (T012) negation operator used in its short form
+array.hpp:187: (T012) negation operator used in its short form
+array.hpp:187: (T012) negation operator used in its short form
+array.hpp:190: (L004) line is longer than 100 characters
+array.hpp:195: (L004) line is longer than 100 characters
+array.hpp:198: (T009) comma should be followed by whitespace
+array.hpp:199: (T009) comma should be followed by whitespace
+array.hpp:205: (T011) closing curly bracket not in the same line or column
+array.hpp:209: (T011) closing curly bracket not in the same line or column
+array.hpp:253: (T009) comma should be followed by whitespace
+array.hpp:254: (T011) closing curly bracket not in the same line or column
+array.hpp:265: (T009) comma should be followed by whitespace
+array.hpp:265: (T009) comma should be followed by whitespace
+array.hpp:267: (T011) closing curly bracket not in the same line or column
+array.hpp:283: (T011) closing curly bracket not in the same line or column
+array.hpp:284: (T011) closing curly bracket not in the same line or column
+array.hpp:289: (T009) comma should be followed by whitespace
+array.hpp:289: (T009) comma should be followed by whitespace
+array.hpp:291: (T011) closing curly bracket not in the same line or column
+array.hpp:293: (T009) comma should be followed by whitespace
+array.hpp:293: (T009) comma should be followed by whitespace
+array.hpp:294: (T009) comma should be followed by whitespace
+array.hpp:294: (T009) comma should be followed by whitespace
+array.hpp:294: (T009) comma should be followed by whitespace
+array.hpp:295: (T011) closing curly bracket not in the same line or column
+array.hpp:297: (T009) comma should be followed by whitespace
+array.hpp:297: (T009) comma should be followed by whitespace
+array.hpp:298: (T012) negation operator used in its short form
+array.hpp:299: (T011) closing curly bracket not in the same line or column
+array.hpp:301: (T009) comma should be followed by whitespace
+array.hpp:301: (T009) comma should be followed by whitespace
+array.hpp:303: (T011) closing curly bracket not in the same line or column
+array.hpp:305: (T009) comma should be followed by whitespace
+array.hpp:305: (T009) comma should be followed by whitespace
+array.hpp:306: (T012) negation operator used in its short form
+array.hpp:307: (T011) closing curly bracket not in the same line or column
+array.hpp:309: (T009) comma should be followed by whitespace
+array.hpp:309: (T009) comma should be followed by whitespace
+array.hpp:310: (T012) negation operator used in its short form
+array.hpp:311: (T011) closing curly bracket not in the same line or column
+array.hpp:315: (T009) comma should be followed by whitespace
+array.hpp:315: (T009) comma should be followed by whitespace
+array.hpp:317: (T011) closing curly bracket not in the same line or column
+array.hpp:319: (T011) closing curly bracket not in the same line or column
+assert.hpp:28: (L004) line is longer than 100 characters
+assert.hpp:32: (L004) line is longer than 100 characters
+bind.hpp:60: (L004) line is longer than 100 characters
+bind.hpp:60: (T012) negation operator used in its short form
+bind.hpp:60: (T012) negation operator used in its short form
+bind.hpp:93: (L004) line is longer than 100 characters
+bind.hpp:161: (L004) line is longer than 100 characters
+bind.hpp:163: (L004) line is longer than 100 characters
+bind.hpp:215: (L004) line is longer than 100 characters
+bind.hpp:217: (L004) line is longer than 100 characters
+bind.hpp:272: (L004) line is longer than 100 characters
+bind.hpp:274: (L004) line is longer than 100 characters
+bind.hpp:331: (L004) line is longer than 100 characters
+bind.hpp:333: (L004) line is longer than 100 characters
+bind.hpp:342: (L004) line is longer than 100 characters
+bind.hpp:362: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:363: (L001) trailing whitespace
+bind.hpp:396: (L004) line is longer than 100 characters
+bind.hpp:398: (L004) line is longer than 100 characters
+bind.hpp:402: (L004) line is longer than 100 characters
+bind.hpp:407: (L004) line is longer than 100 characters
+bind.hpp:412: (L004) line is longer than 100 characters
+bind.hpp:417: (L004) line is longer than 100 characters
+bind.hpp:427: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:436: (L004) line is longer than 100 characters
+bind.hpp:464: (L004) line is longer than 100 characters
+bind.hpp:466: (L004) line is longer than 100 characters
+bind.hpp:470: (L004) line is longer than 100 characters
+bind.hpp:475: (L004) line is longer than 100 characters
+bind.hpp:480: (L004) line is longer than 100 characters
+bind.hpp:485: (L004) line is longer than 100 characters
+bind.hpp:495: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:505: (L004) line is longer than 100 characters
+bind.hpp:535: (L004) line is longer than 100 characters
+bind.hpp:537: (L004) line is longer than 100 characters
+bind.hpp:541: (L004) line is longer than 100 characters
+bind.hpp:546: (L004) line is longer than 100 characters
+bind.hpp:551: (L004) line is longer than 100 characters
+bind.hpp:556: (L004) line is longer than 100 characters
+bind.hpp:566: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:577: (L004) line is longer than 100 characters
+bind.hpp:585: (L004) line is longer than 100 characters
+bind.hpp:609: (L004) line is longer than 100 characters
+bind.hpp:611: (L004) line is longer than 100 characters
+bind.hpp:615: (L004) line is longer than 100 characters
+bind.hpp:620: (L004) line is longer than 100 characters
+bind.hpp:625: (L004) line is longer than 100 characters
+bind.hpp:630: (L004) line is longer than 100 characters
+bind.hpp:640: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:652: (L004) line is longer than 100 characters
+bind.hpp:660: (L004) line is longer than 100 characters
+bind.hpp:686: (L004) line is longer than 100 characters
+bind.hpp:688: (L004) line is longer than 100 characters
+bind.hpp:692: (L004) line is longer than 100 characters
+bind.hpp:697: (L004) line is longer than 100 characters
+bind.hpp:702: (L004) line is longer than 100 characters
+bind.hpp:707: (L004) line is longer than 100 characters
+bind.hpp:717: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:718: (L001) trailing whitespace
+bind.hpp:730: (L004) line is longer than 100 characters
+bind.hpp:738: (L004) line is longer than 100 characters
+bind.hpp:766: (L004) line is longer than 100 characters
+bind.hpp:768: (L004) line is longer than 100 characters
+bind.hpp:772: (L004) line is longer than 100 characters
+bind.hpp:777: (L004) line is longer than 100 characters
+bind.hpp:782: (L004) line is longer than 100 characters
+bind.hpp:787: (L004) line is longer than 100 characters
+bind.hpp:797: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:821: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:821: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:823: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:840: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:840: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:842: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+bind.hpp:863: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:863: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:873: (L004) line is longer than 100 characters
+bind.hpp:877: (L004) line is longer than 100 characters
+bind.hpp:877: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:877: (T010) identifier should not be composed of only 'l' and 'O'
+bind.hpp:891: (L004) line is longer than 100 characters
+bind.hpp:898: (L004) line is longer than 100 characters
+bind.hpp:913: (L004) line is longer than 100 characters
+bind.hpp:920: (L004) line is longer than 100 characters
+bind.hpp:934: (T012) negation operator used in its short form
+bind.hpp:1070: (L004) line is longer than 100 characters
+bind.hpp:1083: (L004) line is longer than 100 characters
+bind.hpp:1101: (T012) negation operator used in its short form
+bind.hpp:1106: (T012) negation operator used in its short form
+bind.hpp:1164: (T012) negation operator used in its short form
+bind.hpp:1164: (T012) negation operator used in its short form
+bind.hpp:1165: (T012) negation operator used in its short form
+bind.hpp:1173: (L004) line is longer than 100 characters
+bind.hpp:1192: (L004) line is longer than 100 characters
+bind.hpp:1271: (L004) line is longer than 100 characters
+bind.hpp:1279: (L004) line is longer than 100 characters
+bind.hpp:1353: (L004) line is longer than 100 characters
+bind.hpp:1361: (L004) line is longer than 100 characters
+bind.hpp:1369: (L004) line is longer than 100 characters
+bind.hpp:1369: (T012) negation operator used in its short form
+bind.hpp:1369: (T012) negation operator used in its short form
+bind.hpp:1442: (L004) line is longer than 100 characters
+bind.hpp:1445: (L004) line is longer than 100 characters
+bind.hpp:1446: (L004) line is longer than 100 characters
+bind.hpp:1450: (L004) line is longer than 100 characters
+bind.hpp:1453: (L004) line is longer than 100 characters
+bind.hpp:1549: (L004) line is longer than 100 characters
+bind.hpp:1583: (T012) negation operator used in its short form
+blank.hpp:88: (T009) comma should be followed by whitespace
+blank.hpp:89: (T009) comma should be followed by whitespace
+blank.hpp:90: (T009) comma should be followed by whitespace
+blank.hpp:91: (T009) comma should not be preceded by whitespace
+blank.hpp:98: (T011) closing curly bracket not in the same line or column
+blank_fwd.hpp:20: (T011) closing curly bracket not in the same line or column
+cast.hpp:59: (T009) comma should not be preceded by whitespace
+cast.hpp:79: (T019) full block {} expected in the control structure
+concept_archetype.hpp:9: (L001) trailing whitespace
+concept_archetype.hpp:29: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:31: (L001) trailing whitespace
+concept_archetype.hpp:46: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:61: (L001) trailing whitespace
+concept_archetype.hpp:64: (L001) trailing whitespace
+concept_archetype.hpp:71: (L001) trailing whitespace
+concept_archetype.hpp:74: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:83: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:85: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:90: (L001) trailing whitespace
+concept_archetype.hpp:95: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:104: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:106: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:110: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:125: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:139: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:149: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:155: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:159: (L001) trailing whitespace
+concept_archetype.hpp:160: (L001) trailing whitespace
+concept_archetype.hpp:175: (L001) trailing whitespace
+concept_archetype.hpp:177: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:181: (L001) trailing whitespace
+concept_archetype.hpp:183: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:187: (L001) trailing whitespace
+concept_archetype.hpp:204: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:214: (L005) too many consecutive empty lines
+concept_archetype.hpp:219: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:309: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+concept_archetype.hpp:355: (L001) trailing whitespace
+concept_archetype.hpp:356: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:357: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:362: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:371: (L001) trailing whitespace
+concept_archetype.hpp:372: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:373: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:382: (L001) trailing whitespace
+concept_archetype.hpp:383: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:384: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:393: (L001) trailing whitespace
+concept_archetype.hpp:394: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:395: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:404: (L001) trailing whitespace
+concept_archetype.hpp:405: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:406: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:421: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:454: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:491: (T011) closing curly bracket not in the same line or column
+concept_archetype.hpp:621: (L001) trailing whitespace
+concept_archetype.hpp:622: (L001) trailing whitespace
+concept_archetype.hpp:623: (L001) trailing whitespace
+concept_archetype.hpp:661: (L001) trailing whitespace
+concept_archetype.hpp:663: (L001) trailing whitespace
+concept_archetype.hpp:664: (L001) trailing whitespace
+concept_archetype.hpp:667: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:47: (T012) negation operator used in its short form
+concept_check.hpp:62: (T009) comma should be followed by whitespace
+concept_check.hpp:67: (T009) comma should be followed by whitespace
+concept_check.hpp:71: (T009) comma should be followed by whitespace
+concept_check.hpp:71: (T009) comma should be followed by whitespace
+concept_check.hpp:76: (T009) comma should be followed by whitespace
+concept_check.hpp:76: (T009) comma should be followed by whitespace
+concept_check.hpp:80: (T009) comma should be followed by whitespace
+concept_check.hpp:80: (T009) comma should be followed by whitespace
+concept_check.hpp:80: (T009) comma should be followed by whitespace
+concept_check.hpp:85: (T009) comma should be followed by whitespace
+concept_check.hpp:85: (T009) comma should be followed by whitespace
+concept_check.hpp:85: (T009) comma should be followed by whitespace
+concept_check.hpp:111: (T009) comma should be followed by whitespace
+concept_check.hpp:115: (T009) comma should be followed by whitespace
+concept_check.hpp:119: (L004) line is longer than 100 characters
+concept_check.hpp:119: (T009) comma should be followed by whitespace
+concept_check.hpp:119: (T009) comma should be followed by whitespace
+concept_check.hpp:123: (T009) comma should be followed by whitespace
+concept_check.hpp:123: (T009) comma should be followed by whitespace
+concept_check.hpp:127: (L004) line is longer than 100 characters
+concept_check.hpp:127: (T009) comma should be followed by whitespace
+concept_check.hpp:127: (T009) comma should be followed by whitespace
+concept_check.hpp:127: (T009) comma should be followed by whitespace
+concept_check.hpp:131: (T009) comma should be followed by whitespace
+concept_check.hpp:131: (T009) comma should be followed by whitespace
+concept_check.hpp:131: (T009) comma should be followed by whitespace
+concept_check.hpp:137: (T012) negation operator used in its short form
+concept_check.hpp:142: (T009) comma should be followed by whitespace
+concept_check.hpp:151: (L001) trailing whitespace
+concept_check.hpp:152: (T012) negation operator used in its short form
+concept_check.hpp:154: (L001) trailing whitespace
+concept_check.hpp:155: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:157: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:158: (T012) negation operator used in its short form
+concept_check.hpp:166: (L001) trailing whitespace
+concept_check.hpp:170: (L001) trailing whitespace
+concept_check.hpp:171: (T012) negation operator used in its short form
+concept_check.hpp:173: (L001) trailing whitespace
+concept_check.hpp:174: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:176: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:177: (T012) negation operator used in its short form
+concept_check.hpp:185: (L001) trailing whitespace
+concept_check.hpp:189: (L001) trailing whitespace
+concept_check.hpp:190: (T012) negation operator used in its short form
+concept_check.hpp:192: (L001) trailing whitespace
+concept_check.hpp:193: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:195: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:196: (T012) negation operator used in its short form
+concept_check.hpp:204: (L001) trailing whitespace
+concept_check.hpp:215: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:222: (T012) negation operator used in its short form
+concept_check.hpp:226: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:228: (T012) negation operator used in its short form
+concept_check.hpp:231: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:243: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:249: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:259: (T012) negation operator used in its short form
+concept_check.hpp:264: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:267: (T012) negation operator used in its short form
+concept_check.hpp:271: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:281: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:298: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:306: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:315: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:328: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:332: (T009) comma should be followed by whitespace
+concept_check.hpp:337: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+concept_check.hpp:343: (T009) comma should be followed by whitespace
+concept_check.hpp:376: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:381: (T012) negation operator used in its short form
+concept_check.hpp:383: (T009) comma should be followed by whitespace
+concept_check.hpp:387: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:400: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:406: (T012) negation operator used in its short form
+concept_check.hpp:409: (L001) trailing whitespace
+concept_check.hpp:411: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:414: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:420: (L001) trailing whitespace
+concept_check.hpp:422: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:429: (T012) negation operator used in its short form
+concept_check.hpp:435: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:447: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:457: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:466: (L001) trailing whitespace
+concept_check.hpp:468: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:473: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:477: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:486: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:498: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:511: (L001) trailing whitespace
+concept_check.hpp:513: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:522: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:531: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:557: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:569: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:586: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:596: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:607: (L001) trailing whitespace
+concept_check.hpp:612: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:623: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:647: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:664: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:690: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:697: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:720: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:732: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:733: (L001) trailing whitespace
+concept_check.hpp:743: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:744: (L001) trailing whitespace
+concept_check.hpp:756: (L001) trailing whitespace
+concept_check.hpp:759: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:763: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:783: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:803: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:807: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:831: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:851: (L001) trailing whitespace
+concept_check.hpp:870: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:874: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:889: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:907: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:911: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:922: (L001) trailing whitespace
+concept_check.hpp:929: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:934: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:940: (T009) comma should be followed by whitespace
+concept_check.hpp:942: (T009) comma should be followed by whitespace
+concept_check.hpp:952: (L001) trailing whitespace
+concept_check.hpp:959: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:978: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:992: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:1005: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:1015: (L001) trailing whitespace
+concept_check.hpp:1029: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:1037: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:1046: (T009) comma should be followed by whitespace
+concept_check.hpp:1047: (T009) comma should be followed by whitespace
+concept_check.hpp:1053: (T011) closing curly bracket not in the same line or column
+concept_check.hpp:1056: (L003) trailing empty line(s)
+config.hpp:3: (L001) trailing whitespace
+config.hpp:4: (L001) trailing whitespace
+config.hpp:5: (L001) trailing whitespace
+config.hpp:21: (T012) negation operator used in its short form
+config.hpp:21: (T012) negation operator used in its short form
+config.hpp:30: (L004) line is longer than 100 characters
+config.hpp:30: (T012) negation operator used in its short form
+config.hpp:30: (T012) negation operator used in its short form
+config.hpp:30: (T012) negation operator used in its short form
+config.hpp:39: (T012) negation operator used in its short form
+config.hpp:39: (T012) negation operator used in its short form
+config.hpp:39: (T012) negation operator used in its short form
+config.hpp:48: (L004) line is longer than 100 characters
+config.hpp:48: (T012) negation operator used in its short form
+config.hpp:48: (T012) negation operator used in its short form
+config.hpp:48: (T012) negation operator used in its short form
+config.hpp:62: (L005) too many consecutive empty lines
+config.hpp:70: (L003) trailing empty line(s)
+crc.hpp:25: (L004) line is longer than 100 characters
+crc.hpp:25: (T012) negation operator used in its short form
+crc.hpp:40: (T012) negation operator used in its short form
+crc.hpp:51: (T011) closing curly bracket not in the same line or column
+crc.hpp:51: (T011) closing curly bracket not in the same line or column
+crc.hpp:52: (T009) comma should not be preceded by whitespace
+crc.hpp:55: (T009) comma should not be preceded by whitespace
+crc.hpp:157: (T003) keyword 'explicit' not followed by a single space
+crc.hpp:213: (T003) keyword 'explicit' not followed by a single space
+crc.hpp:348: (T007) semicolon is isolated from other tokens
+crc.hpp:493: (T019) full block {} expected in the control structure
+crc.hpp:529: (T019) full block {} expected in the control structure
+crc.hpp:588: (T011) closing curly bracket not in the same line or column
+crc.hpp:611: (T009) comma should be followed by whitespace
+crc.hpp:637: (T009) comma should not be preceded by whitespace
+crc.hpp:638: (T009) comma should not be preceded by whitespace
+crc.hpp:789: (T007) semicolon is isolated from other tokens
+crc.hpp:789: (T007) semicolon is isolated from other tokens
+crc.hpp:952: (T007) semicolon is isolated from other tokens
+crc.hpp:952: (T007) semicolon is isolated from other tokens
+crc.hpp:1106: (L003) trailing empty line(s)
+cregex.hpp:6: (L001) trailing whitespace
+cregex.hpp:7: (L001) trailing whitespace
+cregex.hpp:32: (L005) too many consecutive empty lines
+cregex.hpp:39: (L003) trailing empty line(s)
+cstdint.hpp:3: (L001) trailing whitespace
+cstdint.hpp:4: (L001) trailing whitespace
+cstdint.hpp:5: (L001) trailing whitespace
+cstdint.hpp:38: (L001) trailing whitespace
+cstdint.hpp:88: (L001) trailing whitespace
+cstdint.hpp:89: (L001) trailing whitespace
+cstdint.hpp:90: (L001) trailing whitespace
+cstdint.hpp:91: (L001) trailing whitespace
+cstdint.hpp:92: (L001) trailing whitespace
+cstdint.hpp:93: (L001) trailing whitespace
+cstdint.hpp:94: (L001) trailing whitespace
+cstdint.hpp:95: (L001) trailing whitespace
+cstdint.hpp:96: (L001) trailing whitespace
+cstdint.hpp:97: (L001) trailing whitespace
+cstdint.hpp:98: (L001) trailing whitespace
+cstdint.hpp:99: (L001) trailing whitespace
+cstdint.hpp:100: (L001) trailing whitespace
+cstdint.hpp:101: (L001) trailing whitespace
+cstdint.hpp:102: (L001) trailing whitespace
+cstdint.hpp:103: (L001) trailing whitespace
+cstdint.hpp:104: (L001) trailing whitespace
+cstdint.hpp:105: (L001) trailing whitespace
+cstdint.hpp:106: (L001) trailing whitespace
+cstdint.hpp:107: (L001) trailing whitespace
+cstdint.hpp:108: (L001) trailing whitespace
+cstdint.hpp:111: (L001) trailing whitespace
+cstdint.hpp:112: (L001) trailing whitespace
+cstdint.hpp:113: (L001) trailing whitespace
+cstdint.hpp:114: (L001) trailing whitespace
+cstdint.hpp:115: (L001) trailing whitespace
+cstdint.hpp:116: (L001) trailing whitespace
+cstdint.hpp:117: (L001) trailing whitespace
+cstdint.hpp:120: (L001) trailing whitespace
+cstdint.hpp:121: (L001) trailing whitespace
+cstdint.hpp:131: (L001) trailing whitespace
+cstdint.hpp:132: (L001) trailing whitespace
+cstdint.hpp:133: (L001) trailing whitespace
+cstdint.hpp:134: (L001) trailing whitespace
+cstdint.hpp:135: (L001) trailing whitespace
+cstdint.hpp:136: (L001) trailing whitespace
+cstdint.hpp:137: (L001) trailing whitespace
+cstdint.hpp:138: (L001) trailing whitespace
+cstdint.hpp:139: (L001) trailing whitespace
+cstdint.hpp:140: (L001) trailing whitespace
+cstdint.hpp:141: (L001) trailing whitespace
+cstdint.hpp:142: (L001) trailing whitespace
+cstdint.hpp:143: (L001) trailing whitespace
+cstdint.hpp:144: (L001) trailing whitespace
+cstdint.hpp:145: (L001) trailing whitespace
+cstdint.hpp:146: (L001) trailing whitespace
+cstdint.hpp:147: (L001) trailing whitespace
+cstdint.hpp:148: (L001) trailing whitespace
+cstdint.hpp:149: (L001) trailing whitespace
+cstdint.hpp:150: (L001) trailing whitespace
+cstdint.hpp:151: (L001) trailing whitespace
+cstdint.hpp:152: (L001) trailing whitespace
+cstdint.hpp:154: (L001) trailing whitespace
+cstdint.hpp:155: (L001) trailing whitespace
+cstdint.hpp:156: (L001) trailing whitespace
+cstdint.hpp:157: (L001) trailing whitespace
+cstdint.hpp:158: (L001) trailing whitespace
+cstdint.hpp:159: (L001) trailing whitespace
+cstdint.hpp:171: (T011) closing curly bracket not in the same line or column
+cstdint.hpp:256: (T012) negation operator used in its short form
+cstdint.hpp:256: (T012) negation operator used in its short form
+cstdint.hpp:257: (T012) negation operator used in its short form
+cstdint.hpp:261: (L004) line is longer than 100 characters
+cstdint.hpp:341: (L004) line is longer than 100 characters
+cstdint.hpp:341: (T012) negation operator used in its short form
+cstdint.hpp:341: (T012) negation operator used in its short form
+cstdint.hpp:427: (L004) line is longer than 100 characters
+cstdint.hpp:427: (T012) negation operator used in its short form
+cstdint.hpp:427: (T012) negation operator used in its short form
+cstdint.hpp:445: (L005) too many consecutive empty lines
+cstdint.hpp:446: (L003) trailing empty line(s)
+cstdlib.hpp:41: (L003) trailing empty line(s)
+current_function.hpp:31: (L004) line is longer than 100 characters
+current_function.hpp:39: (L004) line is longer than 100 characters
+date_time.hpp:2: (T002) reserved name used for macro (incorrect use of underscore)
+date_time.hpp:5: (L001) trailing whitespace
+dynamic_bitset_fwd.hpp:26: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:48: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:73: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:82: (T008) keyword 'if' not followed by a single space
+dynamic_property_map.hpp:84: (T019) full block {} expected in the control structure
+dynamic_property_map.hpp:87: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:88: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:97: (T008) keyword 'if' not followed by a single space
+dynamic_property_map.hpp:99: (T019) full block {} expected in the control structure
+dynamic_property_map.hpp:104: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:105: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:112: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:113: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:136: (T012) negation operator used in its short form
+dynamic_property_map.hpp:147: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:156: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:162: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:163: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:218: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:245: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:283: (T008) keyword 'if' not followed by a single space
+dynamic_property_map.hpp:283: (T012) negation operator used in its short form
+dynamic_property_map.hpp:285: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:286: (T009) comma should be followed by whitespace
+dynamic_property_map.hpp:286: (T009) comma should be followed by whitespace
+dynamic_property_map.hpp:287: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:305: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:306: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:313: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:315: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:318: (L001) trailing whitespace
+dynamic_property_map.hpp:326: (T019) full block {} expected in the control structure
+dynamic_property_map.hpp:327: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:340: (T019) full block {} expected in the control structure
+dynamic_property_map.hpp:341: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:353: (T019) full block {} expected in the control structure
+dynamic_property_map.hpp:354: (T011) closing curly bracket not in the same line or column
+dynamic_property_map.hpp:360: (T011) closing curly bracket not in the same line or column
+filesystem.hpp:11: (L001) trailing whitespace
+filesystem.hpp:20: (L003) trailing empty line(s)
+foreach.hpp:32: (T012) negation operator used in its short form
+foreach.hpp:33: (T012) negation operator used in its short form
+foreach.hpp:133: (T012) negation operator used in its short form
+foreach.hpp:133: (T012) negation operator used in its short form
+foreach.hpp:136: (T009) comma should not be preceded by whitespace
+foreach.hpp:138: (T012) negation operator used in its short form
+foreach.hpp:140: (T012) negation operator used in its short form
+foreach.hpp:294: (T009) comma should not be preceded by whitespace
+foreach.hpp:295: (T009) comma should not be preceded by whitespace
+foreach.hpp:331: (T009) comma should be followed by whitespace
+foreach.hpp:345: (L004) line is longer than 100 characters
+foreach.hpp:382: (T009) comma should not be preceded by whitespace
+foreach.hpp:401: (T009) comma should not be preceded by whitespace
+foreach.hpp:454: (T003) keyword 'new' not followed by a single space
+foreach.hpp:460: (T008) keyword 'if' not followed by a single space
+foreach.hpp:461: (T003) keyword 'new' not followed by a single space
+foreach.hpp:461: (T019) full block {} expected in the control structure
+foreach.hpp:468: (T008) keyword 'if' not followed by a single space
+foreach.hpp:469: (T019) full block {} expected in the control structure
+foreach.hpp:474: (T008) keyword 'if' not followed by a single space
+foreach.hpp:475: (T019) full block {} expected in the control structure
+foreach.hpp:482: (L001) trailing whitespace
+foreach.hpp:607: (L004) line is longer than 100 characters
+foreach.hpp:614: (T012) negation operator used in its short form
+foreach.hpp:650: (T009) comma should not be preceded by whitespace
+foreach.hpp:656: (T009) comma should not be preceded by whitespace
+foreach.hpp:658: (T009) comma should not be preceded by whitespace
+foreach.hpp:676: (T009) comma should not be preceded by whitespace
+foreach.hpp:698: (T009) comma should not be preceded by whitespace
+foreach.hpp:699: (T009) comma should not be preceded by whitespace
+foreach.hpp:700: (T009) comma should not be preceded by whitespace
+foreach.hpp:701: (T009) comma should not be preceded by whitespace
+foreach.hpp:703: (T012) negation operator used in its short form
+foreach.hpp:721: (T009) comma should not be preceded by whitespace
+foreach.hpp:745: (T009) comma should not be preceded by whitespace
+foreach.hpp:750: (T009) comma should not be preceded by whitespace
+foreach.hpp:751: (T009) comma should not be preceded by whitespace
+foreach.hpp:756: (T009) comma should not be preceded by whitespace
+foreach.hpp:757: (T009) comma should not be preceded by whitespace
+foreach.hpp:762: (T009) comma should not be preceded by whitespace
+foreach.hpp:763: (T009) comma should not be preceded by whitespace
+foreach.hpp:768: (T009) comma should not be preceded by whitespace
+foreach.hpp:773: (T009) comma should not be preceded by whitespace
+foreach.hpp:786: (L001) trailing whitespace
+foreach.hpp:807: (T012) negation operator used in its short form
+foreach.hpp:809: (T008) keyword 'if' not followed by a single space
+foreach.hpp:809: (T019) full block {} expected in the control structure
+foreach.hpp:810: (T012) negation operator used in its short form
+format.hpp:38: (L001) trailing whitespace
+function.hpp:61: (L004) line is longer than 100 characters
+function.hpp:61: (T009) comma should be followed by whitespace
+function.hpp:61: (T009) comma should be followed by whitespace
+function.hpp:61: (T009) comma should be followed by whitespace
+function_equal.hpp:26: (T011) closing curly bracket not in the same line or column
+function_output_iterator.hpp:36: (L001) trailing whitespace
+function_output_iterator.hpp:37: (L001) trailing whitespace
+function_output_iterator.hpp:38: (T011) closing curly bracket not in the same line or column
+function_output_iterator.hpp:40: (T011) closing curly bracket not in the same line or column
+function_output_iterator.hpp:42: (L001) trailing whitespace
+function_output_iterator.hpp:46: (T011) closing curly bracket not in the same line or column
+function_output_iterator.hpp:52: (T011) closing curly bracket not in the same line or column
+function_output_iterator.hpp:54: (T011) closing curly bracket not in the same line or column
+functional.hpp:24: (L001) trailing whitespace
+functional.hpp:27: (L001) trailing whitespace
+functional.hpp:72: (T009) comma should be followed by whitespace
+functional.hpp:74: (T009) comma should be followed by whitespace
+functional.hpp:75: (T009) comma should be followed by whitespace
+functional.hpp:89: (L001) trailing whitespace
+functional.hpp:106: (L004) line is longer than 100 characters
+functional.hpp:107: (L004) line is longer than 100 characters
+functional.hpp:111: (T009) comma should be followed by whitespace
+functional.hpp:113: (T009) comma should be followed by whitespace
+functional.hpp:114: (T009) comma should be followed by whitespace
+functional.hpp:132: (L001) trailing whitespace
+functional.hpp:142: (L001) trailing whitespace
+functional.hpp:144: (L001) trailing whitespace
+functional.hpp:150: (T009) comma should be followed by whitespace
+functional.hpp:157: (L004) line is longer than 100 characters
+functional.hpp:159: (T012) negation operator used in its short form
+functional.hpp:193: (L004) line is longer than 100 characters
+functional.hpp:194: (L004) line is longer than 100 characters
+functional.hpp:196: (T009) comma should be followed by whitespace
+functional.hpp:196: (T012) negation operator used in its short form
+functional.hpp:215: (L001) trailing whitespace
+functional.hpp:223: (L001) trailing whitespace
+functional.hpp:226: (L004) line is longer than 100 characters
+functional.hpp:232: (L004) line is longer than 100 characters
+functional.hpp:245: (L004) line is longer than 100 characters
+functional.hpp:256: (L004) line is longer than 100 characters
+functional.hpp:272: (L004) line is longer than 100 characters
+functional.hpp:278: (L004) line is longer than 100 characters
+functional.hpp:281: (L001) trailing whitespace
+functional.hpp:291: (L004) line is longer than 100 characters
+functional.hpp:302: (L004) line is longer than 100 characters
+functional.hpp:330: (L001) trailing whitespace
+functional.hpp:356: (L001) trailing whitespace
+functional.hpp:376: (T009) comma should be followed by whitespace
+functional.hpp:378: (T009) comma should be followed by whitespace
+functional.hpp:382: (T009) comma should be followed by whitespace
+functional.hpp:382: (T009) comma should be followed by whitespace
+functional.hpp:384: (T009) comma should be followed by whitespace
+functional.hpp:384: (T009) comma should be followed by whitespace
+functional.hpp:389: (T009) comma should be followed by whitespace
+functional.hpp:391: (T009) comma should be followed by whitespace
+functional.hpp:395: (T009) comma should be followed by whitespace
+functional.hpp:395: (T009) comma should be followed by whitespace
+functional.hpp:397: (T009) comma should be followed by whitespace
+functional.hpp:397: (T009) comma should be followed by whitespace
+functional.hpp:471: (T009) comma should be followed by whitespace
+functional.hpp:473: (T009) comma should be followed by whitespace
+functional.hpp:477: (T009) comma should be followed by whitespace
+functional.hpp:477: (T009) comma should be followed by whitespace
+functional.hpp:479: (T009) comma should be followed by whitespace
+functional.hpp:479: (T009) comma should be followed by whitespace
+functional.hpp:484: (T009) comma should be followed by whitespace
+functional.hpp:486: (T009) comma should be followed by whitespace
+functional.hpp:490: (T009) comma should be followed by whitespace
+functional.hpp:490: (T009) comma should be followed by whitespace
+functional.hpp:492: (T009) comma should be followed by whitespace
+functional.hpp:492: (T009) comma should be followed by whitespace
+functional.hpp:493: (L001) trailing whitespace
+functional.hpp:500: (T009) comma should be followed by whitespace
+functional.hpp:518: (T009) comma should be followed by whitespace
+functional.hpp:520: (T009) comma should be followed by whitespace
+functional.hpp:524: (T009) comma should be followed by whitespace
+functional.hpp:524: (T009) comma should be followed by whitespace
+functional.hpp:532: (L004) line is longer than 100 characters
+functional.hpp:534: (T009) comma should be followed by whitespace
+functional.hpp:542: (T009) comma should be followed by whitespace
+functional.hpp:542: (T009) comma should be followed by whitespace
+functional.hpp:544: (T009) comma should be followed by whitespace
+functional.hpp:544: (T009) comma should be followed by whitespace
+generator_iterator.hpp:25: (T009) comma should not be preceded by whitespace
+generator_iterator.hpp:26: (T009) comma should not be preceded by whitespace
+generator_iterator.hpp:27: (T009) comma should not be preceded by whitespace
+generator_iterator.hpp:32: (T009) comma should not be preceded by whitespace
+generator_iterator.hpp:33: (T009) comma should not be preceded by whitespace
+generator_iterator.hpp:34: (T009) comma should not be preceded by whitespace
+generator_iterator.hpp:76: (T011) closing curly bracket not in the same line or column
+generator_iterator.hpp:80: (L003) trailing empty line(s)
+get_pointer.hpp:10: (L001) trailing whitespace
+get_pointer.hpp:27: (T011) closing curly bracket not in the same line or column
+implicit_cast.hpp:20: (T011) closing curly bracket not in the same line or column
+implicit_cast.hpp:27: (T011) closing curly bracket not in the same line or column
+indirect_reference.hpp:20: (L001) trailing whitespace
+indirect_reference.hpp:35: (T009) comma should not be preceded by whitespace
+indirect_reference.hpp:36: (T009) comma should not be preceded by whitespace
+indirect_reference.hpp:40: (L001) trailing whitespace
+indirect_reference.hpp:41: (T011) closing curly bracket not in the same line or column
+integer.hpp:33: (L001) trailing whitespace
+integer.hpp:52: (L001) trailing whitespace
+integer.hpp:66: (L001) trailing whitespace
+integer.hpp:69: (L001) trailing whitespace
+integer.hpp:84: (L001) trailing whitespace
+integer.hpp:97: (L001) trailing whitespace
+integer.hpp:111: (L001) trailing whitespace
+integer.hpp:114: (L001) trailing whitespace
+integer_traits.hpp:26: (L004) line is longer than 100 characters
+integer_traits.hpp:26: (T012) negation operator used in its short form
+integer_traits.hpp:26: (T012) negation operator used in its short form
+integer_traits.hpp:61: (T011) closing curly bracket not in the same line or column
+integer_traits.hpp:93: (T012) negation operator used in its short form
+integer_traits.hpp:95: (L004) line is longer than 100 characters
+integer_traits.hpp:98: (T012) negation operator used in its short form
+integer_traits.hpp:104: (T012) negation operator used in its short form
+integer_traits.hpp:111: (T012) negation operator used in its short form
+integer_traits.hpp:117: (T008) keyword 'for' not followed by a single space
+integer_traits.hpp:158: (T012) negation operator used in its short form
+integer_traits.hpp:158: (T012) negation operator used in its short form
+integer_traits.hpp:158: (T019) full block {} expected in the control structure
+integer_traits.hpp:176: (L004) line is longer than 100 characters
+integer_traits.hpp:219: (L004) line is longer than 100 characters
+integer_traits.hpp:231: (T011) closing curly bracket not in the same line or column
+integer_traits.hpp:236: (L003) trailing empty line(s)
+integer_traits.hpp:236: (L005) too many consecutive empty lines
+intrusive_ptr.hpp:39: (L001) trailing whitespace
+intrusive_ptr.hpp:64: (T008) keyword 'if' not followed by a single space
+intrusive_ptr.hpp:64: (T019) full block {} expected in the control structure
+intrusive_ptr.hpp:67: (T012) negation operator used in its short form
+intrusive_ptr.hpp:71: (T008) keyword 'if' not followed by a single space
+intrusive_ptr.hpp:71: (T019) full block {} expected in the control structure
+intrusive_ptr.hpp:78: (T008) keyword 'if' not followed by a single space
+intrusive_ptr.hpp:78: (T019) full block {} expected in the control structure
+intrusive_ptr.hpp:83: (T008) keyword 'if' not followed by a single space
+intrusive_ptr.hpp:83: (T019) full block {} expected in the control structure
+intrusive_ptr.hpp:86: (T012) negation operator used in its short form
+intrusive_ptr.hpp:138: (L001) trailing whitespace
+intrusive_ptr.hpp:150: (T012) negation operator used in its short form
+intrusive_ptr.hpp:167: (L004) line is longer than 100 characters
+intrusive_ptr.hpp:172: (L004) line is longer than 100 characters
+intrusive_ptr.hpp:258: (L004) line is longer than 100 characters
+intrusive_ptr.hpp:260: (L004) line is longer than 100 characters
+intrusive_ptr.hpp:261: (L001) trailing whitespace
+intrusive_ptr.hpp:275: (L001) trailing whitespace
+iterator.hpp:23: (T012) negation operator used in its short form
+iterator.hpp:41: (T012) negation operator used in its short form
+iterator.hpp:51: (T011) closing curly bracket not in the same line or column
+last_value.hpp:26: (T019) full block {} expected in the control structure
+last_value.hpp:29: (T011) closing curly bracket not in the same line or column
+last_value.hpp:43: (T019) full block {} expected in the control structure
+last_value.hpp:46: (T011) closing curly bracket not in the same line or column
+last_value.hpp:47: (T011) closing curly bracket not in the same line or column
+lexical_cast.hpp:33: (L001) trailing whitespace
+lexical_cast.hpp:83: (T012) negation operator used in its short form
+lexical_cast.hpp:138: (T008) keyword 'if' not followed by a single space
+lexical_cast.hpp:139: (T019) full block {} expected in the control structure
+lexical_cast.hpp:140: (T008) keyword 'if' not followed by a single space
+lexical_cast.hpp:141: (T019) full block {} expected in the control structure
+lexical_cast.hpp:151: (T012) negation operator used in its short form
+lexical_cast.hpp:156: (T012) negation operator used in its short form
+lexical_cast.hpp:163: (L001) trailing whitespace
+lexical_cast.hpp:222: (T008) keyword 'if' not followed by a single space
+lexical_cast.hpp:222: (T012) negation operator used in its short form
+lexical_cast.hpp:223: (T019) full block {} expected in the control structure
+lexical_cast.hpp:237: (T008) keyword 'if' not followed by a single space
+lexical_cast.hpp:237: (T012) negation operator used in its short form
+lexical_cast.hpp:238: (T019) full block {} expected in the control structure
+limits.hpp:1: (L003) leading empty line(s)
+limits.hpp:2: (L001) trailing whitespace
+limits.hpp:36: (L001) trailing whitespace
+limits.hpp:51: (L004) line is longer than 100 characters
+limits.hpp:89: (L001) trailing whitespace
+limits.hpp:141: (L001) trailing whitespace
+limits.hpp:144: (L003) trailing empty line(s)
+mem_fn.hpp:33: (T009) comma should not be preceded by whitespace
+mem_fn.hpp:42: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+mem_fn.hpp:210: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+mem_fn.hpp:322: (L001) trailing whitespace
+mem_fn.hpp:337: (L001) trailing whitespace
+mem_fn.hpp:355: (T012) negation operator used in its short form
+mem_fn.hpp:355: (T012) negation operator used in its short form
+multi_array.hpp:3: (L001) trailing whitespace
+multi_array.hpp:38: (L005) too many consecutive empty lines
+multi_array.hpp:48: (T009) comma should be followed by whitespace
+multi_array.hpp:49: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:50: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:60: (T009) comma should be followed by whitespace
+multi_array.hpp:60: (T009) comma should be followed by whitespace
+multi_array.hpp:62: (T009) comma should be followed by whitespace
+multi_array.hpp:62: (T009) comma should be followed by whitespace
+multi_array.hpp:64: (T009) comma should be followed by whitespace
+multi_array.hpp:64: (T009) comma should be followed by whitespace
+multi_array.hpp:87: (L001) trailing whitespace
+multi_array.hpp:106: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:107: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:112: (T009) comma should be followed by whitespace
+multi_array.hpp:114: (T009) comma should be followed by whitespace
+multi_array.hpp:132: (T009) comma should be followed by whitespace
+multi_array.hpp:133: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:137: (T009) comma should be followed by whitespace
+multi_array.hpp:138: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:141: (T009) comma should be followed by whitespace
+multi_array.hpp:143: (L001) trailing whitespace
+multi_array.hpp:144: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:150: (T009) comma should not be preceded by whitespace
+multi_array.hpp:152: (T009) comma should be followed by whitespace
+multi_array.hpp:155: (T009) comma should be followed by whitespace
+multi_array.hpp:159: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:161: (L001) trailing whitespace
+multi_array.hpp:165: (T009) comma should be followed by whitespace
+multi_array.hpp:165: (T009) comma should be followed by whitespace
+multi_array.hpp:169: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:175: (T009) comma should be followed by whitespace
+multi_array.hpp:175: (T009) comma should be followed by whitespace
+multi_array.hpp:179: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:184: (T009) comma should be followed by whitespace
+multi_array.hpp:187: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:193: (T009) comma should be followed by whitespace
+multi_array.hpp:193: (T009) comma should be followed by whitespace
+multi_array.hpp:196: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:203: (T009) comma should be followed by whitespace
+multi_array.hpp:203: (T009) comma should be followed by whitespace
+multi_array.hpp:206: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:211: (T009) comma should be followed by whitespace
+multi_array.hpp:211: (T009) comma should be followed by whitespace
+multi_array.hpp:212: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:220: (L001) trailing whitespace
+multi_array.hpp:221: (L001) trailing whitespace
+multi_array.hpp:225: (T009) comma should be followed by whitespace
+multi_array.hpp:225: (T009) comma should be followed by whitespace
+multi_array.hpp:227: (L001) trailing whitespace
+multi_array.hpp:227: (T009) comma should be followed by whitespace
+multi_array.hpp:227: (T009) comma should be followed by whitespace
+multi_array.hpp:227: (T009) comma should be followed by whitespace
+multi_array.hpp:231: (T009) comma should be followed by whitespace
+multi_array.hpp:231: (T009) comma should be followed by whitespace
+multi_array.hpp:236: (T009) comma should be followed by whitespace
+multi_array.hpp:236: (T009) comma should be followed by whitespace
+multi_array.hpp:238: (L001) trailing whitespace
+multi_array.hpp:238: (T009) comma should be followed by whitespace
+multi_array.hpp:238: (T009) comma should be followed by whitespace
+multi_array.hpp:238: (T009) comma should be followed by whitespace
+multi_array.hpp:241: (T009) comma should be followed by whitespace
+multi_array.hpp:241: (T009) comma should be followed by whitespace
+multi_array.hpp:247: (T009) comma should be followed by whitespace
+multi_array.hpp:247: (T009) comma should be followed by whitespace
+multi_array.hpp:249: (L001) trailing whitespace
+multi_array.hpp:249: (T009) comma should be followed by whitespace
+multi_array.hpp:249: (T009) comma should be followed by whitespace
+multi_array.hpp:249: (T009) comma should be followed by whitespace
+multi_array.hpp:252: (T009) comma should be followed by whitespace
+multi_array.hpp:252: (T009) comma should be followed by whitespace
+multi_array.hpp:259: (T009) comma should be followed by whitespace
+multi_array.hpp:260: (L001) trailing whitespace
+multi_array.hpp:260: (T009) comma should be followed by whitespace
+multi_array.hpp:260: (T009) comma should be followed by whitespace
+multi_array.hpp:260: (T009) comma should be followed by whitespace
+multi_array.hpp:264: (T009) comma should be followed by whitespace
+multi_array.hpp:264: (T009) comma should be followed by whitespace
+multi_array.hpp:267: (T009) comma should be followed by whitespace
+multi_array.hpp:269: (L001) trailing whitespace
+multi_array.hpp:269: (T009) comma should be followed by whitespace
+multi_array.hpp:269: (T009) comma should be followed by whitespace
+multi_array.hpp:269: (T009) comma should be followed by whitespace
+multi_array.hpp:273: (T009) comma should be followed by whitespace
+multi_array.hpp:273: (T009) comma should be followed by whitespace
+multi_array.hpp:277: (T009) comma should be followed by whitespace
+multi_array.hpp:278: (L001) trailing whitespace
+multi_array.hpp:278: (T009) comma should be followed by whitespace
+multi_array.hpp:278: (T009) comma should be followed by whitespace
+multi_array.hpp:278: (T009) comma should be followed by whitespace
+multi_array.hpp:281: (T009) comma should be followed by whitespace
+multi_array.hpp:281: (T009) comma should be followed by whitespace
+multi_array.hpp:285: (T009) comma should be followed by whitespace
+multi_array.hpp:287: (L001) trailing whitespace
+multi_array.hpp:287: (T009) comma should be followed by whitespace
+multi_array.hpp:287: (T009) comma should be followed by whitespace
+multi_array.hpp:287: (T009) comma should be followed by whitespace
+multi_array.hpp:290: (T009) comma should be followed by whitespace
+multi_array.hpp:290: (T009) comma should be followed by whitespace
+multi_array.hpp:295: (T009) comma should be followed by whitespace
+multi_array.hpp:296: (L001) trailing whitespace
+multi_array.hpp:296: (T009) comma should be followed by whitespace
+multi_array.hpp:296: (T009) comma should be followed by whitespace
+multi_array.hpp:296: (T009) comma should be followed by whitespace
+multi_array.hpp:299: (T009) comma should be followed by whitespace
+multi_array.hpp:299: (T009) comma should be followed by whitespace
+multi_array.hpp:303: (T009) comma should be followed by whitespace
+multi_array.hpp:305: (L001) trailing whitespace
+multi_array.hpp:305: (T009) comma should be followed by whitespace
+multi_array.hpp:305: (T009) comma should be followed by whitespace
+multi_array.hpp:305: (T009) comma should be followed by whitespace
+multi_array.hpp:308: (T009) comma should be followed by whitespace
+multi_array.hpp:308: (T009) comma should be followed by whitespace
+multi_array.hpp:314: (T009) comma should be followed by whitespace
+multi_array.hpp:315: (L001) trailing whitespace
+multi_array.hpp:315: (T009) comma should be followed by whitespace
+multi_array.hpp:315: (T009) comma should be followed by whitespace
+multi_array.hpp:315: (T009) comma should be followed by whitespace
+multi_array.hpp:319: (T009) comma should be followed by whitespace
+multi_array.hpp:319: (T009) comma should be followed by whitespace
+multi_array.hpp:322: (T009) comma should be followed by whitespace
+multi_array.hpp:324: (L001) trailing whitespace
+multi_array.hpp:324: (T009) comma should be followed by whitespace
+multi_array.hpp:324: (T009) comma should be followed by whitespace
+multi_array.hpp:324: (T009) comma should be followed by whitespace
+multi_array.hpp:328: (T009) comma should be followed by whitespace
+multi_array.hpp:328: (T009) comma should be followed by whitespace
+multi_array.hpp:333: (T009) comma should be followed by whitespace
+multi_array.hpp:334: (L001) trailing whitespace
+multi_array.hpp:334: (T009) comma should be followed by whitespace
+multi_array.hpp:334: (T009) comma should be followed by whitespace
+multi_array.hpp:334: (T009) comma should be followed by whitespace
+multi_array.hpp:337: (T009) comma should be followed by whitespace
+multi_array.hpp:337: (T009) comma should be followed by whitespace
+multi_array.hpp:341: (T009) comma should be followed by whitespace
+multi_array.hpp:343: (L001) trailing whitespace
+multi_array.hpp:343: (T009) comma should be followed by whitespace
+multi_array.hpp:343: (T009) comma should be followed by whitespace
+multi_array.hpp:343: (T009) comma should be followed by whitespace
+multi_array.hpp:346: (T009) comma should be followed by whitespace
+multi_array.hpp:346: (T009) comma should be followed by whitespace
+multi_array.hpp:351: (T009) comma should be followed by whitespace
+multi_array.hpp:352: (L001) trailing whitespace
+multi_array.hpp:352: (T009) comma should be followed by whitespace
+multi_array.hpp:352: (T009) comma should be followed by whitespace
+multi_array.hpp:352: (T009) comma should be followed by whitespace
+multi_array.hpp:355: (T009) comma should be followed by whitespace
+multi_array.hpp:355: (T009) comma should be followed by whitespace
+multi_array.hpp:357: (L001) trailing whitespace
+multi_array.hpp:359: (T009) comma should be followed by whitespace
+multi_array.hpp:361: (L001) trailing whitespace
+multi_array.hpp:361: (T009) comma should be followed by whitespace
+multi_array.hpp:361: (T009) comma should be followed by whitespace
+multi_array.hpp:361: (T009) comma should be followed by whitespace
+multi_array.hpp:364: (T009) comma should be followed by whitespace
+multi_array.hpp:364: (T009) comma should be followed by whitespace
+multi_array.hpp:366: (L001) trailing whitespace
+multi_array.hpp:373: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:378: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:380: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:393: (T009) comma should be followed by whitespace
+multi_array.hpp:394: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:397: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:400: (L005) too many consecutive empty lines
+multi_array.hpp:406: (T009) comma should be followed by whitespace
+multi_array.hpp:412: (T009) comma should be followed by whitespace
+multi_array.hpp:416: (T009) comma should be followed by whitespace
+multi_array.hpp:426: (T009) comma should be followed by whitespace
+multi_array.hpp:432: (T009) comma should be followed by whitespace
+multi_array.hpp:437: (T009) comma should be followed by whitespace
+multi_array.hpp:451: (T009) comma should be followed by whitespace
+multi_array.hpp:452: (T009) comma should be followed by whitespace
+multi_array.hpp:453: (T009) comma should be followed by whitespace
+multi_array.hpp:454: (T009) comma should be followed by whitespace
+multi_array.hpp:455: (T009) comma should be followed by whitespace
+multi_array.hpp:456: (T009) comma should be followed by whitespace
+multi_array.hpp:457: (T009) comma should be followed by whitespace
+multi_array.hpp:458: (T009) comma should be followed by whitespace
+multi_array.hpp:459: (T009) comma should be followed by whitespace
+multi_array.hpp:460: (T009) comma should be followed by whitespace
+multi_array.hpp:461: (T009) comma should be followed by whitespace
+multi_array.hpp:464: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:469: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:474: (T009) comma should be followed by whitespace
+multi_array.hpp:477: (T009) comma should be followed by whitespace
+multi_array.hpp:477: (T009) comma should be followed by whitespace
+multi_array.hpp:478: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:481: (T008) keyword 'if' not followed by a single space
+multi_array.hpp:482: (T008) keyword 'for' not followed by a single space
+multi_array.hpp:483: (T019) full block {} expected in the control structure
+multi_array.hpp:484: (T009) comma should be followed by whitespace
+multi_array.hpp:485: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:486: (T011) closing curly bracket not in the same line or column
+multi_array.hpp:488: (T009) comma should be followed by whitespace
+multi_array.hpp:489: (T009) comma should be followed by whitespace
+multi_array.hpp:497: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:45: (T012) negation operator used in its short form
+multi_index_container.hpp:49: (L001) trailing whitespace
+multi_index_container.hpp:55: (T009) comma should be followed by whitespace
+multi_index_container.hpp:56: (T009) comma should be followed by whitespace
+multi_index_container.hpp:57: (T009) comma should be followed by whitespace
+multi_index_container.hpp:66: (T009) comma should be followed by whitespace
+multi_index_container.hpp:66: (T009) comma should be followed by whitespace
+multi_index_container.hpp:72: (T009) comma should be followed by whitespace
+multi_index_container.hpp:72: (T009) comma should be followed by whitespace
+multi_index_container.hpp:76: (T009) comma should be followed by whitespace
+multi_index_container.hpp:76: (T009) comma should be followed by whitespace
+multi_index_container.hpp:77: (T009) comma should be followed by whitespace
+multi_index_container.hpp:77: (T009) comma should be followed by whitespace
+multi_index_container.hpp:79: (T009) comma should be followed by whitespace
+multi_index_container.hpp:79: (T009) comma should be followed by whitespace
+multi_index_container.hpp:82: (T009) comma should be followed by whitespace
+multi_index_container.hpp:92: (T012) negation operator used in its short form
+multi_index_container.hpp:93: (T003) keyword 'class' not followed by a single space
+multi_index_container.hpp:93: (T009) comma should be followed by whitespace
+multi_index_container.hpp:93: (T009) comma should be followed by whitespace
+multi_index_container.hpp:94: (T003) keyword 'class' not followed by a single space
+multi_index_container.hpp:94: (T009) comma should be followed by whitespace
+multi_index_container.hpp:95: (T003) keyword 'class' not followed by a single space
+multi_index_container.hpp:95: (T009) comma should be followed by whitespace
+multi_index_container.hpp:99: (T009) comma should be followed by whitespace
+multi_index_container.hpp:99: (T009) comma should be followed by whitespace
+multi_index_container.hpp:109: (T009) comma should be followed by whitespace
+multi_index_container.hpp:120: (L001) trailing whitespace
+multi_index_container.hpp:128: (L001) trailing whitespace
+multi_index_container.hpp:129: (T009) comma should be followed by whitespace
+multi_index_container.hpp:142: (T009) comma should be followed by whitespace
+multi_index_container.hpp:169: (T009) comma should be followed by whitespace
+multi_index_container.hpp:186: (T009) comma should be followed by whitespace
+multi_index_container.hpp:190: (L001) trailing whitespace
+multi_index_container.hpp:194: (T009) comma should be followed by whitespace
+multi_index_container.hpp:196: (T009) comma should be followed by whitespace
+multi_index_container.hpp:213: (T009) comma should be followed by whitespace
+multi_index_container.hpp:219: (T008) keyword 'for' not followed by a single space
+multi_index_container.hpp:220: (T009) comma should be followed by whitespace
+multi_index_container.hpp:221: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:222: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:226: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:231: (T009) comma should be followed by whitespace
+multi_index_container.hpp:231: (T009) comma should be followed by whitespace
+multi_index_container.hpp:237: (T009) comma should be followed by whitespace
+multi_index_container.hpp:237: (T009) comma should be followed by whitespace
+multi_index_container.hpp:237: (T009) comma should be followed by whitespace
+multi_index_container.hpp:238: (T008) keyword 'for' not followed by a single space
+multi_index_container.hpp:238: (T009) comma should be followed by whitespace
+multi_index_container.hpp:240: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:241: (T009) comma should be followed by whitespace
+multi_index_container.hpp:257: (T009) comma should be followed by whitespace
+multi_index_container.hpp:257: (T009) comma should be followed by whitespace
+multi_index_container.hpp:258: (T009) comma should be followed by whitespace
+multi_index_container.hpp:258: (T009) comma should be followed by whitespace
+multi_index_container.hpp:261: (T009) comma should be followed by whitespace
+multi_index_container.hpp:261: (T009) comma should be followed by whitespace
+multi_index_container.hpp:273: (T012) negation operator used in its short form
+multi_index_container.hpp:278: (T009) comma should be followed by whitespace
+multi_index_container.hpp:282: (T009) comma should be followed by whitespace
+multi_index_container.hpp:290: (T009) comma should be followed by whitespace
+multi_index_container.hpp:299: (T012) negation operator used in its short form
+multi_index_container.hpp:309: (T009) comma should be followed by whitespace
+multi_index_container.hpp:309: (T009) comma should be followed by whitespace
+multi_index_container.hpp:309: (T012) negation operator used in its short form
+multi_index_container.hpp:331: (T012) negation operator used in its short form
+multi_index_container.hpp:344: (T009) comma should be followed by whitespace
+multi_index_container.hpp:347: (T009) comma should be followed by whitespace
+multi_index_container.hpp:352: (T009) comma should be followed by whitespace
+multi_index_container.hpp:356: (T009) comma should be followed by whitespace
+multi_index_container.hpp:361: (T009) comma should be followed by whitespace
+multi_index_container.hpp:364: (T009) comma should be followed by whitespace
+multi_index_container.hpp:369: (T009) comma should be followed by whitespace
+multi_index_container.hpp:370: (T009) comma should be followed by whitespace
+multi_index_container.hpp:374: (T009) comma should be followed by whitespace
+multi_index_container.hpp:381: (T012) negation operator used in its short form
+multi_index_container.hpp:394: (T009) comma should be followed by whitespace
+multi_index_container.hpp:402: (T009) comma should be followed by whitespace
+multi_index_container.hpp:406: (T009) comma should be followed by whitespace
+multi_index_container.hpp:410: (T009) comma should be followed by whitespace
+multi_index_container.hpp:418: (T009) comma should be followed by whitespace
+multi_index_container.hpp:419: (T009) comma should be followed by whitespace
+multi_index_container.hpp:423: (T009) comma should be followed by whitespace
+multi_index_container.hpp:443: (T009) comma should be followed by whitespace
+multi_index_container.hpp:461: (T009) comma should be followed by whitespace
+multi_index_container.hpp:465: (T009) comma should be followed by whitespace
+multi_index_container.hpp:466: (T008) keyword 'if' not followed by a single space
+multi_index_container.hpp:468: (T009) comma should be followed by whitespace
+multi_index_container.hpp:468: (T009) comma should be followed by whitespace
+multi_index_container.hpp:469: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:472: (T009) comma should be followed by whitespace
+multi_index_container.hpp:472: (T009) comma should be followed by whitespace
+multi_index_container.hpp:473: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:474: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:478: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:482: (T009) comma should be followed by whitespace
+multi_index_container.hpp:482: (T009) comma should be followed by whitespace
+multi_index_container.hpp:486: (T009) comma should be followed by whitespace
+multi_index_container.hpp:486: (T009) comma should be followed by whitespace
+multi_index_container.hpp:487: (T008) keyword 'if' not followed by a single space
+multi_index_container.hpp:489: (T009) comma should be followed by whitespace
+multi_index_container.hpp:489: (T009) comma should be followed by whitespace
+multi_index_container.hpp:490: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:493: (T009) comma should be followed by whitespace
+multi_index_container.hpp:493: (T009) comma should be followed by whitespace
+multi_index_container.hpp:494: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:495: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:499: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:528: (T009) comma should be followed by whitespace
+multi_index_container.hpp:528: (T009) comma should be followed by whitespace
+multi_index_container.hpp:530: (T009) comma should be followed by whitespace
+multi_index_container.hpp:532: (T009) comma should be followed by whitespace
+multi_index_container.hpp:535: (T009) comma should be followed by whitespace
+multi_index_container.hpp:537: (T009) comma should be followed by whitespace
+multi_index_container.hpp:541: (T009) comma should be followed by whitespace
+multi_index_container.hpp:546: (T008) keyword 'if' not followed by a single space
+multi_index_container.hpp:546: (T012) negation operator used in its short form
+multi_index_container.hpp:550: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:552: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:557: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:561: (T012) negation operator used in its short form
+multi_index_container.hpp:572: (T009) comma should be followed by whitespace
+multi_index_container.hpp:575: (T009) comma should be followed by whitespace
+multi_index_container.hpp:576: (T009) comma should be followed by whitespace
+multi_index_container.hpp:578: (T008) keyword 'for' not followed by a single space
+multi_index_container.hpp:578: (T009) comma should be followed by whitespace
+multi_index_container.hpp:579: (T009) comma should be followed by whitespace
+multi_index_container.hpp:580: (T009) comma should be followed by whitespace
+multi_index_container.hpp:580: (T009) comma should be followed by whitespace
+multi_index_container.hpp:581: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:582: (T009) comma should be followed by whitespace
+multi_index_container.hpp:582: (T009) comma should be followed by whitespace
+multi_index_container.hpp:584: (T009) comma should be followed by whitespace
+multi_index_container.hpp:584: (T009) comma should be followed by whitespace
+multi_index_container.hpp:588: (T009) comma should be followed by whitespace
+multi_index_container.hpp:592: (L001) trailing whitespace
+multi_index_container.hpp:595: (T009) comma should be followed by whitespace
+multi_index_container.hpp:596: (T009) comma should be followed by whitespace
+multi_index_container.hpp:598: (T008) keyword 'for' not followed by a single space
+multi_index_container.hpp:599: (T009) comma should be followed by whitespace
+multi_index_container.hpp:599: (T009) comma should be followed by whitespace
+multi_index_container.hpp:600: (T009) comma should be followed by whitespace
+multi_index_container.hpp:601: (T009) comma should be followed by whitespace
+multi_index_container.hpp:602: (T008) keyword 'if' not followed by a single space
+multi_index_container.hpp:602: (T012) negation operator used in its short form
+multi_index_container.hpp:602: (T019) full block {} expected in the control structure
+multi_index_container.hpp:605: (T009) comma should be followed by whitespace
+multi_index_container.hpp:606: (T009) comma should be followed by whitespace
+multi_index_container.hpp:606: (T009) comma should be followed by whitespace
+multi_index_container.hpp:607: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:608: (T009) comma should be followed by whitespace
+multi_index_container.hpp:608: (T009) comma should be followed by whitespace
+multi_index_container.hpp:610: (T009) comma should be followed by whitespace
+multi_index_container.hpp:610: (T009) comma should be followed by whitespace
+multi_index_container.hpp:632: (T009) comma should be followed by whitespace
+multi_index_container.hpp:639: (T009) comma should be followed by whitespace
+multi_index_container.hpp:647: (T009) comma should be followed by whitespace
+multi_index_container.hpp:650: (T009) comma should be followed by whitespace
+multi_index_container.hpp:650: (T009) comma should be followed by whitespace
+multi_index_container.hpp:650: (T009) comma should be followed by whitespace
+multi_index_container.hpp:652: (T009) comma should be followed by whitespace
+multi_index_container.hpp:652: (T009) comma should be followed by whitespace
+multi_index_container.hpp:652: (T009) comma should be followed by whitespace
+multi_index_container.hpp:654: (T009) comma should be followed by whitespace
+multi_index_container.hpp:654: (T009) comma should be followed by whitespace
+multi_index_container.hpp:655: (T009) comma should be followed by whitespace
+multi_index_container.hpp:658: (T009) comma should be followed by whitespace
+multi_index_container.hpp:658: (T009) comma should be followed by whitespace
+multi_index_container.hpp:661: (T009) comma should be followed by whitespace
+multi_index_container.hpp:661: (T009) comma should be followed by whitespace
+multi_index_container.hpp:671: (T009) comma should be followed by whitespace
+multi_index_container.hpp:674: (T009) comma should be followed by whitespace
+multi_index_container.hpp:674: (T009) comma should be followed by whitespace
+multi_index_container.hpp:674: (T009) comma should be followed by whitespace
+multi_index_container.hpp:676: (T009) comma should be followed by whitespace
+multi_index_container.hpp:676: (T009) comma should be followed by whitespace
+multi_index_container.hpp:676: (T009) comma should be followed by whitespace
+multi_index_container.hpp:678: (T009) comma should be followed by whitespace
+multi_index_container.hpp:678: (T009) comma should be followed by whitespace
+multi_index_container.hpp:679: (T009) comma should be followed by whitespace
+multi_index_container.hpp:682: (T009) comma should be followed by whitespace
+multi_index_container.hpp:682: (T009) comma should be followed by whitespace
+multi_index_container.hpp:685: (T009) comma should be followed by whitespace
+multi_index_container.hpp:685: (T009) comma should be followed by whitespace
+multi_index_container.hpp:695: (T009) comma should be followed by whitespace
+multi_index_container.hpp:700: (T009) comma should be followed by whitespace
+multi_index_container.hpp:711: (T009) comma should be followed by whitespace
+multi_index_container.hpp:711: (T009) comma should be followed by whitespace
+multi_index_container.hpp:711: (T012) negation operator used in its short form
+multi_index_container.hpp:718: (T009) comma should be followed by whitespace
+multi_index_container.hpp:718: (T009) comma should be followed by whitespace
+multi_index_container.hpp:718: (T009) comma should be followed by whitespace
+multi_index_container.hpp:721: (T009) comma should be followed by whitespace
+multi_index_container.hpp:721: (T009) comma should be followed by whitespace
+multi_index_container.hpp:721: (T009) comma should be followed by whitespace
+multi_index_container.hpp:723: (T009) comma should be followed by whitespace
+multi_index_container.hpp:723: (T009) comma should be followed by whitespace
+multi_index_container.hpp:727: (T009) comma should be followed by whitespace
+multi_index_container.hpp:727: (T009) comma should be followed by whitespace
+multi_index_container.hpp:730: (T009) comma should be followed by whitespace
+multi_index_container.hpp:730: (T009) comma should be followed by whitespace
+multi_index_container.hpp:734: (T009) comma should be followed by whitespace
+multi_index_container.hpp:738: (T009) comma should be followed by whitespace
+multi_index_container.hpp:738: (T009) comma should be followed by whitespace
+multi_index_container.hpp:738: (T009) comma should be followed by whitespace
+multi_index_container.hpp:741: (T009) comma should be followed by whitespace
+multi_index_container.hpp:741: (T009) comma should be followed by whitespace
+multi_index_container.hpp:741: (T009) comma should be followed by whitespace
+multi_index_container.hpp:743: (T009) comma should be followed by whitespace
+multi_index_container.hpp:743: (T009) comma should be followed by whitespace
+multi_index_container.hpp:747: (T009) comma should be followed by whitespace
+multi_index_container.hpp:747: (T009) comma should be followed by whitespace
+multi_index_container.hpp:750: (T009) comma should be followed by whitespace
+multi_index_container.hpp:750: (T009) comma should be followed by whitespace
+multi_index_container.hpp:754: (T009) comma should be followed by whitespace
+multi_index_container.hpp:759: (T009) comma should be followed by whitespace
+multi_index_container.hpp:763: (T009) comma should be followed by whitespace
+multi_index_container.hpp:764: (T009) comma should be followed by whitespace
+multi_index_container.hpp:767: (T009) comma should be followed by whitespace
+multi_index_container.hpp:771: (T009) comma should be followed by whitespace
+multi_index_container.hpp:772: (T009) comma should be followed by whitespace
+multi_index_container.hpp:777: (T009) comma should be followed by whitespace
+multi_index_container.hpp:778: (T009) comma should be followed by whitespace
+multi_index_container.hpp:778: (T009) comma should be followed by whitespace
+multi_index_container.hpp:780: (T009) comma should be followed by whitespace
+multi_index_container.hpp:780: (T009) comma should be followed by whitespace
+multi_index_container.hpp:780: (T009) comma should be followed by whitespace
+multi_index_container.hpp:782: (T009) comma should be followed by whitespace
+multi_index_container.hpp:782: (T009) comma should be followed by whitespace
+multi_index_container.hpp:784: (T009) comma should be followed by whitespace
+multi_index_container.hpp:787: (T009) comma should be followed by whitespace
+multi_index_container.hpp:787: (T009) comma should be followed by whitespace
+multi_index_container.hpp:788: (T009) comma should be followed by whitespace
+multi_index_container.hpp:790: (T012) negation operator used in its short form
+multi_index_container.hpp:790: (T012) negation operator used in its short form
+multi_index_container.hpp:803: (T009) comma should be followed by whitespace
+multi_index_container.hpp:806: (T009) comma should be followed by whitespace
+multi_index_container.hpp:807: (T009) comma should be followed by whitespace
+multi_index_container.hpp:811: (T009) comma should be followed by whitespace
+multi_index_container.hpp:812: (T009) comma should be followed by whitespace
+multi_index_container.hpp:812: (T009) comma should be followed by whitespace
+multi_index_container.hpp:814: (T009) comma should be followed by whitespace
+multi_index_container.hpp:814: (T009) comma should be followed by whitespace
+multi_index_container.hpp:814: (T009) comma should be followed by whitespace
+multi_index_container.hpp:816: (T009) comma should be followed by whitespace
+multi_index_container.hpp:816: (T009) comma should be followed by whitespace
+multi_index_container.hpp:818: (T009) comma should be followed by whitespace
+multi_index_container.hpp:821: (T009) comma should be followed by whitespace
+multi_index_container.hpp:821: (T009) comma should be followed by whitespace
+multi_index_container.hpp:822: (T009) comma should be followed by whitespace
+multi_index_container.hpp:824: (T012) negation operator used in its short form
+multi_index_container.hpp:824: (T012) negation operator used in its short form
+multi_index_container.hpp:840: (T009) comma should be followed by whitespace
+multi_index_container.hpp:843: (T009) comma should be followed by whitespace
+multi_index_container.hpp:844: (T009) comma should be followed by whitespace
+multi_index_container.hpp:849: (T009) comma should be followed by whitespace
+multi_index_container.hpp:853: (T009) comma should be followed by whitespace
+multi_index_container.hpp:856: (T009) comma should be followed by whitespace
+multi_index_container.hpp:860: (T009) comma should be followed by whitespace
+multi_index_container.hpp:864: (T009) comma should be followed by whitespace
+multi_index_container.hpp:865: (T009) comma should be followed by whitespace
+multi_index_container.hpp:865: (T009) comma should be followed by whitespace
+multi_index_container.hpp:867: (T009) comma should be followed by whitespace
+multi_index_container.hpp:867: (T009) comma should be followed by whitespace
+multi_index_container.hpp:867: (T009) comma should be followed by whitespace
+multi_index_container.hpp:869: (T009) comma should be followed by whitespace
+multi_index_container.hpp:869: (T009) comma should be followed by whitespace
+multi_index_container.hpp:874: (T009) comma should be followed by whitespace
+multi_index_container.hpp:874: (T009) comma should be followed by whitespace
+multi_index_container.hpp:876: (T009) comma should be followed by whitespace
+multi_index_container.hpp:878: (T012) negation operator used in its short form
+multi_index_container.hpp:878: (T012) negation operator used in its short form
+multi_index_container.hpp:891: (T009) comma should be followed by whitespace
+multi_index_container.hpp:894: (T009) comma should be followed by whitespace
+multi_index_container.hpp:895: (T009) comma should be followed by whitespace
+multi_index_container.hpp:899: (T009) comma should be followed by whitespace
+multi_index_container.hpp:900: (T009) comma should be followed by whitespace
+multi_index_container.hpp:900: (T009) comma should be followed by whitespace
+multi_index_container.hpp:902: (T009) comma should be followed by whitespace
+multi_index_container.hpp:902: (T009) comma should be followed by whitespace
+multi_index_container.hpp:902: (T009) comma should be followed by whitespace
+multi_index_container.hpp:904: (T009) comma should be followed by whitespace
+multi_index_container.hpp:904: (T009) comma should be followed by whitespace
+multi_index_container.hpp:909: (T009) comma should be followed by whitespace
+multi_index_container.hpp:909: (T009) comma should be followed by whitespace
+multi_index_container.hpp:911: (T009) comma should be followed by whitespace
+multi_index_container.hpp:913: (T012) negation operator used in its short form
+multi_index_container.hpp:913: (T012) negation operator used in its short form
+multi_index_container.hpp:929: (T009) comma should be followed by whitespace
+multi_index_container.hpp:932: (T009) comma should be followed by whitespace
+multi_index_container.hpp:933: (T009) comma should be followed by whitespace
+multi_index_container.hpp:939: (T009) comma should be followed by whitespace
+multi_index_container.hpp:939: (T009) comma should be followed by whitespace
+multi_index_container.hpp:940: (T009) comma should be followed by whitespace
+multi_index_container.hpp:940: (T009) comma should be followed by whitespace
+multi_index_container.hpp:943: (T009) comma should be followed by whitespace
+multi_index_container.hpp:943: (T009) comma should be followed by whitespace
+multi_index_container.hpp:944: (T009) comma should be followed by whitespace
+multi_index_container.hpp:944: (T009) comma should be followed by whitespace
+multi_index_container.hpp:950: (T009) comma should be followed by whitespace
+multi_index_container.hpp:950: (T009) comma should be followed by whitespace
+multi_index_container.hpp:951: (T009) comma should be followed by whitespace
+multi_index_container.hpp:951: (T009) comma should be followed by whitespace
+multi_index_container.hpp:954: (T009) comma should be followed by whitespace
+multi_index_container.hpp:954: (T009) comma should be followed by whitespace
+multi_index_container.hpp:955: (T009) comma should be followed by whitespace
+multi_index_container.hpp:955: (T009) comma should be followed by whitespace
+multi_index_container.hpp:961: (T009) comma should be followed by whitespace
+multi_index_container.hpp:961: (T009) comma should be followed by whitespace
+multi_index_container.hpp:962: (T009) comma should be followed by whitespace
+multi_index_container.hpp:962: (T009) comma should be followed by whitespace
+multi_index_container.hpp:965: (T009) comma should be followed by whitespace
+multi_index_container.hpp:965: (T009) comma should be followed by whitespace
+multi_index_container.hpp:966: (T009) comma should be followed by whitespace
+multi_index_container.hpp:966: (T009) comma should be followed by whitespace
+multi_index_container.hpp:972: (T009) comma should be followed by whitespace
+multi_index_container.hpp:972: (T009) comma should be followed by whitespace
+multi_index_container.hpp:973: (T009) comma should be followed by whitespace
+multi_index_container.hpp:973: (T009) comma should be followed by whitespace
+multi_index_container.hpp:976: (T009) comma should be followed by whitespace
+multi_index_container.hpp:976: (T009) comma should be followed by whitespace
+multi_index_container.hpp:977: (T009) comma should be followed by whitespace
+multi_index_container.hpp:977: (T009) comma should be followed by whitespace
+multi_index_container.hpp:983: (T009) comma should be followed by whitespace
+multi_index_container.hpp:983: (T009) comma should be followed by whitespace
+multi_index_container.hpp:984: (T009) comma should be followed by whitespace
+multi_index_container.hpp:984: (T009) comma should be followed by whitespace
+multi_index_container.hpp:987: (T009) comma should be followed by whitespace
+multi_index_container.hpp:987: (T009) comma should be followed by whitespace
+multi_index_container.hpp:988: (T009) comma should be followed by whitespace
+multi_index_container.hpp:988: (T009) comma should be followed by whitespace
+multi_index_container.hpp:994: (T009) comma should be followed by whitespace
+multi_index_container.hpp:994: (T009) comma should be followed by whitespace
+multi_index_container.hpp:995: (T009) comma should be followed by whitespace
+multi_index_container.hpp:995: (T009) comma should be followed by whitespace
+multi_index_container.hpp:998: (T009) comma should be followed by whitespace
+multi_index_container.hpp:998: (T009) comma should be followed by whitespace
+multi_index_container.hpp:999: (T009) comma should be followed by whitespace
+multi_index_container.hpp:999: (T009) comma should be followed by whitespace
+multi_index_container.hpp:1006: (T009) comma should be followed by whitespace
+multi_index_container.hpp:1006: (T009) comma should be followed by whitespace
+multi_index_container.hpp:1008: (T009) comma should be followed by whitespace
+multi_index_container.hpp:1008: (T009) comma should be followed by whitespace
+multi_index_container.hpp:1009: (T009) comma should be followed by whitespace
+multi_index_container.hpp:1009: (T009) comma should be followed by whitespace
+multi_index_container.hpp:1014: (T011) closing curly bracket not in the same line or column
+multi_index_container.hpp:1023: (T011) closing curly bracket not in the same line or column
+multi_index_container_fwd.hpp:36: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:39: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:42: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:45: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:48: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:51: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:59: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:59: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:60: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:60: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:63: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:63: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:64: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:64: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:67: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:67: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:68: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:68: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:71: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:71: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:72: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:72: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:75: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:75: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:76: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:76: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:79: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:79: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:80: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:80: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:83: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:83: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:84: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:84: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:87: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:87: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:88: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:88: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:91: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:91: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:92: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:92: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:95: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:95: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:96: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:96: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:99: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:99: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:100: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:100: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:103: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:103: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:104: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:104: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:106: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:106: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:108: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:108: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:109: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:109: (T009) comma should be followed by whitespace
+multi_index_container_fwd.hpp:111: (T011) closing curly bracket not in the same line or column
+multi_index_container_fwd.hpp:119: (T011) closing curly bracket not in the same line or column
+next_prior.hpp:49: (T011) closing curly bracket not in the same line or column
+non_type.hpp:24: (T011) closing curly bracket not in the same line or column
+noncopyable.hpp:34: (T011) closing curly bracket not in the same line or column
+nondet_random.hpp:62: (T011) closing curly bracket not in the same line or column
+none.hpp:31: (L001) trailing whitespace
+operators.hpp:22: (L001) trailing whitespace
+operators.hpp:23: (L001) trailing whitespace
+operators.hpp:36: (L001) trailing whitespace
+operators.hpp:43: (L001) trailing whitespace
+operators.hpp:44: (L001) trailing whitespace
+operators.hpp:47: (L001) trailing whitespace
+operators.hpp:58: (L001) trailing whitespace
+operators.hpp:59: (L001) trailing whitespace
+operators.hpp:70: (L001) trailing whitespace
+operators.hpp:73: (L001) trailing whitespace
+operators.hpp:75: (L001) trailing whitespace
+operators.hpp:84: (T012) negation operator used in its short form
+operators.hpp:89: (L001) trailing whitespace
+operators.hpp:99: (L001) trailing whitespace
+operators.hpp:102: (T011) closing curly bracket not in the same line or column
+operators.hpp:104: (T011) closing curly bracket not in the same line or column
+operators.hpp:105: (T011) closing curly bracket not in the same line or column
+operators.hpp:127: (T012) negation operator used in its short form
+operators.hpp:128: (T012) negation operator used in its short form
+operators.hpp:131: (T012) negation operator used in its short form
+operators.hpp:132: (T012) negation operator used in its short form
+operators.hpp:139: (T012) negation operator used in its short form
+operators.hpp:140: (T012) negation operator used in its short form
+operators.hpp:147: (T012) negation operator used in its short form
+operators.hpp:148: (T012) negation operator used in its short form
+operators.hpp:154: (T012) negation operator used in its short form
+operators.hpp:298: (L001) trailing whitespace
+operators.hpp:299: (L001) trailing whitespace
+operators.hpp:359: (T012) negation operator used in its short form
+operators.hpp:359: (T012) negation operator used in its short form
+operators.hpp:368: (T012) negation operator used in its short form
+operators.hpp:368: (T012) negation operator used in its short form
+operators.hpp:405: (T009) comma should not be preceded by whitespace
+operators.hpp:411: (T009) comma should not be preceded by whitespace
+operators.hpp:417: (T009) comma should not be preceded by whitespace
+operators.hpp:423: (T009) comma should not be preceded by whitespace
+operators.hpp:429: (T009) comma should not be preceded by whitespace
+operators.hpp:435: (T009) comma should not be preceded by whitespace
+operators.hpp:441: (T009) comma should not be preceded by whitespace
+operators.hpp:447: (T009) comma should not be preceded by whitespace
+operators.hpp:453: (T009) comma should not be preceded by whitespace
+operators.hpp:459: (T009) comma should not be preceded by whitespace
+operators.hpp:465: (T009) comma should not be preceded by whitespace
+operators.hpp:471: (T009) comma should not be preceded by whitespace
+operators.hpp:477: (T009) comma should not be preceded by whitespace
+operators.hpp:478: (T009) comma should not be preceded by whitespace
+operators.hpp:484: (T009) comma should not be preceded by whitespace
+operators.hpp:485: (T009) comma should not be preceded by whitespace
+operators.hpp:491: (T009) comma should not be preceded by whitespace
+operators.hpp:497: (T009) comma should not be preceded by whitespace
+operators.hpp:503: (T009) comma should not be preceded by whitespace
+operators.hpp:509: (T009) comma should not be preceded by whitespace
+operators.hpp:510: (T009) comma should not be preceded by whitespace
+operators.hpp:516: (T009) comma should not be preceded by whitespace
+operators.hpp:522: (T009) comma should not be preceded by whitespace
+operators.hpp:528: (T009) comma should not be preceded by whitespace
+operators.hpp:534: (T009) comma should not be preceded by whitespace
+operators.hpp:535: (T009) comma should not be preceded by whitespace
+operators.hpp:541: (T009) comma should not be preceded by whitespace
+operators.hpp:547: (T009) comma should not be preceded by whitespace
+operators.hpp:553: (T009) comma should not be preceded by whitespace
+operators.hpp:559: (T009) comma should not be preceded by whitespace
+operators.hpp:560: (T009) comma should not be preceded by whitespace
+operators.hpp:561: (T009) comma should not be preceded by whitespace
+operators.hpp:562: (T009) comma should not be preceded by whitespace
+operators.hpp:568: (T009) comma should not be preceded by whitespace
+operators.hpp:569: (T009) comma should not be preceded by whitespace
+operators.hpp:575: (T009) comma should not be preceded by whitespace
+operators.hpp:581: (T009) comma should not be preceded by whitespace
+operators.hpp:587: (T009) comma should not be preceded by whitespace
+operators.hpp:588: (T009) comma should not be preceded by whitespace
+operators.hpp:604: (T009) comma should not be preceded by whitespace
+operators.hpp:614: (T009) comma should not be preceded by whitespace
+operators.hpp:615: (T009) comma should not be preceded by whitespace
+operators.hpp:616: (T009) comma should not be preceded by whitespace
+operators.hpp:693: (T011) closing curly bracket not in the same line or column
+operators.hpp:700: (T011) closing curly bracket not in the same line or column
+operators.hpp:702: (T011) closing curly bracket not in the same line or column
+operators.hpp:756: (T009) comma should not be preceded by whitespace
+operators.hpp:756: (T009) comma should be followed by whitespace
+operators.hpp:757: (T009) comma should not be preceded by whitespace
+operators.hpp:757: (T009) comma should be followed by whitespace
+operators.hpp:758: (T009) comma should not be preceded by whitespace
+operators.hpp:758: (T009) comma should be followed by whitespace
+operators.hpp:758: (T010) identifier should not be composed of only 'l' and 'O'
+operators.hpp:770: (T010) identifier should not be composed of only 'l' and 'O'
+operators.hpp:771: (T010) identifier should not be composed of only 'l' and 'O'
+operators.hpp:799: (L001) trailing whitespace
+operators.hpp:860: (T009) comma should be followed by whitespace
+operators.hpp:861: (T009) comma should not be preceded by whitespace
+operators.hpp:861: (T009) comma should be followed by whitespace
+operators.hpp:862: (T009) comma should not be preceded by whitespace
+operators.hpp:862: (T009) comma should be followed by whitespace
+operators.hpp:874: (T009) comma should not be preceded by whitespace
+operators.hpp:875: (T009) comma should not be preceded by whitespace
+operators.hpp:876: (T009) comma should not be preceded by whitespace
+operators.hpp:889: (T009) comma should not be preceded by whitespace
+operators.hpp:895: (T009) comma should not be preceded by whitespace
+operators.hpp:909: (T009) comma should not be preceded by whitespace
+operators.hpp:919: (T009) comma should not be preceded by whitespace
+operators.hpp:923: (L001) trailing whitespace
+operators.hpp:929: (T009) comma should not be preceded by whitespace
+operators.hpp:934: (T011) closing curly bracket not in the same line or column
+operators.hpp:937: (T011) closing curly bracket not in the same line or column
+operators.hpp:939: (T012) negation operator used in its short form
+optional.hpp:18: (L003) trailing empty line(s)
+parameter.hpp:1: (L001) trailing whitespace
+parameter.hpp:2: (L001) trailing whitespace
+parameter.hpp:3: (L001) trailing whitespace
+parameter.hpp:19: (L003) trailing empty line(s)
+pfto.hpp:13: (L001) trailing whitespace
+pfto.hpp:20: (L001) trailing whitespace
+pfto.hpp:30: (L001) trailing whitespace
+pfto.hpp:50: (T011) closing curly bracket not in the same line or column
+pfto.hpp:52: (T011) closing curly bracket not in the same line or column
+pfto.hpp:57: (T011) closing curly bracket not in the same line or column
+pfto.hpp:62: (T011) closing curly bracket not in the same line or column
+pfto.hpp:64: (T011) closing curly bracket not in the same line or column
+pointee.hpp:23: (L001) trailing whitespace
+pointee.hpp:55: (L001) trailing whitespace
+pointee.hpp:56: (T009) comma should not be preceded by whitespace
+pointee.hpp:57: (T009) comma should not be preceded by whitespace
+pointee.hpp:66: (T009) comma should not be preceded by whitespace
+pointee.hpp:67: (T009) comma should not be preceded by whitespace
+pointee.hpp:71: (L001) trailing whitespace
+pointee.hpp:72: (T011) closing curly bracket not in the same line or column
+pointer_cast.hpp:3: (L001) trailing whitespace
+pointer_cast.hpp:4: (L001) trailing whitespace
+pointer_cast.hpp:5: (L001) trailing whitespace
+pointer_cast.hpp:13: (L001) trailing whitespace
+pointer_cast.hpp:18: (L001) trailing whitespace
+pointer_cast.hpp:25: (L001) trailing whitespace
+pointer_cast.hpp:32: (L001) trailing whitespace
+pointer_cast.hpp:39: (L001) trailing whitespace
+pointer_cast.hpp:43: (T011) closing curly bracket not in the same line or column
+pointer_to_other.hpp:12: (L001) trailing whitespace
+pointer_to_other.hpp:26: (L001) trailing whitespace
+pointer_to_other.hpp:27: (T003) keyword 'class' not followed by a single space
+pointer_to_other.hpp:33: (L001) trailing whitespace
+pointer_to_other.hpp:34: (T003) keyword 'class' not followed by a single space
+pointer_to_other.hpp:34: (T003) keyword 'class' not followed by a single space
+pointer_to_other.hpp:40: (L001) trailing whitespace
+pointer_to_other.hpp:41: (T003) keyword 'class' not followed by a single space
+pointer_to_other.hpp:41: (T003) keyword 'class' not followed by a single space
+pointer_to_other.hpp:41: (T003) keyword 'class' not followed by a single space
+progress.hpp:14: (L001) trailing whitespace
+progress.hpp:37: (L001) trailing whitespace
+progress.hpp:70: (L001) trailing whitespace
+progress.hpp:75: (L001) trailing whitespace
+progress.hpp:99: (T012) negation operator used in its short form
+progress.hpp:99: (T019) full block {} expected in the control structure
+progress.hpp:117: (L001) trailing whitespace
+progress.hpp:127: (L001) trailing whitespace
+progress.hpp:131: (T019) full block {} expected in the control structure
+progress.hpp:132: (L001) trailing whitespace
+progress.hpp:135: (T019) full block {} expected in the control structure
+progress.hpp:137: (T011) closing curly bracket not in the same line or column
+progress.hpp:141: (T011) closing curly bracket not in the same line or column
+property_map.hpp:26: (L001) trailing whitespace
+property_map.hpp:29: (T011) closing curly bracket not in the same line or column
+property_map.hpp:35: (L001) trailing whitespace
+property_map.hpp:36: (L001) trailing whitespace
+property_map.hpp:37: (T011) closing curly bracket not in the same line or column
+property_map.hpp:38: (T011) closing curly bracket not in the same line or column
+property_map.hpp:95: (T011) closing curly bracket not in the same line or column
+property_map.hpp:102: (T011) closing curly bracket not in the same line or column
+property_map.hpp:112: (T011) closing curly bracket not in the same line or column
+property_map.hpp:119: (T011) closing curly bracket not in the same line or column
+property_map.hpp:122: (T012) negation operator used in its short form
+property_map.hpp:126: (T011) closing curly bracket not in the same line or column
+property_map.hpp:139: (T012) negation operator used in its short form
+property_map.hpp:159: (T011) closing curly bracket not in the same line or column
+property_map.hpp:170: (T011) closing curly bracket not in the same line or column
+property_map.hpp:172: (T009) comma should be followed by whitespace
+property_map.hpp:173: (L001) trailing whitespace
+property_map.hpp:173: (T009) comma should be followed by whitespace
+property_map.hpp:174: (T009) comma should be followed by whitespace
+property_map.hpp:176: (T009) comma should be followed by whitespace
+property_map.hpp:190: (T011) closing curly bracket not in the same line or column
+property_map.hpp:201: (T011) closing curly bracket not in the same line or column
+property_map.hpp:203: (L001) trailing whitespace
+property_map.hpp:203: (T009) comma should be followed by whitespace
+property_map.hpp:204: (L001) trailing whitespace
+property_map.hpp:204: (T009) comma should be followed by whitespace
+property_map.hpp:205: (T009) comma should be followed by whitespace
+property_map.hpp:217: (T011) closing curly bracket not in the same line or column
+property_map.hpp:248: (T011) closing curly bracket not in the same line or column
+property_map.hpp:262: (T011) closing curly bracket not in the same line or column
+property_map.hpp:271: (L001) trailing whitespace
+property_map.hpp:282: (T011) closing curly bracket not in the same line or column
+property_map.hpp:295: (L001) trailing whitespace
+property_map.hpp:297: (T011) closing curly bracket not in the same line or column
+property_map.hpp:325: (L001) trailing whitespace
+property_map.hpp:328: (T009) comma should not be preceded by whitespace
+property_map.hpp:330: (T009) comma should not be preceded by whitespace
+property_map.hpp:331: (T009) comma should not be preceded by whitespace
+property_map.hpp:335: (L001) trailing whitespace
+property_map.hpp:346: (L001) trailing whitespace
+property_map.hpp:347: (L001) trailing whitespace
+property_map.hpp:349: (T007) semicolon is isolated from other tokens
+property_map.hpp:355: (T012) negation operator used in its short form
+property_map.hpp:368: (T011) closing curly bracket not in the same line or column
+property_map.hpp:376: (T011) closing curly bracket not in the same line or column
+property_map.hpp:378: (L001) trailing whitespace
+property_map.hpp:381: (T009) comma should not be preceded by whitespace
+property_map.hpp:383: (T009) comma should not be preceded by whitespace
+property_map.hpp:384: (T009) comma should not be preceded by whitespace
+property_map.hpp:388: (L001) trailing whitespace
+property_map.hpp:393: (L001) trailing whitespace
+property_map.hpp:399: (L001) trailing whitespace
+property_map.hpp:400: (L001) trailing whitespace
+property_map.hpp:401: (L001) trailing whitespace
+property_map.hpp:406: (T007) semicolon is isolated from other tokens
+property_map.hpp:407: (T011) closing curly bracket not in the same line or column
+property_map.hpp:415: (T012) negation operator used in its short form
+property_map.hpp:428: (T011) closing curly bracket not in the same line or column
+property_map.hpp:436: (T011) closing curly bracket not in the same line or column
+property_map.hpp:458: (T011) closing curly bracket not in the same line or column
+property_map.hpp:486: (T011) closing curly bracket not in the same line or column
+property_map.hpp:501: (L001) trailing whitespace
+property_map.hpp:520: (T011) closing curly bracket not in the same line or column
+property_map.hpp:521: (T011) closing curly bracket not in the same line or column
+property_map.hpp:522: (L001) trailing whitespace
+property_map.hpp:524: (L001) trailing whitespace
+property_map.hpp:527: (L001) trailing whitespace
+property_map.hpp:542: (T011) closing curly bracket not in the same line or column
+property_map.hpp:546: (L003) trailing empty line(s)
+property_map_iterator.hpp:92: (T011) closing curly bracket not in the same line or column
+property_map_iterator.hpp:105: (L001) trailing whitespace
+property_map_iterator.hpp:110: (T011) closing curly bracket not in the same line or column
+property_map_iterator.hpp:113: (L003) trailing empty line(s)
+random.hpp:17: (L001) trailing whitespace
+random.hpp:20: (L001) trailing whitespace
+random.hpp:47: (L004) line is longer than 100 characters
+random.hpp:50: (T011) closing curly bracket not in the same line or column
+rational.hpp:70: (T019) full block {} expected in the control structure
+rational.hpp:72: (T019) full block {} expected in the control structure
+rational.hpp:77: (T008) keyword 'for' not followed by a single space
+rational.hpp:78: (T008) keyword 'if' not followed by a single space
+rational.hpp:79: (T019) full block {} expected in the control structure
+rational.hpp:81: (T008) keyword 'if' not followed by a single space
+rational.hpp:82: (T019) full block {} expected in the control structure
+rational.hpp:84: (T011) closing curly bracket not in the same line or column
+rational.hpp:94: (T019) full block {} expected in the control structure
+rational.hpp:100: (T019) full block {} expected in the control structure
+rational.hpp:175: (T012) negation operator used in its short form
+rational.hpp:175: (T012) negation operator used in its short form
+rational.hpp:179: (T009) comma should be followed by whitespace
+rational.hpp:186: (T012) negation operator used in its short form
+rational.hpp:188: (T009) comma should be followed by whitespace
+rational.hpp:318: (T019) full block {} expected in the control structure
+rational.hpp:320: (T019) full block {} expected in the control structure
+rational.hpp:331: (T011) closing curly bracket not in the same line or column
+rational.hpp:392: (T019) full block {} expected in the control structure
+rational.hpp:394: (T019) full block {} expected in the control structure
+rational.hpp:412: (T019) full block {} expected in the control structure
+rational.hpp:414: (T019) full block {} expected in the control structure
+rational.hpp:421: (T019) full block {} expected in the control structure
+rational.hpp:431: (T019) full block {} expected in the control structure
+rational.hpp:434: (T012) negation operator used in its short form
+rational.hpp:457: (T019) full block {} expected in the control structure
+rational.hpp:463: (T011) closing curly bracket not in the same line or column
+rational.hpp:474: (T011) closing curly bracket not in the same line or column
+rational.hpp:486: (T011) closing curly bracket not in the same line or column
+rational.hpp:488: (T011) closing curly bracket not in the same line or column
+rational.hpp:502: (T019) full block {} expected in the control structure
+rational.hpp:504: (T012) negation operator used in its short form
+rational.hpp:512: (T019) full block {} expected in the control structure
+rational.hpp:540: (T019) full block {} expected in the control structure
+rational.hpp:545: (T011) closing curly bracket not in the same line or column
+rational.hpp:548: (L003) trailing empty line(s)
+ref.hpp:33: (L001) trailing whitespace
+ref.hpp:65: (L001) trailing whitespace
+ref.hpp:107: (T012) negation operator used in its short form
+ref.hpp:128: (L001) trailing whitespace
+ref.hpp:163: (L001) trailing whitespace
+regex.hpp:6: (L001) trailing whitespace
+regex.hpp:7: (L001) trailing whitespace
+regex.hpp:36: (L005) too many consecutive empty lines
+regex.hpp:37: (L003) trailing empty line(s)
+regex_fwd.hpp:6: (L001) trailing whitespace
+regex_fwd.hpp:7: (L001) trailing whitespace
+regex_fwd.hpp:32: (L005) too many consecutive empty lines
+regex_fwd.hpp:33: (L003) trailing empty line(s)
+scoped_array.hpp:103: (L001) trailing whitespace
+scoped_array.hpp:114: (T012) negation operator used in its short form
+scoped_ptr.hpp:120: (L001) trailing whitespace
+scoped_ptr.hpp:130: (T012) negation operator used in its short form
+shared_array.hpp:19: (T012) negation operator used in its short form
+shared_array.hpp:114: (L001) trailing whitespace
+shared_array.hpp:125: (T012) negation operator used in its short form
+shared_array.hpp:153: (L004) line is longer than 100 characters
+shared_array.hpp:158: (L004) line is longer than 100 characters
+shared_array.hpp:163: (L004) line is longer than 100 characters
+shared_container_iterator.hpp:33: (T009) comma should be followed by whitespace
+shared_container_iterator.hpp:37: (T011) closing curly bracket not in the same line or column
+shared_container_iterator.hpp:44: (T009) comma should be followed by whitespace
+shared_container_iterator.hpp:45: (T011) closing curly bracket not in the same line or column
+shared_container_iterator.hpp:48: (L005) too many consecutive empty lines
+shared_container_iterator.hpp:54: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+shared_container_iterator.hpp:56: (T009) comma should be followed by whitespace
+shared_container_iterator.hpp:57: (T009) comma should be followed by whitespace
+shared_container_iterator.hpp:58: (T011) closing curly bracket not in the same line or column
+shared_container_iterator.hpp:61: (T011) closing curly bracket not in the same line or column
+shared_ptr.hpp:19: (T012) negation operator used in its short form
+shared_ptr.hpp:65: (T012) negation operator used in its short form
+shared_ptr.hpp:86: (L004) line is longer than 100 characters
+shared_ptr.hpp:88: (T008) keyword 'if' not followed by a single space
+shared_ptr.hpp:88: (T019) full block {} expected in the control structure
+shared_ptr.hpp:104: (L004) line is longer than 100 characters
+shared_ptr.hpp:104: (T012) negation operator used in its short form
+shared_ptr.hpp:104: (T012) negation operator used in its short form
+shared_ptr.hpp:104: (T012) negation operator used in its short form
+shared_ptr.hpp:115: (L001) trailing whitespace
+shared_ptr.hpp:199: (L004) line is longer than 100 characters
+shared_ptr.hpp:204: (L004) line is longer than 100 characters
+shared_ptr.hpp:209: (L004) line is longer than 100 characters
+shared_ptr.hpp:211: (T008) keyword 'if' not followed by a single space
+shared_ptr.hpp:218: (L004) line is longer than 100 characters
+shared_ptr.hpp:220: (T008) keyword 'if' not followed by a single space
+shared_ptr.hpp:236: (T012) negation operator used in its short form
+shared_ptr.hpp:236: (T012) negation operator used in its short form
+shared_ptr.hpp:239: (L004) line is longer than 100 characters
+shared_ptr.hpp:251: (T012) negation operator used in its short form
+shared_ptr.hpp:272: (T012) negation operator used in its short form
+shared_ptr.hpp:272: (T012) negation operator used in its short form
+shared_ptr.hpp:357: (L001) trailing whitespace
+shared_ptr.hpp:370: (T012) negation operator used in its short form
+shared_ptr.hpp:513: (L004) line is longer than 100 characters
+shared_ptr.hpp:515: (L004) line is longer than 100 characters
+shared_ptr.hpp:516: (L001) trailing whitespace
+shared_ptr.hpp:554: (L001) trailing whitespace
+signal.hpp:316: (T011) closing curly bracket not in the same line or column
+signal.hpp:317: (T011) closing curly bracket not in the same line or column
+signal.hpp:352: (T011) closing curly bracket not in the same line or column
+signals.hpp:10: (L003) trailing empty line(s)
+smart_cast.hpp:12: (L001) trailing whitespace
+smart_cast.hpp:19: (L001) trailing whitespace
+smart_cast.hpp:23: (L001) trailing whitespace
+smart_cast.hpp:70: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:71: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:77: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:78: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:83: (T012) negation operator used in its short form
+smart_cast.hpp:112: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:113: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:119: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:120: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:137: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:138: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:144: (L001) trailing whitespace
+smart_cast.hpp:152: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:153: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:160: (T019) full block {} expected in the control structure
+smart_cast.hpp:163: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:164: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:169: (T012) negation operator used in its short form
+smart_cast.hpp:196: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:202: (T019) full block {} expected in the control structure
+smart_cast.hpp:205: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:207: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:213: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:214: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:232: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:234: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:241: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:242: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:247: (L001) trailing whitespace
+smart_cast.hpp:253: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:254: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:256: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:287: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:294: (T011) closing curly bracket not in the same line or column
+smart_cast.hpp:296: (T011) closing curly bracket not in the same line or column
+smart_ptr.hpp:21: (T012) negation operator used in its short form
+spirit.hpp:19: (T012) negation operator used in its short form
+state_saver.hpp:54: (T011) closing curly bracket not in the same line or column
+state_saver.hpp:55: (T011) closing curly bracket not in the same line or column
+state_saver.hpp:61: (L001) trailing whitespace
+state_saver.hpp:61: (T011) closing curly bracket not in the same line or column
+state_saver.hpp:62: (L001) trailing whitespace
+state_saver.hpp:64: (T011) closing curly bracket not in the same line or column
+state_saver.hpp:66: (T011) closing curly bracket not in the same line or column
+state_saver.hpp:67: (T011) closing curly bracket not in the same line or column
+state_saver.hpp:72: (L001) trailing whitespace
+state_saver.hpp:74: (L001) trailing whitespace
+state_saver.hpp:88: (T011) closing curly bracket not in the same line or column
+state_saver.hpp:92: (T011) closing curly bracket not in the same line or column
+static_assert.hpp:2: (L001) trailing whitespace
+static_assert.hpp:3: (L001) trailing whitespace
+static_assert.hpp:41: (T011) closing curly bracket not in the same line or column
+static_assert.hpp:65: (T012) negation operator used in its short form
+static_assert.hpp:80: (L001) trailing whitespace
+static_assert.hpp:118: (L003) trailing empty line(s)
+static_warning.hpp:19: (L001) trailing whitespace
+static_warning.hpp:52: (L001) trailing whitespace
+static_warning.hpp:53: (L001) trailing whitespace
+static_warning.hpp:60: (L001) trailing whitespace
+static_warning.hpp:61: (L001) trailing whitespace
+static_warning.hpp:62: (L001) trailing whitespace
+static_warning.hpp:82: (T012) negation operator used in its short form
+static_warning.hpp:103: (T012) negation operator used in its short form
+static_warning.hpp:104: (T012) negation operator used in its short form
+static_warning.hpp:112: (T011) closing curly bracket not in the same line or column
+static_warning.hpp:121: (T011) closing curly bracket not in the same line or column
+static_warning.hpp:123: (T011) closing curly bracket not in the same line or column
+static_warning.hpp:154: (L001) trailing whitespace
+static_warning.hpp:155: (L001) trailing whitespace
+strong_typedef.hpp:12: (L001) trailing whitespace
+strong_typedef.hpp:30: (T009) comma should not be preceded by whitespace
+thread.hpp:4: (L001) trailing whitespace
+thread.hpp:7: (T012) negation operator used in its short form
+timer.hpp:12: (L001) trailing whitespace
+timer.hpp:53: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+timer.hpp:60: (L001) trailing whitespace
+timer.hpp:70: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:3: (L001) trailing whitespace
+token_functions.hpp:61: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:68: (L001) trailing whitespace
+token_functions.hpp:69: (L001) trailing whitespace
+token_functions.hpp:72: (L001) trailing whitespace
+token_functions.hpp:73: (L001) trailing whitespace
+token_functions.hpp:78: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:83: (T012) negation operator used in its short form
+token_functions.hpp:84: (L001) trailing whitespace
+token_functions.hpp:87: (L001) trailing whitespace
+token_functions.hpp:93: (T009) comma should be followed by whitespace
+token_functions.hpp:98: (T009) comma should be followed by whitespace
+token_functions.hpp:99: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:100: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:103: (L001) trailing whitespace
+token_functions.hpp:108: (T009) comma should be followed by whitespace
+token_functions.hpp:108: (T009) comma should be followed by whitespace
+token_functions.hpp:109: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:112: (T009) comma should be followed by whitespace
+token_functions.hpp:112: (T009) comma should be followed by whitespace
+token_functions.hpp:113: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:116: (T009) comma should be followed by whitespace
+token_functions.hpp:116: (T009) comma should be followed by whitespace
+token_functions.hpp:117: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:119: (T009) comma should be followed by whitespace
+token_functions.hpp:119: (T009) comma should be followed by whitespace
+token_functions.hpp:121: (T019) full block {} expected in the control structure
+token_functions.hpp:122: (T009) comma should be followed by whitespace
+token_functions.hpp:125: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:129: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:133: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:137: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:140: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:145: (T009) comma should be followed by whitespace
+token_functions.hpp:146: (T009) comma should be followed by whitespace
+token_functions.hpp:146: (T009) comma should be followed by whitespace
+token_functions.hpp:146: (T009) comma should be followed by whitespace
+token_functions.hpp:147: (L001) trailing whitespace
+token_functions.hpp:150: (L001) trailing whitespace
+token_functions.hpp:154: (T009) comma should be followed by whitespace
+token_functions.hpp:154: (T009) comma should be followed by whitespace
+token_functions.hpp:162: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:165: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:169: (T009) comma should be followed by whitespace
+token_functions.hpp:169: (T009) comma should be followed by whitespace
+token_functions.hpp:170: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:172: (T012) negation operator used in its short form
+token_functions.hpp:177: (L001) trailing whitespace
+token_functions.hpp:179: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:181: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:183: (T012) negation operator used in its short form
+token_functions.hpp:184: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:187: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:188: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:190: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:191: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:225: (T008) keyword 'while' not followed by a single space
+token_functions.hpp:225: (T019) full block {} expected in the control structure
+token_functions.hpp:230: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:232: (L001) trailing whitespace
+token_functions.hpp:235: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:238: (L001) trailing whitespace
+token_functions.hpp:243: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:244: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:251: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:252: (L001) trailing whitespace
+token_functions.hpp:255: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:259: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:260: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:266: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:272: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:275: (L005) too many consecutive empty lines
+token_functions.hpp:285: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:287: (L001) trailing whitespace
+token_functions.hpp:288: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:290: (L001) trailing whitespace
+token_functions.hpp:307: (T009) comma should be followed by whitespace
+token_functions.hpp:310: (L001) trailing whitespace
+token_functions.hpp:312: (T009) comma should be followed by whitespace
+token_functions.hpp:317: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:323: (T012) negation operator used in its short form
+token_functions.hpp:330: (T012) negation operator used in its short form
+token_functions.hpp:331: (L001) trailing whitespace
+token_functions.hpp:336: (T019) full block {} expected in the control structure
+token_functions.hpp:339: (T019) full block {} expected in the control structure
+token_functions.hpp:340: (T019) full block {} expected in the control structure
+token_functions.hpp:343: (L001) trailing whitespace
+token_functions.hpp:347: (T019) full block {} expected in the control structure
+token_functions.hpp:348: (T009) comma should be followed by whitespace
+token_functions.hpp:349: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:350: (T009) comma should be followed by whitespace
+token_functions.hpp:350: (T009) comma should be followed by whitespace
+token_functions.hpp:351: (L001) trailing whitespace
+token_functions.hpp:352: (T012) negation operator used in its short form
+token_functions.hpp:353: (T019) full block {} expected in the control structure
+token_functions.hpp:354: (T019) full block {} expected in the control structure
+token_functions.hpp:355: (L001) trailing whitespace
+token_functions.hpp:359: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:379: (T012) negation operator used in its short form
+token_functions.hpp:380: (L001) trailing whitespace
+token_functions.hpp:383: (L001) trailing whitespace
+token_functions.hpp:388: (T009) comma should be followed by whitespace
+token_functions.hpp:390: (L001) trailing whitespace
+token_functions.hpp:390: (T003) keyword 'explicit' not followed by a single space
+token_functions.hpp:402: (T019) full block {} expected in the control structure
+token_functions.hpp:406: (T003) keyword 'explicit' not followed by a single space
+token_functions.hpp:408: (L001) trailing whitespace
+token_functions.hpp:409: (L001) trailing whitespace
+token_functions.hpp:418: (T012) negation operator used in its short form
+token_functions.hpp:428: (T019) full block {} expected in the control structure
+token_functions.hpp:430: (L001) trailing whitespace
+token_functions.hpp:436: (T019) full block {} expected in the control structure
+token_functions.hpp:441: (T009) comma should be followed by whitespace
+token_functions.hpp:443: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:445: (T012) negation operator used in its short form
+token_functions.hpp:445: (T012) negation operator used in its short form
+token_functions.hpp:446: (T009) comma should be followed by whitespace
+token_functions.hpp:446: (T019) full block {} expected in the control structure
+token_functions.hpp:447: (L001) trailing whitespace
+token_functions.hpp:447: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:449: (L001) trailing whitespace
+token_functions.hpp:452: (T019) full block {} expected in the control structure
+token_functions.hpp:454: (T009) comma should be followed by whitespace
+token_functions.hpp:454: (T009) comma should be followed by whitespace
+token_functions.hpp:456: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:458: (L001) trailing whitespace
+token_functions.hpp:461: (T019) full block {} expected in the control structure
+token_functions.hpp:463: (T009) comma should be followed by whitespace
+token_functions.hpp:466: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:467: (L001) trailing whitespace
+token_functions.hpp:467: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:470: (L001) trailing whitespace
+token_functions.hpp:470: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:473: (T019) full block {} expected in the control structure
+token_functions.hpp:474: (T012) negation operator used in its short form
+token_functions.hpp:474: (T012) negation operator used in its short form
+token_functions.hpp:475: (T009) comma should be followed by whitespace
+token_functions.hpp:475: (T019) full block {} expected in the control structure
+token_functions.hpp:477: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:478: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:479: (T009) comma should be followed by whitespace
+token_functions.hpp:479: (T009) comma should be followed by whitespace
+token_functions.hpp:492: (L001) trailing whitespace
+token_functions.hpp:494: (T019) full block {} expected in the control structure
+token_functions.hpp:497: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:503: (T019) full block {} expected in the control structure
+token_functions.hpp:506: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:522: (T012) negation operator used in its short form
+token_functions.hpp:523: (L001) trailing whitespace
+token_functions.hpp:526: (L001) trailing whitespace
+token_functions.hpp:530: (L001) trailing whitespace
+token_functions.hpp:532: (T009) comma should be followed by whitespace
+token_functions.hpp:540: (L001) trailing whitespace
+token_functions.hpp:542: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+token_functions.hpp:542: (T019) full block {} expected in the control structure
+token_functions.hpp:548: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:549: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:554: (T006) keyword 'return' not immediately followed by a semicolon or a single space
+token_functions.hpp:554: (T019) full block {} expected in the control structure
+token_functions.hpp:560: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:561: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:565: (L001) trailing whitespace
+token_functions.hpp:572: (L001) trailing whitespace
+token_functions.hpp:578: (T009) comma should be followed by whitespace
+token_functions.hpp:583: (L001) trailing whitespace
+token_functions.hpp:584: (T012) negation operator used in its short form
+token_functions.hpp:585: (L001) trailing whitespace
+token_functions.hpp:588: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:595: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:598: (T012) negation operator used in its short form
+token_functions.hpp:598: (T012) negation operator used in its short form
+token_functions.hpp:599: (T019) full block {} expected in the control structure
+token_functions.hpp:600: (L001) trailing whitespace
+token_functions.hpp:603: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:604: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:607: (T011) closing curly bracket not in the same line or column
+token_functions.hpp:610: (L001) trailing whitespace
+token_functions.hpp:613: (L005) too many consecutive empty lines
+token_functions.hpp:615: (L003) trailing empty line(s)
+token_iterator.hpp:17: (L005) too many consecutive empty lines
+token_iterator.hpp:33: (T009) comma should not be preceded by whitespace
+token_iterator.hpp:34: (T009) comma should not be preceded by whitespace
+token_iterator.hpp:36: (T009) comma should not be preceded by whitespace
+token_iterator.hpp:37: (L001) trailing whitespace
+token_iterator.hpp:38: (T009) comma should not be preceded by whitespace
+token_iterator.hpp:52: (T009) comma should be followed by whitespace
+token_iterator.hpp:52: (T009) comma should be followed by whitespace
+token_iterator.hpp:53: (T011) closing curly bracket not in the same line or column
+token_iterator.hpp:58: (T011) closing curly bracket not in the same line or column
+token_iterator.hpp:65: (T011) closing curly bracket not in the same line or column
+token_iterator.hpp:68: (T008) keyword 'if' not followed by a single space
+token_iterator.hpp:68: (T019) full block {} expected in the control structure
+token_iterator.hpp:71: (T009) comma should be followed by whitespace
+token_iterator.hpp:71: (T009) comma should be followed by whitespace
+token_iterator.hpp:72: (T011) closing curly bracket not in the same line or column
+token_iterator.hpp:74: (T009) comma should be followed by whitespace
+token_iterator.hpp:74: (T009) comma should be followed by whitespace
+token_iterator.hpp:74: (T009) comma should be followed by whitespace
+token_iterator.hpp:77: (T009) comma should be followed by whitespace
+token_iterator.hpp:77: (T009) comma should be followed by whitespace
+token_iterator.hpp:77: (T009) comma should be followed by whitespace
+token_iterator.hpp:77: (T009) comma should be followed by whitespace
+token_iterator.hpp:80: (T009) comma should be followed by whitespace
+token_iterator.hpp:80: (T009) comma should be followed by whitespace
+token_iterator.hpp:80: (T009) comma should be followed by whitespace
+token_iterator.hpp:80: (T009) comma should be followed by whitespace
+token_iterator.hpp:84: (T009) comma should be followed by whitespace
+token_iterator.hpp:85: (T009) comma should not be preceded by whitespace
+token_iterator.hpp:86: (T009) comma should be followed by whitespace
+token_iterator.hpp:87: (T009) comma should not be preceded by whitespace
+token_iterator.hpp:87: (T009) comma should be followed by whitespace
+token_iterator.hpp:87: (T009) comma should be followed by whitespace
+token_iterator.hpp:87: (T009) comma should be followed by whitespace
+token_iterator.hpp:100: (L005) too many consecutive empty lines
+token_iterator.hpp:104: (L001) trailing whitespace
+token_iterator.hpp:110: (L001) trailing whitespace
+token_iterator.hpp:112: (T009) comma should be followed by whitespace
+token_iterator.hpp:112: (T009) comma should be followed by whitespace
+token_iterator.hpp:113: (T011) closing curly bracket not in the same line or column
+token_iterator.hpp:119: (L001) trailing whitespace
+token_iterator.hpp:119: (T009) comma should be followed by whitespace
+token_iterator.hpp:119: (T009) comma should be followed by whitespace
+token_iterator.hpp:120: (T009) comma should be followed by whitespace
+token_iterator.hpp:121: (L001) trailing whitespace
+token_iterator.hpp:122: (T009) comma should be followed by whitespace
+token_iterator.hpp:122: (T009) comma should be followed by whitespace
+token_iterator.hpp:123: (T009) comma should be followed by whitespace
+token_iterator.hpp:123: (T009) comma should be followed by whitespace
+token_iterator.hpp:124: (T011) closing curly bracket not in the same line or column
+tokenizer.hpp:3: (L001) trailing whitespace
+tokenizer.hpp:24: (L001) trailing whitespace
+tokenizer.hpp:28: (L001) trailing whitespace
+tokenizer.hpp:34: (T009) comma should be followed by whitespace
+tokenizer.hpp:34: (T009) comma should be followed by whitespace
+tokenizer.hpp:35: (L001) trailing whitespace
+tokenizer.hpp:38: (L001) trailing whitespace
+tokenizer.hpp:42: (L001) trailing whitespace
+tokenizer.hpp:54: (L001) trailing whitespace
+tokenizer.hpp:56: (L001) trailing whitespace
+tokenizer.hpp:60: (L001) trailing whitespace
+tokenizer.hpp:62: (T009) comma should be followed by whitespace
+tokenizer.hpp:64: (L001) trailing whitespace
+tokenizer.hpp:68: (T011) closing curly bracket not in the same line or column
+tokenizer.hpp:71: (T009) comma should be followed by whitespace
+tokenizer.hpp:73: (T011) closing curly bracket not in the same line or column
+tokenizer.hpp:77: (T009) comma should be followed by whitespace
+tokenizer.hpp:78: (T011) closing curly bracket not in the same line or column
+tokenizer.hpp:83: (T009) comma should be followed by whitespace
+tokenizer.hpp:83: (T009) comma should be followed by whitespace
+tokenizer.hpp:84: (T011) closing curly bracket not in the same line or column
+tokenizer.hpp:86: (T009) comma should be followed by whitespace
+tokenizer.hpp:86: (T009) comma should be followed by whitespace
+tokenizer.hpp:87: (T009) comma should be followed by whitespace
+tokenizer.hpp:87: (T009) comma should be followed by whitespace
+tokenizer.hpp:88: (L001) trailing whitespace
+tokenizer.hpp:93: (T011) closing curly bracket not in the same line or column
+tokenizer.hpp:96: (T011) closing curly bracket not in the same line or column
+type.hpp:16: (T011) closing curly bracket not in the same line or column
+type_traits.hpp:1: (L001) trailing whitespace
+type_traits.hpp:79: (L005) too many consecutive empty lines
+type_traits.hpp:80: (L003) trailing empty line(s)
+utility.hpp:13: (L001) trailing whitespace
+vector_property_map.hpp:20: (L001) trailing whitespace
+vector_property_map.hpp:21: (L001) trailing whitespace
+vector_property_map.hpp:28: (L001) trailing whitespace
+vector_property_map.hpp:36: (L001) trailing whitespace
+vector_property_map.hpp:60: (L001) trailing whitespace
+vector_property_map.hpp:70: (T011) closing curly bracket not in the same line or column
+vector_property_map.hpp:72: (T011) closing curly bracket not in the same line or column
+vector_property_map.hpp:74: (L001) trailing whitespace
+vector_property_map.hpp:78: (L001) trailing whitespace
+vector_property_map.hpp:80: (L001) trailing whitespace
+vector_property_map.hpp:90: (T011) closing curly bracket not in the same line or column
+version.hpp:37: (L003) trailing empty line(s)
+version.hpp:37: (L005) too many consecutive empty lines
+visit_each.hpp:27: (T011) closing curly bracket not in the same line or column
+wave.hpp:11: (T012) negation operator used in its short form
+weak_ptr.hpp:74: (T012) negation operator used in its short form
+weak_ptr.hpp:99: (T008) keyword 'if' not followed by a single space
+weak_ptr.hpp:108: (T008) keyword 'catch' not followed by a single space
+weak_ptr.hpp:192: (L001) trailing whitespace
+
