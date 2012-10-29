@@ -44,11 +44,18 @@ class BrakemanCollector(CoverityIssueCollector):
             if not os.path.isabs(issue['file']):
                 issue['file'] = os.path.join(root_dir, issue['file'])
 
+            description = []
+            if issue['code']:
+               description.append('In expression "%s"' % (issue['code'],))
+            if issue['user_input']:
+               description.append('"%s" is unsafe' % (issue['user_input'],))
+            description = issue['message']+'. '+ ', '.join(description)+'.'
+
             attrs = {
                 'checker': issue['warning_type'],
                 'tag': 'Warning',
                 'subcategory': issue['confidence'],
-                'description': issue['message']
+                'description': ''.join(description)
             }
             if issue['fingerprint']:
                 attrs['extra'] = issue['fingerprint']
@@ -58,7 +65,11 @@ class BrakemanCollector(CoverityIssueCollector):
                 issue['line'] = self.find_line(issue)
 
             msg = Issue(**attrs)
-            # Also takes description, method, tag, link, linktext
+
+            # Do we need to walk over issue['render_path'] to create
+            # dataflow events?
+        
+            # Also takes description, method, tag
             msg.add_location(
                 issue['line'],
                 issue['file'],
