@@ -38,7 +38,7 @@ run this script directly; it will be imported by the main script.
 cppcheck_import.py
 ------------------
 Script providing support for importing Cppcheck results (see
-[http://cppcheck.sourceforge.net]).
+http://cppcheck.sourceforge.net).
 
 You'll need to use the --xml-version=2 option when you run cppcheck.  Note
 that the XML output goes to stderr, so you'll typically redirect stderr to a
@@ -47,7 +47,7 @@ file or pipe so that it can be processed by cppcheck_import.py.
 vera++_import.py
 ------------------
 Script providing support for importing Vera++ Community Edition results (see
-[http://www.inspirel.com/vera/]).
+http://www.inspirel.com/vera/).
 
 You'll need to use the -showrules option when you run vera++.
 
