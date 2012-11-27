@@ -44,6 +44,14 @@ You'll need to use the --xml-version=2 option when you run cppcheck.  Note
 that the XML output goes to stderr, so you'll typically redirect stderr to a
 file or pipe so that it can be processed by cppcheck_import.py.
 
+valgrind_import.py
+------------------
+Script providing support for importing Valgrind results (see
+http://valgrind.org).
+
+You'll need to use the --xml=yes option when you run valgrind.  This script
+has only been used with the memcheck tool; others may or may not work.
+
 vera++_import.py
 ------------------
 Script providing support for importing Vera++ Community Edition results (see
