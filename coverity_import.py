@@ -16,11 +16,11 @@ class Issue(object):
             setattr(self, k.lower(), v)
         self._locs = []
 
-    def add_location(self, line, file):
+    def add_location(self, line, file, description=None):
         parts = filter(None, os.path.split(file))
         if len(parts) <= 1:
             raise InvalidFormatException('Filename must be absolute path', file)
-        self._locs.append({'line':int(line), 'filename':file})
+        self._locs.append({'line':int(line), 'filename':file, 'description':description})
 
 class CoverityThirdPartyIntegration(object):
     '''
