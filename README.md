@@ -35,6 +35,11 @@ Note that the filenames listed in the analysis output need to be absolute
 paths.  Normally, specifying an absolute path to the analysis command will
 ensure that the output uses the absolute path.
 
+catnet_import.py
+------------------
+Script providing support for importing Cat.NET results (see
+http://visualstudiogallery.msdn.microsoft.com/8ef8d7ba-422a-428d-86ed-74fc864a7697).
+
 checkstyle_import.py
 ------------------
 Script providing support for importing Checkstyle results (see
