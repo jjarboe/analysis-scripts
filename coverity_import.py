@@ -29,7 +29,7 @@ class Issue(object):
 
     def add_location(self, line, filename, description = None):
         parts = filter(None, os.path.split(filename))
-        if len(parts) <= 1:
+        if len(parts) <= 1 and filename[1] != ':':
             raise InvalidFormatException('Filename must be absolute path', filename)
 
         self._locs.append(IssueLocation(int(line), filename, description))
