@@ -23,7 +23,7 @@ class CatNETCollector(CoverityIssueCollector):
                 res_id = res.findtext('Identifier')
                 suppressed = res.findtext('Suppressed') != 'false'
                 confidence_level = res.findtext('ConfidenceLevel')
-                problem = res.findtext('ProblemDescription')
+                problem = res.findtext('ProblemDescription').replace('\n','').replace('\t',' ')
 
                 msg = Issue(
                     checker='Cat.NET',
@@ -42,9 +42,12 @@ class CatNETCollector(CoverityIssueCollector):
 
                     msg.add_location(line, filename, description)
 
-                print confidence_level, suppressed
-
                 if confidence_level != 'Low' and not suppressed:
+                    # The first loc is going to be treated as the main event,
+                    # so let's set that event's description to None so that
+                    # it will get the long description associated with the
+                    # ProblemDescription field.
+                    msg._locs[0].description = None
                     self._issues.add(msg) 
                     self._files |= set([x.filename for x in msg._locs])
 
