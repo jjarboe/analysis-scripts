@@ -12,10 +12,12 @@ class InvalidFormatException(Exception):
         return '%s: "%s"' % (self._msg, self._arg)
 
 class IssueLocation(object):
-    def __init__(self, line, filename, description):
+    def __init__(self, line, filename, description, method=None, tag=None):
         self.line = line
         self.filename = filename
         self.description = description
+        self.method = method
+        self.tag = tag
 
 class Issue(object):
     def __init__(self, checker, tag, extra='', function='', subcategory='', description=''):
@@ -27,12 +29,12 @@ class Issue(object):
         self.description = description
         self._locs = []
 
-    def add_location(self, line, filename, description = None):
+    def add_location(self, line, filename, description=None, method=None, tag=None):
         parts = filter(None, os.path.split(filename))
         if len(parts) <= 1 and filename[1] != ':':
             raise InvalidFormatException('Filename must be absolute path', filename)
 
-        self._locs.append(IssueLocation(int(line), filename, description))
+        self._locs.append(IssueLocation(int(line), filename, description, method=method, tag=tag))
 
 class CoverityThirdPartyIntegration(object):
     '''
@@ -69,6 +71,10 @@ class CoverityIssueCollector(object):
         if checker_prefix: self._checker_prefix = checker_prefix
         if build_dir is not None: self._build_dir = build_dir
 
+    def add_issue(self, issue):
+        self._issues.add(issue)
+        self._files |= set([x.filename for x in issue._locs])
+
     def process(self, f):
         '''
         Process the contents of file object f.
@@ -84,24 +90,26 @@ class CoverityIssueCollector(object):
         {
             'checker': '.'.join(filter(None, [self._checker_prefix,i.checker])),
             'extra': i.extra,
-            'file': i._locs[0].filename,
+            'file': i._locs[i.main_event].filename,
             'function': i.function,
             'subcategory': i.subcategory,
             'events': [
                 {
                 'tag': i.tag,
-                'description': i._locs[0].description or i.description,
-                'line': i._locs[0].line,
+                'description': i._locs[i.main_event].description or i.description,
+                'file': i._locs[i.main_event].filename or i.filename,
+                'line': i._locs[i.main_event].line,
                 'main': True
                 }
             ] + [
                 {
-                'tag': 'Related event',
-                'description': x.description or i.description,
-                'line': x.line,
+                'tag': i._locs[x].tag or 'Related event',
+                'description': i._locs[x].description or i.description,
+                'file': i._locs[x].filename or i.filename,
+                'line': i._locs[x].line,
                 'main': False
                 }
-                for x in i._locs[1:]
+                for x in range(len(i._locs)) if x != i.main_event
             ]
         }
         for i in self._issues]
