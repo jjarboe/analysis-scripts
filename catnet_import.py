@@ -37,19 +37,36 @@ class CatNETCollector(CoverityIssueCollector):
                 for trans in res.find('./Transformations'):
                     line = trans.get('line')
                     filename = trans.get('file')
-                    description = trans.findtext('StatementType')
-                    msg.function = trans.findtext('StatementMethod')
+                    tag = trans.findtext('StatementType')
 
-                    msg.add_location(line, filename, description)
+                    # Should this be findText('Method')?
+                    method = trans.findtext('StatementMethod')
+
+                    var_in = trans.findtext('InputVariable')
+                    var_ain = trans.findtext('ActualInputVariable')
+                    var_out = trans.findtext('OutputVariable')
+
+                    if var_in and var_ain and var_in != var_ain:
+                        var_in = ' from %s (aka %s)' % (var_ain, var_in)
+                    elif var_in:
+                        var_in = ' from '+var_in
+                    else:
+                        var_in = ''
+
+                    description = '%s%s to %s' % (tag, var_in, var_out)
+
+                    msg.add_location(line, filename, description, method=method, tag=tag)
 
                 if confidence_level != 'Low' and not suppressed:
                     # The first loc is going to be treated as the main event,
                     # so let's set that event's description to None so that
                     # it will get the long description associated with the
                     # ProblemDescription field.
-                    msg._locs[0].description = None
-                    self._issues.add(msg) 
-                    self._files |= set([x.filename for x in msg._locs])
+                    msg.main_event = -1 
+                    msg._locs[msg.main_event].description = None
+                    msg.function = msg._locs[msg.main_event].method
+
+                    self.add_issue(msg) 
 
 if __name__ == '__main__':
     import sys
