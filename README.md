@@ -14,7 +14,7 @@ understands.  Your workflow will typically look like this:
 0. Optionally run cov-build on your codebase to improve analysis results
 1. Run third-party analysis tool, generating appropriate output
 2. Run one of these scripts to translate the third-party output for Coverity
-3. Run cov-import-defects to import the defects
+3. Run cov-import-results to import the defects
 4. Run cov-commit-defects to commit all the issues to Coverity Connect
 
 Note that these scripts often do not attempt to improve the information
