@@ -21,6 +21,7 @@ class IssueLocation(object):
 
 class Issue(object):
     def __init__(self, checker, tag, extra='', function='', subcategory='', description=''):
+        self.main_event = 0
         self.checker = checker
         self.tag = tag
         self.extra = extra
