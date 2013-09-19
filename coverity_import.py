@@ -38,7 +38,7 @@ class Issue(object):
             parts = filter(None, os.path.split(filename))
             if len(parts) <= 1 and filename[1] != ':':
                 raise InvalidFormatException('Filename must be absolute path', filename)
-            if self.filename == UNKNOWN_FILE:
+            if self.filename == self.UNKNOWN_FILE:
                 self.filename = filename
 
         self._locs.append(IssueLocation(int(line), filename, description, method=method, tag=tag))
