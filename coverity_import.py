@@ -20,6 +20,8 @@ class IssueLocation(object):
         self.tag = tag
 
 class Issue(object):
+    UNKNOWN_FILE = '?unknown?'
+
     def __init__(self, checker, tag, extra='', function='', subcategory='', description=''):
         self.main_event = 0
         self.checker = checker
@@ -29,11 +31,15 @@ class Issue(object):
         self.subcategory = subcategory
         self.description = description
         self._locs = []
+        self.filename = self.UNKNOWN_FILE
 
     def add_location(self, line, filename, description=None, method=None, tag=None):
-        parts = filter(None, os.path.split(filename))
-        if len(parts) <= 1 and filename[1] != ':':
-            raise InvalidFormatException('Filename must be absolute path', filename)
+        if filename is not None:
+            parts = filter(None, os.path.split(filename))
+            if len(parts) <= 1 and filename[1] != ':':
+                raise InvalidFormatException('Filename must be absolute path', filename)
+            if self.filename == UNKNOWN_FILE:
+                self.filename = filename
 
         self._locs.append(IssueLocation(int(line), filename, description, method=method, tag=tag))
 
@@ -74,7 +80,7 @@ class CoverityIssueCollector(object):
 
     def add_issue(self, issue):
         self._issues.add(issue)
-        self._files |= set([x.filename for x in issue._locs])
+        self._files |= set([x.filename for x in issue._locs if x.filename != issue.UNKNOWN_FILE])
 
     def process(self, f):
         '''
@@ -84,7 +90,7 @@ class CoverityIssueCollector(object):
 
     def sources(self):
         return [{'file': f, 'encoding': self._default_encoding}
-                for f in self._files]
+                for f in self._files if f is not None]
 
     def issues(self):
         return [
