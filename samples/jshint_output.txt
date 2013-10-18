@@ -1,0 +1,53 @@
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 1, col 23, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 7, col 5, Bad line breaking before '?'.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 9, col 31, Bad line breaking before '?'.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 12, col 27, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 18, col 22, Wrap the /regexp/ literal in parens to disambiguate the slash operator.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 19, col 19, Bad line breaking before '&&'.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 20, col 19, Bad line breaking before '&&'.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 24, col 67, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 31, col 62, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 32, col 19, Value of 'e' may be overwritten in IE 8 and earlier.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 33, col 13, 'd' used out of scope.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 33, col 41, 'd' used out of scope.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 33, col 42, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 38, col 10, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 41, col 32, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 42, col 9, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 44, col 23, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 46, col 22, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 48, col 29, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 50, col 17, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 53, col 50, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 58, col 26, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 61, col 32, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 62, col 13, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 63, col 7, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 67, col 28, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 68, col 19, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 71, col 64, Did you mean to return a conditional instead of an assignment?
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 71, col 66, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 72, col 55, Did you mean to return a conditional instead of an assignment?
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 72, col 57, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 73, col 52, Did you mean to return a conditional instead of an assignment?
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 73, col 54, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 74, col 39, Did you mean to return a conditional instead of an assignment?
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 74, col 41, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 76, col 9, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 77, col 57, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 78, col 27, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 79, col 7, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 84, col 28, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 85, col 22, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 86, col 27, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 88, col 44, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 90, col 26, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 92, col 34, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 93, col 36, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 93, col 64, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 94, col 42, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 95, col 38, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 96, col 26, Missing semicolon.
+C:\Users\marmitage\Documents\Tmp\init-input.js: line 96, col 26, Too many errors. (50% scanned).
+
+51 errors

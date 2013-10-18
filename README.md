@@ -39,36 +39,42 @@ Note that the filenames listed in the analysis output need to be absolute
 paths.  Normally, specifying an absolute path to the analysis command will
 ensure that the output uses the absolute path.
 
-adacontrol_import.py
+adacontrol\_import.py
 ------------------
 Script providing support for importing AdaControl results (see
 http://sourceforge.net/projects/adacontrol/)
 
-catnet_import.py
+catnet\_import.py
 ------------------
 Script providing support for importing CAT.NET results (see
 http://visualstudiogallery.msdn.microsoft.com/8ef8d7ba-422a-428d-86ed-74fc864a7697).
 
-checkstyle_import.py
+checkstyle\_import.py
 ------------------
 Script providing support for importing Checkstyle results (see
 http://checkstyle.sourceforge.net).
 
-coverity_import.py
+coverity\_import.py
 ------------------
 Script providing generic support for the Coverity import.  You won't typically
 run this script directly; it will be imported by the main script.
 
-cppcheck_import.py
+cppcheck\_import.py
 ------------------
 Script providing support for importing Cppcheck results (see
 http://cppcheck.sourceforge.net).
 
 You'll need to use the --xml-version=2 option when you run cppcheck.  Note
 that the XML output goes to stderr, so you'll typically redirect stderr to a
-file or pipe so that it can be processed by cppcheck_import.py.
+file or pipe so that it can be processed by cppcheck\_import.py.
 
-valgrind_import.py
+jshint\_import.py
+------------------
+Script providing support for importing JSHint results (see
+http://www.jshint.com/).  The script does not currently support the following
+options: --verbose, --show-non-errors.
+
+valgrind\_import.py
 ------------------
 Script providing support for importing Valgrind results (see
 http://valgrind.org).
@@ -76,7 +82,7 @@ http://valgrind.org).
 You'll need to use the --xml=yes option when you run valgrind.  This script
 has only been used with the memcheck tool; others may or may not work.
 
-vera++_import.py
+vera++\_import.py
 ------------------
 Script providing support for importing Vera++ Community Edition results (see
 http://www.inspirel.com/vera/).
