@@ -11,10 +11,15 @@ class InvalidFormatException(Exception):
     def __str__(self):
         return '%s: "%s"' % (self._msg, self._arg)
 
+def normalize_path(fn):
+    if fn[0].upper() in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' and fn[1] == ':':
+        fn = fn[2:]
+    return fn.replace('\\','/')
+
 class IssueLocation(object):
     def __init__(self, line, filename, description, method=None, tag=None):
         self.line = line
-        self.filename = filename
+        self.filename = normalize_path(filename)
         self.description = description
         self.method = method
         self.tag = tag
@@ -38,6 +43,7 @@ class Issue(object):
             parts = filter(None, os.path.split(filename))
             if len(parts) <= 1 and filename[1] != ':':
                 raise InvalidFormatException('Filename must be absolute path', filename)
+            filename = normalize_path(filename)
             if self.filename == self.UNKNOWN_FILE:
                 self.filename = filename
 
