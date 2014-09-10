@@ -17,12 +17,14 @@ def normalize_path(fn):
     return fn.replace('\\','/')
 
 class IssueLocation(object):
-    def __init__(self, line, filename, description, method=None, tag=None):
+    def __init__(self, line, filename, description, method=None, tag=None, link=None, linktext=None):
         self.line = line
         self.filename = normalize_path(filename)
         self.description = description
         self.method = method
         self.tag = tag
+        self.link = link
+        self.linktext = linktext
 
 class Issue(object):
     UNKNOWN_FILE = '?unknown?'
@@ -38,7 +40,7 @@ class Issue(object):
         self._locs = []
         self.filename = self.UNKNOWN_FILE
 
-    def add_location(self, line, filename, description=None, method=None, tag=None):
+    def add_location(self, line, filename, description=None, method=None, tag=None, link=None, linktext=None):
         if filename is not None:
             parts = filter(None, os.path.split(filename))
             if len(parts) <= 1 and filename[1] != ':':
@@ -47,7 +49,7 @@ class Issue(object):
             if self.filename == self.UNKNOWN_FILE:
                 self.filename = filename
 
-        self._locs.append(IssueLocation(int(line), filename, description, method=method, tag=tag))
+        self._locs.append(IssueLocation(int(line), filename, description, method=method, tag=tag, link=link, linktext=linktext))
 
 class CoverityThirdPartyIntegration(object):
     '''
@@ -112,6 +114,8 @@ class CoverityIssueCollector(object):
                 'description': i._locs[i.main_event].description or i.description,
                 'file': i._locs[i.main_event].filename or i.filename,
                 'line': i._locs[i.main_event].line,
+                'linkUrl': i._locs[i.main_event].link,
+                'linkText': i._locs[i.main_event].linktext,
                 'main': True
                 }
             ] + [
@@ -120,6 +124,8 @@ class CoverityIssueCollector(object):
                 'description': i._locs[x].description or i.description,
                 'file': i._locs[x].filename or i.filename,
                 'line': i._locs[x].line,
+                'linkUrl': i._locs[x].link,
+                'linkText': i._locs[x].linktext,
                 'main': False
                 }
                 for x in range(len(i._locs)) if x != i.main_event
