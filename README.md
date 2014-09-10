@@ -44,6 +44,14 @@ adacontrol\_import.py
 Script providing support for importing AdaControl results (see
 http://sourceforge.net/projects/adacontrol/)
 
+brakeman\_import.py
+------------------
+Script providing support for importing Brakeman results (see
+http://brakemanscanner.org).
+
+You'll need to use the --separate-models option when you run brakeman, to
+ensure that filenames are real as opposed to inferred.
+
 catnet\_import.py
 ------------------
 Script providing support for importing CAT.NET results (see
