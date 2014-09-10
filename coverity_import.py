@@ -101,6 +101,18 @@ class CoverityIssueCollector(object):
                 for f in self._files if f is not None]
 
     def issues(self):
+        def event_obj(x, i, main_event=False):
+            obj = {
+                'tag': main_event and i.tag or (x.tag or 'Related event'),
+                'description': x.description or i.description,
+                'file': x.filename or i.filename,
+                'line': x.line,
+                'main': main_event
+            }
+            if x.link: obj['linkUrl'] = x.link
+            if x.linktext: obj['linkText'] = x.linktext
+            return obj
+
         return [
         {
             'checker': '.'.join(filter(None, [self._checker_prefix,i.checker])),
@@ -109,25 +121,9 @@ class CoverityIssueCollector(object):
             'function': i.function,
             'subcategory': i.subcategory,
             'events': [
-                {
-                'tag': i.tag,
-                'description': i._locs[i.main_event].description or i.description,
-                'file': i._locs[i.main_event].filename or i.filename,
-                'line': i._locs[i.main_event].line,
-                'linkUrl': i._locs[i.main_event].link,
-                'linkText': i._locs[i.main_event].linktext,
-                'main': True
-                }
+                event_obj(i._locs[i.main_event], i, True)
             ] + [
-                {
-                'tag': i._locs[x].tag or 'Related event',
-                'description': i._locs[x].description or i.description,
-                'file': i._locs[x].filename or i.filename,
-                'line': i._locs[x].line,
-                'linkUrl': i._locs[x].link,
-                'linkText': i._locs[x].linktext,
-                'main': False
-                }
+                event_obj(i._locs[x], i)
                 for x in range(len(i._locs)) if x != i.main_event
             ]
         }
