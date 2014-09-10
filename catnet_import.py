@@ -55,7 +55,12 @@ class CatNETCollector(CoverityIssueCollector):
 
                     description = '%s%s to %s' % (tag, var_in, var_out)
 
-                    msg.add_location(line, filename, description, method=method, tag=tag)
+                    try:
+                        msg.add_location(line, filename, description, method=method, tag=tag)
+                    except AttributeError:
+                        for n in ('line','filename','description','method','tag'):
+                            print n.upper(), locals()[n]
+                        raise
 
                 if confidence_level != 'Low' and not suppressed:
                     # The first loc is going to be treated as the main event,
