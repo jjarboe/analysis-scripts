@@ -1,0 +1,1483 @@
+************* Module coverity
+coverity/__init__.py:1: [C0111(missing-docstring), ] Missing module docstring
+************* Module coverity.rest
+coverity/rest.py:33: [C0301(line-too-long), ] Line too long (111/80)
+coverity/rest.py:33: [C0326(bad-whitespace), ] Exactly one space required after comma
+    return urlparse.urlunparse(tuple([r.scheme,r.netloc,r.path,r.params,urllib.urlencode(p, True),r.fragment]))
+                                              ^
+coverity/rest.py:33: [C0326(bad-whitespace), ] Exactly one space required after comma
+    return urlparse.urlunparse(tuple([r.scheme,r.netloc,r.path,r.params,urllib.urlencode(p, True),r.fragment]))
+                                                       ^
+coverity/rest.py:33: [C0326(bad-whitespace), ] Exactly one space required after comma
+    return urlparse.urlunparse(tuple([r.scheme,r.netloc,r.path,r.params,urllib.urlencode(p, True),r.fragment]))
+                                                              ^
+coverity/rest.py:33: [C0326(bad-whitespace), ] Exactly one space required after comma
+    return urlparse.urlunparse(tuple([r.scheme,r.netloc,r.path,r.params,urllib.urlencode(p, True),r.fragment]))
+                                                                       ^
+coverity/rest.py:33: [C0326(bad-whitespace), ] Exactly one space required after comma
+    return urlparse.urlunparse(tuple([r.scheme,r.netloc,r.path,r.params,urllib.urlencode(p, True),r.fragment]))
+                                                                                                 ^
+coverity/rest.py:39: [C0326(bad-whitespace), ] Exactly one space required after comma
+        super(JsonRequest,self).__init__(base_url)
+                         ^
+coverity/rest.py:46: [C0326(bad-whitespace), ] Exactly one space required after comma
+            print 'ERROR:',self.get_full_url()
+                          ^
+coverity/rest.py:52: [C0326(bad-whitespace), ] Exactly one space required after comma
+        super(JsonGet,self).__init__(base_url, csrf=csrf)
+                     ^
+coverity/rest.py:56: [C0326(bad-whitespace), ] Exactly one space required after comma
+        super(JsonPost,self).__init__(base_url, csrf=csrf)
+                      ^
+coverity/rest.py:62: [C0326(bad-whitespace), ] Exactly one space required after comma
+        super(JsonPut,self).__init__(base_url, csrf=csrf)
+                     ^
+coverity/rest.py:68: [C0326(bad-whitespace), ] Exactly one space required after comma
+        super(JsonDelete,self).__init__(base_url, csrf=csrf)
+                        ^
+coverity/rest.py:72: [C0301(line-too-long), ] Line too long (130/80)
+coverity/rest.py:79: [W0311(bad-indentation), ] Bad indentation. Found 17 spaces, expected 16
+coverity/rest.py:79: [C0301(line-too-long), ] Line too long (85/80)
+coverity/rest.py:89: [C0301(line-too-long), ] Line too long (86/80)
+coverity/rest.py:104: [C0326(bad-whitespace), ] No space allowed after bracket
+        data = { 'j_username': options.user,
+               ^
+coverity/rest.py:122: [C0301(line-too-long), ] Line too long (124/80)
+coverity/rest.py:126: [C0301(line-too-long), ] Line too long (116/80)
+coverity/rest.py:129: [C0301(line-too-long), ] Line too long (104/80)
+coverity/rest.py:132: [C0301(line-too-long), ] Line too long (96/80)
+coverity/rest.py:135: [C0301(line-too-long), ] Line too long (107/80)
+coverity/rest.py:138: [C0301(line-too-long), ] Line too long (104/80)
+coverity/rest.py:156: [C0326(bad-whitespace), ] No space allowed after bracket
+            params = { 'name': name }
+                     ^
+coverity/rest.py:156: [C0326(bad-whitespace), ] No space allowed before bracket
+            params = { 'name': name }
+                                    ^
+coverity/rest.py:159: [C0326(bad-whitespace), ] No space allowed before bracket
+            resp = json.load(self.opener.open(url, params ))
+                                                          ^
+coverity/rest.py:167: [C0301(line-too-long), ] Line too long (85/80)
+coverity/rest.py:173: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/rest.py:173: [C0301(line-too-long), ] Line too long (161/80)
+coverity/rest.py:173: [C0326(bad-whitespace), ] Exactly one space required after comma
+          return JsonPut(self.base_url()+'report/%d/share.json?isSharingEnabled=true&principals=%s'%(rid,principals), None, csrf=self.csrf_token).go(self.opener)
+                                                                                                        ^
+coverity/rest.py:175: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/rest.py:176: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/rest.py:179: [C0301(line-too-long), ] Line too long (133/80)
+coverity/rest.py:179: [C0326(bad-whitespace), ] Exactly one space required after comma
+            url = merge_params(self.base_url()+'report/filters.json?metric=%s&reportId=%d'%(metric,rid), {'_csrf': self.csrf_token} )
+                                                                                                  ^
+coverity/rest.py:179: [C0326(bad-whitespace), ] No space allowed before bracket
+            url = merge_params(self.base_url()+'report/filters.json?metric=%s&reportId=%d'%(metric,rid), {'_csrf': self.csrf_token} )
+                                                                                                                                    ^
+coverity/rest.py:181: [C0301(line-too-long), ] Line too long (146/80)
+coverity/rest.py:183: [C0301(line-too-long), ] Line too long (123/80)
+coverity/rest.py:183: [C0326(bad-whitespace), ] Exactly one space required after comma
+            return JsonPost(self.base_url()+'report/filters.json?metric=%s&reportId=%d'%(metric,rid), None).go(self.opener)
+                                                                                               ^
+coverity/rest.py:186: [C0301(line-too-long), ] Line too long (133/80)
+coverity/rest.py:187: [C0301(line-too-long), ] Line too long (110/80)
+coverity/rest.py:187: [C0326(bad-whitespace), ] Exactly one space required after comma
+        return JsonGet(self.base_url()+'report/filters.json?metricId=%d&metric=%s'%(mid,name)).go(self.opener)
+                                                                                       ^
+coverity/rest.py:188: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/rest.py:190: [C0301(line-too-long), ] Line too long (115/80)
+coverity/rest.py:191: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/rest.py:193: [C0301(line-too-long), ] Line too long (118/80)
+coverity/rest.py:194: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/rest.py:196: [C0301(line-too-long), ] Line too long (97/80)
+coverity/rest.py:197: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/rest.py:220: [C0301(line-too-long), ] Line too long (112/80)
+coverity/rest.py:224: [C0301(line-too-long), ] Line too long (114/80)
+coverity/rest.py:224: [C0326(bad-whitespace), ] Exactly one space required after comma
+        new_def_i = [idx for idx,x in enumerate(c_set) if x['id'] == defs['id'] and x['name'] == defs['name'] ][0]
+                                ^
+coverity/rest.py:224: [C0326(bad-whitespace), ] No space allowed before bracket
+        new_def_i = [idx for idx,x in enumerate(c_set) if x['id'] == defs['id'] and x['name'] == defs['name'] ][0]
+                                                                                                              ^
+coverity/rest.py:232: [C0301(line-too-long), ] Line too long (102/80)
+coverity/rest.py:233: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/rest.py:237: [C0326(bad-whitespace), ] No space allowed after bracket
+            url = merge_params(url, { '_csrf': self.csrf_token })
+                                    ^
+coverity/rest.py:237: [C0326(bad-whitespace), ] No space allowed before bracket
+            url = merge_params(url, { '_csrf': self.csrf_token })
+                                                               ^
+coverity/rest.py:242: [C0326(bad-whitespace), ] No space allowed after bracket
+        data = { 'file': f }
+               ^
+coverity/rest.py:242: [C0326(bad-whitespace), ] No space allowed before bracket
+        data = { 'file': f }
+                           ^
+coverity/rest.py:253: [C0326(bad-whitespace), ] No space allowed after bracket
+            url = merge_params(url, { '_csrf': self.csrf_token })
+                                    ^
+coverity/rest.py:253: [C0326(bad-whitespace), ] No space allowed before bracket
+            url = merge_params(url, { '_csrf': self.csrf_token })
+                                                               ^
+coverity/rest.py:256: [C0326(bad-whitespace), ] No space allowed after bracket
+        data = { 'file': f }
+               ^
+coverity/rest.py:256: [C0326(bad-whitespace), ] No space allowed before bracket
+        data = { 'file': f }
+                           ^
+coverity/rest.py:263: [C0326(bad-whitespace), ] No space allowed after bracket
+            url = merge_params(url, { '_csrf': self.csrf_token } )
+                                    ^
+coverity/rest.py:263: [C0326(bad-whitespace), ] No space allowed before bracket
+            url = merge_params(url, { '_csrf': self.csrf_token } )
+                                                               ^
+coverity/rest.py:263: [C0326(bad-whitespace), ] No space allowed before bracket
+            url = merge_params(url, { '_csrf': self.csrf_token } )
+                                                                 ^
+coverity/rest.py:264: [C0326(bad-whitespace), ] No space allowed after bracket
+        data = { 'file': f }
+               ^
+coverity/rest.py:264: [C0326(bad-whitespace), ] No space allowed before bracket
+        data = { 'file': f }
+                           ^
+coverity/rest.py:1: [C0111(missing-docstring), ] Missing module docstring
+coverity/rest.py:17: [C0111(missing-docstring), UnrecognizedFormat] Missing class docstring
+coverity/rest.py:18: [W0231(super-init-not-called), UnrecognizedFormat.__init__] __init__ method from base class 'Exception' is not called
+coverity/rest.py:23: [C0111(missing-docstring), OperationFailed] Missing class docstring
+coverity/rest.py:24: [W0231(super-init-not-called), OperationFailed.__init__] __init__ method from base class 'Exception' is not called
+coverity/rest.py:29: [C0111(missing-docstring), merge_params] Missing function docstring
+coverity/rest.py:30: [C0103(invalid-name), merge_params] Invalid variable name "r"
+coverity/rest.py:31: [C0103(invalid-name), merge_params] Invalid variable name "p"
+coverity/rest.py:35: [C0111(missing-docstring), JsonRequest] Missing class docstring
+coverity/rest.py:43: [C0103(invalid-name), JsonRequest.go] Invalid method name "go"
+coverity/rest.py:43: [C0111(missing-docstring), JsonRequest.go] Missing method docstring
+coverity/rest.py:44: [C0321(multiple-statements), JsonRequest.go] More than one statement on a single line
+coverity/rest.py:48: [C0321(multiple-statements), JsonRequest.go] More than one statement on a single line
+coverity/rest.py:50: [C0111(missing-docstring), JsonGet] Missing class docstring
+coverity/rest.py:54: [C0111(missing-docstring), JsonPost] Missing class docstring
+coverity/rest.py:60: [C0111(missing-docstring), JsonPut] Missing class docstring
+coverity/rest.py:66: [C0111(missing-docstring), JsonDelete] Missing class docstring
+coverity/rest.py:71: [C0111(missing-docstring), CoverityRestConn] Missing class docstring
+coverity/rest.py:74: [C0111(missing-docstring), CoverityRestConn.CoverityXmlNormalizer] Missing class docstring
+coverity/rest.py:74: [W0232(no-init), CoverityRestConn.CoverityXmlNormalizer] Class has no __init__ method
+coverity/rest.py:77: [C0111(missing-docstring), CoverityRestConn.CoverityXmlNormalizer.http_request] Missing method docstring
+coverity/rest.py:87: [C0103(invalid-name), CoverityRestConn.__init__] Invalid variable name "cj"
+coverity/rest.py:98: [C0111(missing-docstring), CoverityRestConn.base_url] Missing method docstring
+coverity/rest.py:101: [C0111(missing-docstring), CoverityRestConn.login] Missing method docstring
+coverity/rest.py:111: [C0103(invalid-name), CoverityRestConn.login] Invalid variable name "m"
+coverity/rest.py:120: [C0103(invalid-name), CoverityRestConn.login] Invalid variable name "e"
+coverity/rest.py:125: [C0111(missing-docstring), CoverityRestConn.get_users] Missing method docstring
+coverity/rest.py:128: [C0111(missing-docstring), CoverityRestConn.get_reports] Missing method docstring
+coverity/rest.py:131: [C0111(missing-docstring), CoverityRestConn.get_hierarchies] Missing method docstring
+coverity/rest.py:134: [C0111(missing-docstring), CoverityRestConn.delete_hierarchy] Missing method docstring
+coverity/rest.py:137: [C0111(missing-docstring), CoverityRestConn.delete_report] Missing method docstring
+coverity/rest.py:140: [C0111(missing-docstring), CoverityRestConn.get_matching_hierarchy_ids] Missing method docstring
+coverity/rest.py:141: [C0103(invalid-name), CoverityRestConn.get_matching_hierarchy_ids] Invalid variable name "h"
+coverity/rest.py:146: [C0111(missing-docstring), CoverityRestConn.create_report] Missing method docstring
+coverity/rest.py:170: [C0111(missing-docstring), CoverityRestConn.share_report] Missing method docstring
+coverity/rest.py:177: [C0111(missing-docstring), CoverityRestConn.create_metric] Missing method docstring
+coverity/rest.py:185: [C0111(missing-docstring), CoverityRestConn.get_metric] Missing method docstring
+coverity/rest.py:189: [C0111(missing-docstring), CoverityRestConn.save_metric] Missing method docstring
+coverity/rest.py:192: [C0111(missing-docstring), CoverityRestConn.get_report] Missing method docstring
+coverity/rest.py:195: [C0111(missing-docstring), CoverityRestConn.save_report] Missing method docstring
+coverity/rest.py:198: [C0111(missing-docstring), CoverityRestConn.create_dashboard] Missing method docstring
+coverity/rest.py:201: [C0111(missing-docstring), CoverityRestConn.create_heatmap] Missing method docstring
+coverity/rest.py:204: [C0111(missing-docstring), CoverityRestConn.create_statusreport] Missing method docstring
+coverity/rest.py:207: [C0111(missing-docstring), CoverityRestConn.create_trend] Missing method docstring
+coverity/rest.py:210: [C0111(missing-docstring), CoverityRestConn.report_factory] Missing method docstring
+coverity/rest.py:219: [C0111(missing-docstring), CoverityRestConn.make_classifications_default] Missing method docstring
+coverity/rest.py:226: [C0103(invalid-name), CoverityRestConn.make_classifications_default] Invalid variable name "x"
+coverity/rest.py:234: [C0103(invalid-name), CoverityRestConn.import_classifications] Invalid argument name "f"
+coverity/rest.py:234: [C0111(missing-docstring), CoverityRestConn.import_classifications] Missing method docstring
+coverity/rest.py:250: [C0103(invalid-name), CoverityRestConn.import_checkers] Invalid argument name "f"
+coverity/rest.py:250: [C0111(missing-docstring), CoverityRestConn.import_checkers] Missing method docstring
+coverity/rest.py:260: [C0103(invalid-name), CoverityRestConn._create_hierarchy] Invalid argument name "f"
+coverity/rest.py:260: [C0111(missing-docstring), CoverityRestConn._create_hierarchy] Missing method docstring
+coverity/rest.py:275: [C0103(invalid-name), CoverityRestConn.create_hierarchy] Invalid argument name "f"
+coverity/rest.py:275: [C0111(missing-docstring), CoverityRestConn.create_hierarchy] Missing method docstring
+coverity/rest.py:277: [C0103(invalid-name), CoverityRestConn.create_hierarchy] Invalid variable name "p"
+coverity/rest.py:71: [R0904(too-many-public-methods), CoverityRestConn] Too many public methods (24/20)
+coverity/rest.py:15: [W0611(unused-import), ] Unused import DefectHandler
+coverity/rest.py:4: [W0611(unused-import), ] Unused import sys
+coverity/rest.py:15: [W0611(unused-import), ] Unused import WSOpts
+coverity/rest.py:9: [W0611(unused-import), ] Unused import pprint
+coverity/rest.py:15: [W0611(unused-import), ] Unused import client
+************* Module coverity.ws.__init__
+coverity/ws/__init__.py:383: [W0511(fixme), ] TODO: Consider calling self._client.defect.getStreamDefects()
+coverity/ws/__init__.py:44: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        webservice_type = None,
+                        ^
+coverity/ws/__init__.py:45: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        host = None,
+             ^
+coverity/ws/__init__.py:46: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        port = None,
+             ^
+coverity/ws/__init__.py:47: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        user = None,
+             ^
+coverity/ws/__init__.py:48: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        password = None,
+                 ^
+coverity/ws/__init__.py:49: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        secure = False,
+               ^
+coverity/ws/__init__.py:50: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        api_version = 2,
+                    ^
+coverity/ws/__init__.py:51: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        options = None
+                ^
+coverity/ws/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+        if webservice_type not in ('administration','configuration','defect'):
+                                                   ^
+coverity/ws/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+        if webservice_type not in ('administration','configuration','defect'):
+                                                                   ^
+coverity/ws/__init__.py:74: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:99: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:101: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+               pageSize = 1000,
+                        ^
+coverity/ws/__init__.py:102: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+               sortAscending = False,
+                             ^
+coverity/ws/__init__.py:103: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+               startIndex = 0,
+                          ^
+coverity/ws/__init__.py:107: [C0325(superfluous-parens), ] Unnecessary parens after 'print' keyword
+coverity/ws/__init__.py:112: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        streamId = None,
+                 ^
+coverity/ws/__init__.py:113: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        defectInstance = None,
+                       ^
+coverity/ws/__init__.py:114: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        fileInstance = None
+                     ^
+coverity/ws/__init__.py:122: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:123: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:125: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:129: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/ws/__init__.py:131: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/ws/__init__.py:133: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/ws/__init__.py:155: [C0326(bad-whitespace), ] Exactly one space required after comma
+        for (k,v) in kw.items():
+              ^
+coverity/ws/__init__.py:158: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:195: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:200: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+coverity/ws/__init__.py:203: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+coverity/ws/__init__.py:204: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:207: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:208: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:209: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:210: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:212: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+coverity/ws/__init__.py:213: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:218: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:219: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:220: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:222: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:223: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:224: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:225: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:226: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:227: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:231: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:232: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:233: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:234: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:235: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:236: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:239: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:240: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:241: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 8
+coverity/ws/__init__.py:242: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:246: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:247: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:248: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:249: [W0311(bad-indentation), ] Bad indentation. Found 15 spaces, expected 16
+coverity/ws/__init__.py:250: [W0311(bad-indentation), ] Bad indentation. Found 19 spaces, expected 20
+coverity/ws/__init__.py:251: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:252: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:253: [W0311(bad-indentation), ] Bad indentation. Found 15 spaces, expected 16
+coverity/ws/__init__.py:255: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:256: [W0311(bad-indentation), ] Bad indentation. Found 15 spaces, expected 16
+coverity/ws/__init__.py:257: [W0311(bad-indentation), ] Bad indentation. Found 15 spaces, expected 16
+coverity/ws/__init__.py:258: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:259: [W0311(bad-indentation), ] Bad indentation. Found 11 spaces, expected 12
+coverity/ws/__init__.py:260: [W0311(bad-indentation), ] Bad indentation. Found 15 spaces, expected 16
+coverity/ws/__init__.py:261: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:262: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+coverity/ws/__init__.py:263: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:264: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:265: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/ws/__init__.py:266: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/ws/__init__.py:267: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:268: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:269: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/ws/__init__.py:270: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/ws/__init__.py:271: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:272: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:273: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+coverity/ws/__init__.py:274: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:274: [C0326(bad-whitespace), ] Exactly one space required after comma
+    rfile = file(value,'r').read().split()
+                      ^
+coverity/ws/__init__.py:275: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:277: [W0311(bad-indentation), ] Bad indentation. Found 3 spaces, expected 4
+coverity/ws/__init__.py:278: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:282: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:282: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--response-file","-r", action="callback",
+                                            ^
+coverity/ws/__init__.py:284: [W0301(unnecessary-semicolon), ] Unnecessary semicolon
+coverity/ws/__init__.py:286: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:287: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:288: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:289: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:290: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:291: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:292: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:293: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:294: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:295: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:296: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:297: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:298: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:300: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:301: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:301: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--port",  dest="port", help="port of CIM")
+                                   ^
+coverity/ws/__init__.py:302: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:302: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--secure",  dest="secure",  action="store_true",
+                                     ^
+coverity/ws/__init__.py:302: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--secure",  dest="secure",  action="store_true",
+                                                     ^
+coverity/ws/__init__.py:304: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:304: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--user",  dest="user", help="CIM user")
+                                   ^
+coverity/ws/__init__.py:305: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:305: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--password",  dest="password",
+                                       ^
+coverity/ws/__init__.py:307: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:307: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--project",  dest="project",  help="project name")
+                                      ^
+coverity/ws/__init__.py:307: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--project",  dest="project",  help="project name")
+                                                       ^
+coverity/ws/__init__.py:308: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:308: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--stream",  dest="stream",  help="stream name")
+                                     ^
+coverity/ws/__init__.py:308: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--stream",  dest="stream",  help="stream name")
+                                                     ^
+coverity/ws/__init__.py:309: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:309: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--snapshot",  type=int, dest="snapshot",
+                                       ^
+coverity/ws/__init__.py:311: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:311: [C0326(bad-whitespace), ] Exactly one space required after comma
+    self.parser.add_option("--snapshot-op",  dest="snapshot_op",
+                                          ^
+coverity/ws/__init__.py:315: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:318: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:320: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:322: [C0301(line-too-long), ] Line too long (84/80)
+coverity/ws/__init__.py:322: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:324: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:326: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:328: [C0301(line-too-long), ] Line too long (95/80)
+coverity/ws/__init__.py:328: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:331: [W0311(bad-indentation), ] Bad indentation. Found 4 spaces, expected 8
+coverity/ws/__init__.py:362: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+            pageSize = 2500,
+                     ^
+coverity/ws/__init__.py:363: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+            sortAscending = False,
+                          ^
+coverity/ws/__init__.py:364: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+            startIndex = 0)
+                       ^
+coverity/ws/__init__.py:367: [C0301(line-too-long), ] Line too long (83/80)
+coverity/ws/__init__.py:368: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+            totalNumberOfRecords = 0,
+                                 ^
+coverity/ws/__init__.py:369: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+            mergedDefects = [])
+                          ^
+coverity/ws/__init__.py:377: [C0301(line-too-long), ] Line too long (82/80)
+coverity/ws/__init__.py:382: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:384: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:388: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:390: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:393: [C0301(line-too-long), ] Line too long (82/80)
+coverity/ws/__init__.py:400: [C0301(line-too-long), ] Line too long (83/80)
+coverity/ws/__init__.py:419: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+			name = scope.options.project
+        ^
+coverity/ws/__init__.py:424: [C0301(line-too-long), ] Line too long (83/80)
+coverity/ws/__init__.py:425: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:427: [C0301(line-too-long), ] Line too long (110/80)
+coverity/ws/__init__.py:428: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:430: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:433: [C0301(line-too-long), ] Line too long (82/80)
+coverity/ws/__init__.py:449: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+			name = scope.options.project
+        ^
+coverity/ws/__init__.py:454: [C0301(line-too-long), ] Line too long (120/80)
+coverity/ws/__init__.py:456: [C0301(line-too-long), ] Line too long (86/80)
+coverity/ws/__init__.py:457: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:459: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:488: [C0326(bad-whitespace), ] Exactly one space required after comma
+        elif self.options.status.lower() in ('*','all'):
+                                                ^
+coverity/ws/__init__.py:492: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:494: [C0326(bad-whitespace), ] Exactly one space required after comma
+        if self.options.component.lower() not in ('*','all'):
+                                                     ^
+coverity/ws/__init__.py:495: [C0301(line-too-long), ] Line too long (140/80)
+coverity/ws/__init__.py:497: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:499: [C0326(bad-whitespace), ] Exactly one space required after comma
+        if self.options.severity.lower() not in ('*','all'):
+                                                    ^
+coverity/ws/__init__.py:501: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:503: [C0326(bad-whitespace), ] Exactly one space required after comma
+        if self.options.classification.lower() not in ('*','all'):
+                                                          ^
+coverity/ws/__init__.py:504: [C0301(line-too-long), ] Line too long (91/80)
+coverity/ws/__init__.py:505: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:536: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                namePattern = self.options.project)
+                            ^
+coverity/ws/__init__.py:570: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                    pageSize = 1, sortAscending = False, startIndex = 0)
+                             ^
+coverity/ws/__init__.py:570: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                    pageSize = 1, sortAscending = False, startIndex = 0)
+                                                ^
+coverity/ws/__init__.py:570: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                    pageSize = 1, sortAscending = False, startIndex = 0)
+                                                                    ^
+coverity/ws/__init__.py:595: [W0311(bad-indentation), ] Bad indentation. Found 18 spaces, expected 20
+coverity/ws/__init__.py:596: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 24
+coverity/ws/__init__.py:597: [W0311(bad-indentation), ] Bad indentation. Found 18 spaces, expected 20
+coverity/ws/__init__.py:598: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 24
+coverity/ws/__init__.py:599: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 24
+coverity/ws/__init__.py:600: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:603: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:616: [C0326(bad-whitespace), ] Exactly one space required after comma
+                pageSize=500,sortAscending=False,startIndex=0)
+                            ^
+coverity/ws/__init__.py:616: [C0326(bad-whitespace), ] Exactly one space required after comma
+                pageSize=500,sortAscending=False,startIndex=0)
+                                                ^
+coverity/ws/__init__.py:618: [W0311(bad-indentation), ] Bad indentation. Found 14 spaces, expected 16
+coverity/ws/__init__.py:619: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 20
+coverity/ws/__init__.py:620: [W0311(bad-indentation), ] Bad indentation. Found 14 spaces, expected 16
+coverity/ws/__init__.py:622: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 20
+coverity/ws/__init__.py:626: [W0311(bad-indentation), ] Bad indentation. Found 14 spaces, expected 16
+coverity/ws/__init__.py:627: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 20
+coverity/ws/__init__.py:628: [W0311(bad-indentation), ] Bad indentation. Found 14 spaces, expected 16
+coverity/ws/__init__.py:629: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 20
+coverity/ws/__init__.py:630: [W0311(bad-indentation), ] Bad indentation. Found 14 spaces, expected 16
+coverity/ws/__init__.py:634: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:650: [C0326(bad-whitespace), ] Exactly one space required after assignment
+_cache ={}
+       ^
+coverity/ws/__init__.py:672: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:673: [C0326(bad-whitespace), ] Exactly one space required after comma
+    def _get_object(self,v):
+                        ^
+coverity/ws/__init__.py:674: [C0326(bad-whitespace), ] Exactly one space required after comma
+        map,comp = v.split('.')
+           ^
+coverity/ws/__init__.py:675: [C0301(line-too-long), ] Line too long (113/80)
+coverity/ws/__init__.py:683: [C0301(line-too-long), ] Line too long (101/80)
+coverity/ws/__init__.py:683: [C0326(bad-whitespace), ] Exactly one space required around assignment
+            ret.componentPathRules.extend([x for x in i.componentPathRules if x.componentId.name==v])
+                                                                                                ^^
+coverity/ws/__init__.py:684: [C0301(line-too-long), ] Line too long (85/80)
+coverity/ws/__init__.py:684: [C0326(bad-whitespace), ] Exactly one space required around assignment
+            ret.components.extend([x for x in i.components if x.componentId.name==v])
+                                                                                ^^
+coverity/ws/__init__.py:685: [C0301(line-too-long), ] Line too long (87/80)
+coverity/ws/__init__.py:685: [C0326(bad-whitespace), ] Exactly one space required around assignment
+            ret.defectRules.extend([x for x in i.defectRules if x.componentId.name==v])
+                                                                                  ^^
+coverity/ws/__init__.py:687: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:704: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                 projectId = None,
+                           ^
+coverity/ws/__init__.py:705: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                 projectDOs = None,
+                            ^
+coverity/ws/__init__.py:706: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                 streamDefectDO = None,
+                                ^
+coverity/ws/__init__.py:707: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                 scope = None
+                       ^
+coverity/ws/__init__.py:721: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:756: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                includeDefectInstances = True,
+                                       ^
+coverity/ws/__init__.py:757: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                includeHistory = True,
+                               ^
+coverity/ws/__init__.py:758: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                scopePattern = scope)
+                             ^
+coverity/ws/__init__.py:762: [C0301(line-too-long), ] Line too long (83/80)
+coverity/ws/__init__.py:764: [C0301(line-too-long), ] Line too long (81/80)
+coverity/ws/__init__.py:768: [C0301(line-too-long), ] Line too long (81/80)
+coverity/ws/__init__.py:773: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:785: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:820: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                    cidList = [self.defectDO.cid],
+                            ^
+coverity/ws/__init__.py:821: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                    statusNameList = ['New','Triaged','Fixed','Dismissed'])
+                                   ^
+coverity/ws/__init__.py:821: [C0326(bad-whitespace), ] Exactly one space required after comma
+                    statusNameList = ['New','Triaged','Fixed','Dismissed'])
+                                           ^
+coverity/ws/__init__.py:821: [C0326(bad-whitespace), ] Exactly one space required after comma
+                    statusNameList = ['New','Triaged','Fixed','Dismissed'])
+                                                     ^
+coverity/ws/__init__.py:821: [C0326(bad-whitespace), ] Exactly one space required after comma
+                    statusNameList = ['New','Triaged','Fixed','Dismissed'])
+                                                             ^
+coverity/ws/__init__.py:832: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:840: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:845: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:876: [C0326(bad-whitespace), ] Exactly one space required after comma
+        return '??'.join([file.contentsMD5,file.filePathname])
+                                          ^
+coverity/ws/__init__.py:877: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:884: [C0326(bad-whitespace), ] Exactly one space required after comma
+            lines = [self.SourceLine(*x) for x in zip(range(1,len(l)+1), l)]
+                                                             ^
+coverity/ws/__init__.py:885: [C0326(bad-whitespace), ] Exactly one space required after comma
+            _cache['files'][key] = (text,lines)
+                                        ^
+coverity/ws/__init__.py:886: [C0326(bad-whitespace), ] Exactly one space required after comma
+        (self.contents,self._split_contents) = _cache['files'][key]
+                      ^
+coverity/ws/__init__.py:887: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/ws/__init__.py:895: [C0326(bad-whitespace), ] Exactly one space required after comma
+            lines.insert(context/2, self.SourceLine('',caption))
+                                                      ^
+************* Module coverity.ws
+coverity/ws/__init__.py:80: [C0103(invalid-name), CoverityWebServiceClient.__init__] Invalid attribute name "wsdlFile"
+coverity/ws/__init__.py:99: [C0103(invalid-name), CoverityWebServiceClient.__init__] Invalid attribute name "pageSpecDO"
+coverity/ws/__init__.py:43: [R0913(too-many-arguments), CoverityWebServiceClient.__init__] Too many arguments (9/5)
+coverity/ws/__init__.py:55: [W0122(exec-used), CoverityWebServiceClient.__init__] Use of exec
+coverity/ws/__init__.py:57: [C0103(invalid-name), CoverityWebServiceClient.__init__] Invalid variable name "v"
+coverity/ws/__init__.py:58: [C0103(invalid-name), CoverityWebServiceClient.__init__] Invalid variable name "v"
+coverity/ws/__init__.py:61: [C0321(multiple-statements), CoverityWebServiceClient.__init__] More than one statement on a single line
+coverity/ws/__init__.py:106: [C0111(missing-docstring), CoverityWebServiceClient.getwsdl] Missing method docstring
+coverity/ws/__init__.py:109: [R0913(too-many-arguments), CoverityWebServiceClient.create_url] Too many arguments (6/5)
+coverity/ws/__init__.py:109: [C0103(invalid-name), CoverityWebServiceClient.create_url] Invalid argument name "streamId"
+coverity/ws/__init__.py:109: [C0103(invalid-name), CoverityWebServiceClient.create_url] Invalid argument name "defectInstance"
+coverity/ws/__init__.py:109: [C0103(invalid-name), CoverityWebServiceClient.create_url] Invalid argument name "fileInstance"
+coverity/ws/__init__.py:149: [C0103(invalid-name), CoverityWebServiceClient.getDO] Invalid method name "getDO"
+coverity/ws/__init__.py:149: [C0103(invalid-name), CoverityWebServiceClient.getDO] Invalid argument name "DO_type"
+coverity/ws/__init__.py:155: [C0103(invalid-name), CoverityWebServiceClient.getDO] Invalid variable name "v"
+coverity/ws/__init__.py:164: [C0103(invalid-name), CoverityConfigServiceClient.__init__] Invalid variable name "a"
+coverity/ws/__init__.py:166: [W0142(star-args), CoverityConfigServiceClient.__init__] Used * or ** magic
+coverity/ws/__init__.py:173: [C0103(invalid-name), CoverityAdminServiceClient.__init__] Invalid variable name "a"
+coverity/ws/__init__.py:175: [W0142(star-args), CoverityAdminServiceClient.__init__] Used * or ** magic
+coverity/ws/__init__.py:182: [C0103(invalid-name), CoverityDefectServiceClient.__init__] Invalid variable name "a"
+coverity/ws/__init__.py:184: [W0142(star-args), CoverityDefectServiceClient.__init__] Used * or ** magic
+coverity/ws/__init__.py:186: [C0111(missing-docstring), CoverityServiceClient] Missing class docstring
+coverity/ws/__init__.py:187: [C0111(missing-docstring), CoverityServiceClient.connect] Missing method docstring
+coverity/ws/__init__.py:186: [R0903(too-few-public-methods), CoverityServiceClient] Too few public methods (1/2)
+coverity/ws/__init__.py:192: [W0201(attribute-defined-outside-init), CoverityServiceClient.connect] Attribute 'admin' defined outside __init__
+coverity/ws/__init__.py:194: [W0201(attribute-defined-outside-init), CoverityServiceClient.connect] Attribute 'config' defined outside __init__
+coverity/ws/__init__.py:193: [W0201(attribute-defined-outside-init), CoverityServiceClient.connect] Attribute 'defect' defined outside __init__
+coverity/ws/__init__.py:196: [C0103(invalid-name), ] Invalid constant name "client"
+coverity/ws/__init__.py:199: [C1001(old-style-class), WSOpts] Old-style class defined.
+coverity/ws/__init__.py:207: [W0231(super-init-not-called), WSOpts.ValidationError.__init__] __init__ method from base class 'Exception' is not called
+coverity/ws/__init__.py:226: [W0221(arguments-differ), WSOpts.WSOptionParser.parse_args] Arguments number differs from overridden method
+coverity/ws/__init__.py:257: [C0321(multiple-statements), WSOpts.WSOptionParser.validate_args] More than one statement on a single line
+coverity/ws/__init__.py:212: [R0904(too-many-public-methods), WSOpts.WSOptionParser] Too many public methods (35/20)
+coverity/ws/__init__.py:264: [C0111(missing-docstring), WSOpts.__init__.validate_unassigned] Missing function docstring
+coverity/ws/__init__.py:265: [W0212(protected-access), WSOpts.__init__.validate_unassigned] Access to a protected member _unassigned_choices of a client class
+coverity/ws/__init__.py:264: [W0613(unused-argument), WSOpts.__init__.validate_unassigned] Unused argument 'args'
+coverity/ws/__init__.py:268: [C0111(missing-docstring), WSOpts.__init__.validate_snapshot_op] Missing function docstring
+coverity/ws/__init__.py:269: [W0212(protected-access), WSOpts.__init__.validate_snapshot_op] Access to a protected member _snapshot_op_choices of a client class
+coverity/ws/__init__.py:268: [W0613(unused-argument), WSOpts.__init__.validate_snapshot_op] Unused argument 'args'
+coverity/ws/__init__.py:273: [C0111(missing-docstring), WSOpts.response_file] Missing method docstring
+coverity/ws/__init__.py:273: [W0613(unused-argument), WSOpts.response_file] Unused argument 'opt_str'
+coverity/ws/__init__.py:273: [W0613(unused-argument), WSOpts.response_file] Unused argument 'option'
+coverity/ws/__init__.py:273: [R0201(no-self-use), WSOpts.response_file] Method could be a function
+coverity/ws/__init__.py:313: [W0212(protected-access), WSOpts.get_common_opts] Access to a protected member _snapshot_op_choices of a client class
+coverity/ws/__init__.py:317: [W0212(protected-access), WSOpts.get_common_opts] Access to a protected member _unassigned_choices of a client class
+coverity/ws/__init__.py:344: [W0621(redefined-outer-name), DefectReporter.__init__] Redefining name 'client' from outer scope (line 196)
+coverity/ws/__init__.py:353: [C0103(invalid-name), DefectReporter.defects] Invalid variable name "streamIdDOs"
+coverity/ws/__init__.py:354: [C0103(invalid-name), DefectReporter.defects] Invalid variable name "kw"
+coverity/ws/__init__.py:357: [C0103(invalid-name), DefectReporter.defects] Invalid variable name "mergedDefectFilterDO"
+coverity/ws/__init__.py:357: [W0142(star-args), DefectReporter.defects] Used * or ** magic
+coverity/ws/__init__.py:361: [C0103(invalid-name), DefectReporter.defects] Invalid variable name "ps"
+coverity/ws/__init__.py:367: [C0103(invalid-name), DefectReporter.defects] Invalid variable name "mergedDefectsPageDO"
+coverity/ws/__init__.py:391: [C0103(invalid-name), DefectReporter.recipients] Invalid argument name "md"
+coverity/ws/__init__.py:406: [W0621(redefined-outer-name), MetricsReporter.__init__] Redefining name 'client' from outer scope (line 196)
+coverity/ws/__init__.py:413: [C0103(invalid-name), MetricsReporter.defects] Invalid variable name "streamIdDOs"
+coverity/ws/__init__.py:414: [C0103(invalid-name), MetricsReporter.defects] Invalid variable name "kw"
+coverity/ws/__init__.py:417: [C0103(invalid-name), MetricsReporter.defects] Invalid variable name "projectIdDO"
+coverity/ws/__init__.py:421: [C0103(invalid-name), MetricsReporter.defects] Invalid variable name "projectTrendRecordFilterSpecDO"
+coverity/ws/__init__.py:427: [C0103(invalid-name), MetricsReporter.defects] Invalid variable name "metricsDO"
+coverity/ws/__init__.py:413: [W0612(unused-variable), MetricsReporter.defects] Unused variable 'streamIdDOs'
+coverity/ws/__init__.py:431: [C0103(invalid-name), MetricsReporter.recipients] Invalid argument name "md"
+coverity/ws/__init__.py:438: [C0111(missing-docstring), ComponentMetricsReporter] Missing class docstring
+coverity/ws/__init__.py:443: [C0103(invalid-name), ComponentMetricsReporter.defects] Invalid variable name "streamIdDOs"
+coverity/ws/__init__.py:444: [C0103(invalid-name), ComponentMetricsReporter.defects] Invalid variable name "kw"
+coverity/ws/__init__.py:447: [C0103(invalid-name), ComponentMetricsReporter.defects] Invalid variable name "projectIdDO"
+coverity/ws/__init__.py:454: [C0103(invalid-name), ComponentMetricsReporter.defects] Invalid variable name "metricsDO"
+coverity/ws/__init__.py:456: [C0103(invalid-name), ComponentMetricsReporter.defects] Invalid variable name "metricsDO"
+coverity/ws/__init__.py:443: [W0612(unused-variable), ComponentMetricsReporter.defects] Unused variable 'streamIdDOs'
+coverity/ws/__init__.py:444: [W0612(unused-variable), ComponentMetricsReporter.defects] Unused variable 'kw'
+coverity/ws/__init__.py:478: [C0103(invalid-name), OptionsProcessor.__init__] Invalid attribute name "projectId"
+coverity/ws/__init__.py:479: [C0103(invalid-name), OptionsProcessor.__init__] Invalid attribute name "projectDOs"
+coverity/ws/__init__.py:482: [C0103(invalid-name), OptionsProcessor.__init__] Invalid attribute name "streamIdDOs"
+coverity/ws/__init__.py:466: [C0111(missing-docstring), OptionsProcessor.StreamNotFound] Missing class docstring
+coverity/ws/__init__.py:466: [C0321(multiple-statements), OptionsProcessor.StreamNotFound] More than one statement on a single line
+coverity/ws/__init__.py:468: [C0111(missing-docstring), OptionsProcessor.TooManyObjects] Missing class docstring
+coverity/ws/__init__.py:469: [W0622(redefined-builtin), OptionsProcessor.TooManyObjects.__init__] Redefining built-in 'type'
+coverity/ws/__init__.py:469: [W0231(super-init-not-called), OptionsProcessor.TooManyObjects.__init__] __init__ method from base class 'Exception' is not called
+coverity/ws/__init__.py:476: [R0914(too-many-locals), OptionsProcessor.__init__] Too many local variables (24/15)
+coverity/ws/__init__.py:476: [W0621(redefined-outer-name), OptionsProcessor.__init__] Redefining name 'client' from outer scope (line 196)
+coverity/ws/__init__.py:519: [C0103(invalid-name), OptionsProcessor.__init__.ppi] Invalid argument name "x"
+coverity/ws/__init__.py:519: [C0111(missing-docstring), OptionsProcessor.__init__.ppi] Missing function docstring
+coverity/ws/__init__.py:521: [W0702(bare-except), OptionsProcessor.__init__.ppi] No exception type(s) specified
+coverity/ws/__init__.py:520: [C0321(multiple-statements), OptionsProcessor.__init__.ppi] More than one statement on a single line
+coverity/ws/__init__.py:521: [C0321(multiple-statements), OptionsProcessor.__init__.ppi] More than one statement on a single line
+coverity/ws/__init__.py:522: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "p"
+coverity/ws/__init__.py:522: [W0141(bad-builtin), OptionsProcessor.__init__] Used builtin function 'filter'
+coverity/ws/__init__.py:525: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "projectName"
+coverity/ws/__init__.py:531: [E0602(undefined-variable), OptionsProcessor.__init__] Undefined variable 'TooManyObjects'
+coverity/ws/__init__.py:534: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "projectFilterSpecDO"
+coverity/ws/__init__.py:545: [C0321(multiple-statements), OptionsProcessor.__init__] More than one statement on a single line
+coverity/ws/__init__.py:546: [C0321(multiple-statements), OptionsProcessor.__init__] More than one statement on a single line
+coverity/ws/__init__.py:562: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "ss"
+coverity/ws/__init__.py:564: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "f"
+coverity/ws/__init__.py:566: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "mf"
+coverity/ws/__init__.py:569: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "p"
+coverity/ws/__init__.py:572: [C0321(multiple-statements), OptionsProcessor.__init__] More than one statement on a single line
+coverity/ws/__init__.py:574: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "s"
+coverity/ws/__init__.py:578: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "d"
+coverity/ws/__init__.py:615: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "ps"
+coverity/ws/__init__.py:619: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "userPageDO"
+coverity/ws/__init__.py:622: [C0103(invalid-name), OptionsProcessor.__init__] Invalid variable name "userPageDO"
+coverity/ws/__init__.py:476: [R0912(too-many-branches), OptionsProcessor.__init__] Too many branches (36/12)
+coverity/ws/__init__.py:476: [R0915(too-many-statements), OptionsProcessor.__init__] Too many statements (72/50)
+coverity/ws/__init__.py:638: [C0111(missing-docstring), OptionsProcessor.triage_scope] Missing method docstring
+coverity/ws/__init__.py:461: [R0903(too-few-public-methods), OptionsProcessor] Too few public methods (1/2)
+coverity/ws/__init__.py:650: [C0103(invalid-name), ] Invalid constant name "_cache"
+coverity/ws/__init__.py:652: [C0111(missing-docstring), CachedCoverityObject] Missing class docstring
+coverity/ws/__init__.py:653: [C0103(invalid-name), CachedCoverityObject._cache_key] Invalid argument name "v"
+coverity/ws/__init__.py:653: [C0111(missing-docstring), CachedCoverityObject._cache_key] Missing method docstring
+coverity/ws/__init__.py:653: [R0201(no-self-use), CachedCoverityObject._cache_key] Method could be a function
+coverity/ws/__init__.py:652: [R0903(too-few-public-methods), CachedCoverityObject] Too few public methods (0/2)
+coverity/ws/__init__.py:674: [W0622(redefined-builtin), Component._get_object] Redefining built-in 'map'
+coverity/ws/__init__.py:673: [C0103(invalid-name), Component._get_object] Invalid argument name "v"
+coverity/ws/__init__.py:673: [C0111(missing-docstring), Component._get_object] Missing method docstring
+coverity/ws/__init__.py:675: [C0103(invalid-name), Component._get_object] Invalid variable name "m"
+coverity/ws/__init__.py:680: [C0103(invalid-name), Component._get_object.ComponentInfo.__init__] Invalid attribute name "defectRules"
+coverity/ws/__init__.py:678: [C0103(invalid-name), Component._get_object.ComponentInfo.__init__] Invalid attribute name "componentPathRules"
+coverity/ws/__init__.py:676: [C0111(missing-docstring), Component._get_object.ComponentInfo] Missing class docstring
+coverity/ws/__init__.py:676: [R0903(too-few-public-methods), Component._get_object.ComponentInfo] Too few public methods (0/2)
+coverity/ws/__init__.py:674: [W0612(unused-variable), Component._get_object] Unused variable 'comp'
+coverity/ws/__init__.py:667: [R0903(too-few-public-methods), Component] Too few public methods (0/2)
+coverity/ws/__init__.py:712: [C0103(invalid-name), DefectHandler.__init__] Invalid attribute name "defectDO"
+coverity/ws/__init__.py:716: [C0103(invalid-name), DefectHandler.__init__] Invalid attribute name "_projectDOs"
+coverity/ws/__init__.py:714: [C0103(invalid-name), DefectHandler.__init__] Invalid attribute name "_projId"
+coverity/ws/__init__.py:702: [R0913(too-many-arguments), DefectHandler.__init__] Too many arguments (6/5)
+coverity/ws/__init__.py:744: [C0103(invalid-name), DefectHandler.getStreamDefect] Invalid method name "getStreamDefect"
+coverity/ws/__init__.py:744: [C0103(invalid-name), DefectHandler.getStreamDefect] Invalid argument name "streamDefectDO"
+coverity/ws/__init__.py:755: [C0103(invalid-name), DefectHandler.getStreamDefect] Invalid variable name "f"
+coverity/ws/__init__.py:766: [W0702(bare-except), DefectHandler.getStreamDefect] No exception type(s) specified
+coverity/ws/__init__.py:765: [C0321(multiple-statements), DefectHandler.getStreamDefect] More than one statement on a single line
+coverity/ws/__init__.py:766: [C0321(multiple-statements), DefectHandler.getStreamDefect] More than one statement on a single line
+coverity/ws/__init__.py:771: [C0103(invalid-name), DefectHandler.getStreamDefect] Invalid variable name "f"
+coverity/ws/__init__.py:776: [C0111(missing-docstring), DefectHandler.scope] Missing method docstring
+coverity/ws/__init__.py:783: [C0111(missing-docstring), DefectHandler.component] Missing method docstring
+coverity/ws/__init__.py:788: [C0111(missing-docstring), DefectHandler.url] Missing method docstring
+coverity/ws/__init__.py:793: [C0103(invalid-name), DefectHandler.projId] Invalid attribute name "projId"
+coverity/ws/__init__.py:793: [C0111(missing-docstring), DefectHandler.projId] Missing method docstring
+coverity/ws/__init__.py:809: [C0103(invalid-name), DefectHandler.projId] Invalid variable name "streamIdDOs"
+coverity/ws/__init__.py:814: [C0103(invalid-name), DefectHandler.projId] Invalid variable name "streamIdDOs"
+coverity/ws/__init__.py:818: [C0103(invalid-name), DefectHandler.projId] Invalid variable name "mergedDefectFilterDO"
+coverity/ws/__init__.py:823: [C0103(invalid-name), DefectHandler.projId] Invalid variable name "mDOs"
+coverity/ws/__init__.py:837: [C0111(missing-docstring), CheckerDescription._cache_key] Missing method docstring
+coverity/ws/__init__.py:837: [R0201(no-self-use), CheckerDescription._cache_key] Method could be a function
+coverity/ws/__init__.py:844: [W0622(redefined-builtin), CheckerDescription.__init__] Redefining built-in 'filter'
+coverity/ws/__init__.py:833: [R0903(too-few-public-methods), CheckerDescription] Too few public methods (0/2)
+coverity/ws/__init__.py:872: [C0103(invalid-name), SourceFile.SourceLine.__init__] Invalid attribute name "lineNum"
+coverity/ws/__init__.py:870: [C0111(missing-docstring), SourceFile.SourceLine] Missing class docstring
+coverity/ws/__init__.py:870: [R0903(too-few-public-methods), SourceFile.SourceLine] Too few public methods (0/2)
+coverity/ws/__init__.py:875: [W0622(redefined-builtin), SourceFile._cache_key] Redefining built-in 'file'
+coverity/ws/__init__.py:875: [C0111(missing-docstring), SourceFile._cache_key] Missing method docstring
+coverity/ws/__init__.py:875: [W0613(unused-argument), SourceFile._cache_key] Unused argument 'stream'
+coverity/ws/__init__.py:875: [R0201(no-self-use), SourceFile._cache_key] Method could be a function
+coverity/ws/__init__.py:878: [W0622(redefined-builtin), SourceFile.__init__] Redefining built-in 'file'
+coverity/ws/__init__.py:883: [C0103(invalid-name), SourceFile.__init__] Invalid variable name "l"
+coverity/ws/__init__.py:884: [W0142(star-args), SourceFile.__init__] Used * or ** magic
+coverity/ws/__init__.py:888: [C0111(missing-docstring), SourceFile.snippet] Missing method docstring
+coverity/ws/__init__.py:866: [R0903(too-few-public-methods), SourceFile] Too few public methods (1/2)
+************* Module coverity.templates.__init__
+coverity/templates/__init__.py:1: [C0301(line-too-long), ] Line too long (81/80)
+coverity/templates/__init__.py:4: [C0301(line-too-long), ] Line too long (81/80)
+coverity/templates/__init__.py:12: [C0301(line-too-long), ] Line too long (130/80)
+coverity/templates/__init__.py:21: [C0301(line-too-long), ] Line too long (81/80)
+coverity/templates/__init__.py:24: [C0301(line-too-long), ] Line too long (116/80)
+coverity/templates/__init__.py:24: [C0326(bad-whitespace), ] Exactly one space required after comma
+        return super(SingleLineTemplate, self).__call__(__namespace, **kw).replace('\r','').replace('\n','').strip()
+                                                                                       ^
+coverity/templates/__init__.py:24: [C0326(bad-whitespace), ] Exactly one space required after comma
+        return super(SingleLineTemplate, self).__call__(__namespace, **kw).replace('\r','').replace('\n','').strip()
+                                                                                                        ^
+coverity/templates/__init__.py:45: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/__init__.py:68: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/__init__.py:70: [C0301(line-too-long), ] Line too long (178/80)
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                 ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                          ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                        ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                         ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                 ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                            ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                     ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                          ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                                          ^
+coverity/templates/__init__.py:70: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_xml = XMLTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                                                         ^
+coverity/templates/__init__.py:71: [C0301(line-too-long), ] Line too long (127/80)
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                  ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                           ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                     ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                                      ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                                              ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                                                         ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                                                                  ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                                                                                   ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                                                                                               ^
+coverity/templates/__init__.py:71: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('cid','status','checker','classification','owner','severity','action','first_detected','component','file','scope')
+                                                                                                                      ^
+coverity/templates/__init__.py:75: [C0301(line-too-long), ] Line too long (178/80)
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                 ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                          ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                        ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                         ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                 ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                            ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                     ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                          ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                                          ^
+coverity/templates/__init__.py:75: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                                                         ^
+coverity/templates/__init__.py:76: [C0301(line-too-long), ] Line too long (126/80)
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                  ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                           ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                     ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                                      ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                                              ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                                                         ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                                                                  ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                                                                                  ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                                                                                              ^
+coverity/templates/__init__.py:76: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope')
+                                                                                                                     ^
+coverity/templates/__init__.py:78: [C0301(line-too-long), ] Line too long (189/80)
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                   ^
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                ^
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                           ^
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                              ^
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                              ^
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                               ^
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                                            ^
+coverity/templates/__init__.py:78: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                                                             ^
+coverity/templates/__init__.py:79: [C0301(line-too-long), ] Line too long (112/80)
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                              ^
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                      ^
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                            ^
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                          ^
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                     ^
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                                 ^
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                                         ^
+coverity/templates/__init__.py:79: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                                                     ^
+coverity/templates/__init__.py:81: [C0301(line-too-long), ] Line too long (180/80)
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                          ^
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                       ^
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                  ^
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                     ^
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                     ^
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                      ^
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                                   ^
+coverity/templates/__init__.py:81: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compmetrics_csv = CSVTemplate('componentId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                                                    ^
+coverity/templates/__init__.py:82: [C0301(line-too-long), ] Line too long (114/80)
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                ^
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                        ^
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                              ^
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                            ^
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                       ^
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                                   ^
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                                           ^
+coverity/templates/__init__.py:82: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Component',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged")
+                                                                                                       ^
+coverity/templates/__init__.py:84: [C0301(line-too-long), ] Line too long (184/80)
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                       ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                              ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                               ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                       ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                  ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                           ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                                ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                                                ^
+coverity/templates/__init__.py:84: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_csv = CSVTemplate('cid','status','checkerName','classification','owner','severity','action','firstDetected.strftime("%Y-%m-%d")','componentName','filePathname','scope',
+                                                                                                                                                                               ^
+coverity/templates/__init__.py:85: [C0301(line-too-long), ] Line too long (127/80)
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                  ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                           ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                     ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                                      ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                                              ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                                                         ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                                                                  ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                                                                                  ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                                                                                              ^
+coverity/templates/__init__.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Checker','Classification','Owner','Severity','Action','FirstDetected','Component','File','Scope'),
+                                                                                                                     ^
+coverity/templates/__init__.py:86: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+    clean = True
+          ^
+coverity/templates/__init__.py:88: [C0301(line-too-long), ] Line too long (195/80)
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                         ^
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                      ^
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                 ^
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                    ^
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                    ^
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                                     ^
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                                                  ^
+coverity/templates/__init__.py:88: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_clean_metrics_csv = CSVTemplate('metricsDate', 'projectId.name',"totalCount","newCount","outstandingCount","resolvedCount","dismissedCount","fixedCount","inspectedCount","triagedCount",
+                                                                                                                                                                                   ^
+coverity/templates/__init__.py:89: [C0301(line-too-long), ] Line too long (113/80)
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                              ^
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                                      ^
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                                            ^
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                                                          ^
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                                                                     ^
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                                                                                 ^
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                                                                                         ^
+coverity/templates/__init__.py:89: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('Date', 'Project',"Total","New","Outstanding","Resolved","Dismissed","Fixed","Inspected","Triaged"),
+                                                                                                     ^
+coverity/templates/__init__.py:92: [C0301(line-too-long), ] Line too long (172/80)
+coverity/templates/__init__.py:92: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compowner_csv = CSVTemplate('cid','status','classification','owner','componentName','component.defectRules and getattr(v.defectRules[0],"defaultOwner","") or ""',
+                                           ^
+coverity/templates/__init__.py:92: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compowner_csv = CSVTemplate('cid','status','classification','owner','componentName','component.defectRules and getattr(v.defectRules[0],"defaultOwner","") or ""',
+                                                    ^
+coverity/templates/__init__.py:92: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compowner_csv = CSVTemplate('cid','status','classification','owner','componentName','component.defectRules and getattr(v.defectRules[0],"defaultOwner","") or ""',
+                                                                     ^
+coverity/templates/__init__.py:92: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compowner_csv = CSVTemplate('cid','status','classification','owner','componentName','component.defectRules and getattr(v.defectRules[0],"defaultOwner","") or ""',
+                                                                             ^
+coverity/templates/__init__.py:92: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_compowner_csv = CSVTemplate('cid','status','classification','owner','componentName','component.defectRules and getattr(v.defectRules[0],"defaultOwner","") or ""',
+                                                                                             ^
+coverity/templates/__init__.py:93: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Component','CompOwner')
+                  ^
+coverity/templates/__init__.py:93: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Component','CompOwner')
+                           ^
+coverity/templates/__init__.py:93: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Component','CompOwner')
+                                            ^
+coverity/templates/__init__.py:93: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Component','CompOwner')
+                                                    ^
+coverity/templates/__init__.py:93: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Component','CompOwner')
+                                                                ^
+coverity/templates/__init__.py:95: [C0301(line-too-long), ] Line too long (213/80)
+coverity/templates/__init__.py:95: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_multcomp_csv = CSVTemplate('cid','status','classification','owner','componentName','occurrenceCount', '!defectInstances v and len(filter(None, [x.function.fileId.filePathname for x in v])) or "UNKNOWN"',
+                                          ^
+coverity/templates/__init__.py:95: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_multcomp_csv = CSVTemplate('cid','status','classification','owner','componentName','occurrenceCount', '!defectInstances v and len(filter(None, [x.function.fileId.filePathname for x in v])) or "UNKNOWN"',
+                                                   ^
+coverity/templates/__init__.py:95: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_multcomp_csv = CSVTemplate('cid','status','classification','owner','componentName','occurrenceCount', '!defectInstances v and len(filter(None, [x.function.fileId.filePathname for x in v])) or "UNKNOWN"',
+                                                                    ^
+coverity/templates/__init__.py:95: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_multcomp_csv = CSVTemplate('cid','status','classification','owner','componentName','occurrenceCount', '!defectInstances v and len(filter(None, [x.function.fileId.filePathname for x in v])) or "UNKNOWN"',
+                                                                            ^
+coverity/templates/__init__.py:95: [C0326(bad-whitespace), ] Exactly one space required after comma
+render_as_multcomp_csv = CSVTemplate('cid','status','classification','owner','componentName','occurrenceCount', '!defectInstances v and len(filter(None, [x.function.fileId.filePathname for x in v])) or "UNKNOWN"',
+                                                                                            ^
+coverity/templates/__init__.py:96: [C0301(line-too-long), ] Line too long (86/80)
+coverity/templates/__init__.py:96: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Components','Count','Instances')
+                  ^
+coverity/templates/__init__.py:96: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Components','Count','Instances')
+                           ^
+coverity/templates/__init__.py:96: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Components','Count','Instances')
+                                            ^
+coverity/templates/__init__.py:96: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Components','Count','Instances')
+                                                    ^
+coverity/templates/__init__.py:96: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Components','Count','Instances')
+                                                                 ^
+coverity/templates/__init__.py:96: [C0326(bad-whitespace), ] Exactly one space required after comma
+    columns=('CID','Status','Classification','Owner','Components','Count','Instances')
+                                                                         ^
+coverity/templates/__init__.py:155: [C0301(line-too-long), ] Line too long (82/80)
+coverity/templates/__init__.py:156: [C0301(line-too-long), ] Line too long (85/80)
+coverity/templates/__init__.py:161: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/__init__.py:164: [C0301(line-too-long), ] Line too long (102/80)
+coverity/templates/__init__.py:171: [C0301(line-too-long), ] Line too long (92/80)
+coverity/templates/__init__.py:182: [C0301(line-too-long), ] Line too long (81/80)
+coverity/templates/__init__.py:186: [C0301(line-too-long), ] Line too long (84/80)
+coverity/templates/__init__.py:196: [C0301(line-too-long), ] Line too long (83/80)
+coverity/templates/__init__.py:197: [C0301(line-too-long), ] Line too long (86/80)
+coverity/templates/__init__.py:198: [C0301(line-too-long), ] Line too long (86/80)
+coverity/templates/__init__.py:206: [C0301(line-too-long), ] Line too long (185/80)
+coverity/templates/__init__.py:221: [C0301(line-too-long), ] Line too long (91/80)
+coverity/templates/__init__.py:225: [C0301(line-too-long), ] Line too long (111/80)
+coverity/templates/__init__.py:227: [C0301(line-too-long), ] Line too long (89/80)
+coverity/templates/__init__.py:228: [C0301(line-too-long), ] Line too long (101/80)
+coverity/templates/__init__.py:229: [C0301(line-too-long), ] Line too long (158/80)
+coverity/templates/__init__.py:263: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/__init__.py:263: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/__init__.py:303: [C0301(line-too-long), ] Line too long (91/80)
+coverity/templates/__init__.py:316: [C0301(line-too-long), ] Line too long (81/80)
+coverity/templates/__init__.py:327: [C0301(line-too-long), ] Line too long (106/80)
+coverity/templates/__init__.py:332: [C0301(line-too-long), ] Line too long (91/80)
+coverity/templates/__init__.py:423: [C0301(line-too-long), ] Line too long (95/80)
+coverity/templates/__init__.py:445: [C0326(bad-whitespace), ] Exactly one space required after comma
+for name,func in [x for x in globals().items() if x[0][:10] == 'render_as_']:
+        ^
+************* Module coverity.templates
+coverity/templates/__init__.py:1: [C0111(missing-docstring), ] Missing module docstring
+coverity/templates/__init__.py:12: [W0403(relative-import), ] Relative import 'cim_charts', should be 'coverity.templates.cim_charts'
+coverity/templates/__init__.py:36: [C0103(invalid-name), ] Invalid constant name "render_subject"
+coverity/templates/__init__.py:47: [C0103(invalid-name), ] Invalid constant name "render_intro"
+coverity/templates/__init__.py:70: [C0103(invalid-name), ] Invalid constant name "render_as_xml"
+coverity/templates/__init__.py:75: [C0103(invalid-name), ] Invalid constant name "render_as_csv"
+coverity/templates/__init__.py:78: [C0103(invalid-name), ] Invalid constant name "render_as_metrics_csv"
+coverity/templates/__init__.py:81: [C0103(invalid-name), ] Invalid constant name "render_as_compmetrics_csv"
+coverity/templates/__init__.py:84: [C0103(invalid-name), ] Invalid constant name "render_as_clean_csv"
+coverity/templates/__init__.py:88: [C0103(invalid-name), ] Invalid constant name "render_as_clean_metrics_csv"
+coverity/templates/__init__.py:92: [C0103(invalid-name), ] Invalid constant name "render_as_compowner_csv"
+coverity/templates/__init__.py:95: [C0103(invalid-name), ] Invalid constant name "render_as_multcomp_csv"
+coverity/templates/__init__.py:105: [C0103(invalid-name), ] Invalid constant name "render_as_table"
+coverity/templates/__init__.py:136: [C0103(invalid-name), ] Invalid constant name "render_as_list"
+coverity/templates/__init__.py:159: [C0103(invalid-name), ] Invalid constant name "render_as_details"
+coverity/templates/__init__.py:201: [C0103(invalid-name), ] Invalid constant name "render_as_details_html"
+coverity/templates/__init__.py:254: [C0103(invalid-name), ] Invalid constant name "render_as_defects_bar_chart"
+coverity/templates/__init__.py:312: [C0103(invalid-name), ] Invalid constant name "render_as_metrics_chart"
+coverity/templates/__init__.py:359: [C0103(invalid-name), ] Invalid constant name "render_as_circles_chart"
+coverity/templates/__init__.py:444: [C0103(invalid-name), ] Invalid constant name "available_formats"
+************* Module coverity.templates.cim_charts
+coverity/templates/cim_charts.py:29: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:55: [C0326(bad-whitespace), ] Exactly one space required after comma
+    for k,v in d.items():
+         ^
+coverity/templates/cim_charts.py:62: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+def defect_counts(defects, group_by, then_by = None):
+                                             ^
+coverity/templates/cim_charts.py:73: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/templates/cim_charts.py:75: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 12
+coverity/templates/cim_charts.py:76: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:82: [C0301(line-too-long), ] Line too long (82/80)
+coverity/templates/cim_charts.py:82: [C0326(bad-whitespace), ] Exactly one space required after :
+    cats = [x[0] for x in sorted(counts.items(), key=lambda x:x[1], reverse=True)]
+                                                             ^
+coverity/templates/cim_charts.py:85: [C0326(bad-whitespace), ] Exactly one space required after comma
+    for k,v in ret.items():
+         ^
+coverity/templates/cim_charts.py:88: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:94: [C0326(bad-whitespace), ] Exactly one space required after comma
+            ret[s].append(t[k].get(s,0))
+                                    ^
+coverity/templates/cim_charts.py:117: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:122: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:131: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:135: [C0301(line-too-long), ] Line too long (91/80)
+coverity/templates/cim_charts.py:150: [C0301(line-too-long), ] Line too long (91/80)
+coverity/templates/cim_charts.py:157: [C0301(line-too-long), ] Line too long (82/80)
+coverity/templates/cim_charts.py:164: [C0301(line-too-long), ] Line too long (89/80)
+coverity/templates/cim_charts.py:168: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:176: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:183: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:499: [C0301(line-too-long), ] Line too long (105/80)
+coverity/templates/cim_charts.py:683: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:696: [C0301(line-too-long), ] Line too long (97/80)
+coverity/templates/cim_charts.py:697: [C0301(line-too-long), ] Line too long (98/80)
+coverity/templates/cim_charts.py:698: [C0301(line-too-long), ] Line too long (95/80)
+coverity/templates/cim_charts.py:712: [C0301(line-too-long), ] Line too long (85/80)
+coverity/templates/cim_charts.py:723: [C0326(bad-whitespace), ] Exactly one space required after comma
+            elif type(x) in (type(''),suds.sax.text.Text, datetime.datetime):
+                                     ^
+coverity/templates/cim_charts.py:724: [C0301(line-too-long), ] Line too long (84/80)
+coverity/templates/cim_charts.py:727: [C0301(line-too-long), ] Line too long (99/80)
+coverity/templates/cim_charts.py:734: [C0326(bad-whitespace), ] Exactly one space required after comma
+                field,rest = x[1:].split(' ',1)
+                     ^
+coverity/templates/cim_charts.py:734: [C0326(bad-whitespace), ] Exactly one space required after comma
+                field,rest = x[1:].split(' ',1)
+                                            ^
+coverity/templates/cim_charts.py:737: [C0326(bad-whitespace), ] Exactly one space required after comma
+                field,rest = x.split('.',1)
+                     ^
+coverity/templates/cim_charts.py:737: [C0326(bad-whitespace), ] Exactly one space required after comma
+                field,rest = x.split('.',1)
+                                        ^
+coverity/templates/cim_charts.py:749: [C0301(line-too-long), ] Line too long (89/80)
+coverity/templates/cim_charts.py:749: [C0326(bad-whitespace), ] Exactly one space required after comma
+                    raise Exception('ERROR with %s.%s'%(field,rest), obj.component, v, e)
+                                                             ^
+coverity/templates/cim_charts.py:751: [C0301(line-too-long), ] Line too long (143/80)
+coverity/templates/cim_charts.py:757: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/templates/cim_charts.py:761: [C0301(line-too-long), ] Line too long (84/80)
+coverity/templates/cim_charts.py:130: [W1401(anomalous-backslash-in-string), ] Anomalous backslash in string: '\['. String constant might be missing an r prefix.
+coverity/templates/cim_charts.py:130: [W1401(anomalous-backslash-in-string), ] Anomalous backslash in string: '\]'. String constant might be missing an r prefix.
+coverity/templates/cim_charts.py:1: [C0111(missing-docstring), ] Missing module docstring
+coverity/templates/cim_charts.py:10: [W0702(bare-except), ] No exception type(s) specified
+coverity/templates/cim_charts.py:11: [C0103(invalid-name), ] Invalid class name "odict"
+coverity/templates/cim_charts.py:13: [C0111(missing-docstring), DataPoint] Missing class docstring
+coverity/templates/cim_charts.py:13: [R0903(too-few-public-methods), DataPoint] Too few public methods (0/2)
+coverity/templates/cim_charts.py:20: [C0103(invalid-name), NumSeq.__init__] Invalid attribute name "_l"
+coverity/templates/cim_charts.py:18: [C0111(missing-docstring), NumSeq] Missing class docstring
+coverity/templates/cim_charts.py:21: [W0622(redefined-builtin), NumSeq.next] Redefining built-in 'id'
+coverity/templates/cim_charts.py:21: [C0103(invalid-name), NumSeq.next] Invalid argument name "id"
+coverity/templates/cim_charts.py:21: [C0111(missing-docstring), NumSeq.next] Missing method docstring
+coverity/templates/cim_charts.py:24: [W0622(redefined-builtin), NumSeq.remove] Redefining built-in 'id'
+coverity/templates/cim_charts.py:24: [C0103(invalid-name), NumSeq.remove] Invalid argument name "id"
+coverity/templates/cim_charts.py:24: [C0111(missing-docstring), NumSeq.remove] Missing method docstring
+coverity/templates/cim_charts.py:36: [C0103(invalid-name), DataSeries.__init__] Invalid attribute name "v"
+coverity/templates/cim_charts.py:27: [C0111(missing-docstring), DataSeries] Missing class docstring
+coverity/templates/cim_charts.py:37: [C0103(invalid-name), DataSeries.__init__] Invalid variable name "a"
+coverity/templates/cim_charts.py:39: [W0142(star-args), DataSeries.__init__] Used * or ** magic
+coverity/templates/cim_charts.py:43: [C0111(missing-docstring), DataSeries.length] Missing method docstring
+coverity/templates/cim_charts.py:46: [C0111(missing-docstring), DataSeries.data] Missing method docstring
+coverity/templates/cim_charts.py:49: [C0111(missing-docstring), DataSeries.err] Missing method docstring
+coverity/templates/cim_charts.py:50: [C0103(invalid-name), DataSeries.err] Invalid variable name "v"
+coverity/templates/cim_charts.py:50: [W0141(bad-builtin), DataSeries.err] Used builtin function 'filter'
+coverity/templates/cim_charts.py:51: [C0321(multiple-statements), DataSeries.err] More than one statement on a single line
+coverity/templates/cim_charts.py:53: [C0103(invalid-name), dict_to_series] Invalid argument name "d"
+coverity/templates/cim_charts.py:53: [C0111(missing-docstring), dict_to_series] Missing function docstring
+coverity/templates/cim_charts.py:55: [C0103(invalid-name), dict_to_series] Invalid variable name "v"
+coverity/templates/cim_charts.py:57: [W0142(star-args), dict_to_series] Used * or ** magic
+coverity/templates/cim_charts.py:62: [R0914(too-many-locals), defect_counts] Too many local variables (16/15)
+coverity/templates/cim_charts.py:62: [C0111(missing-docstring), defect_counts] Missing function docstring
+coverity/templates/cim_charts.py:65: [C0103(invalid-name), defect_counts] Invalid variable name "d"
+coverity/templates/cim_charts.py:85: [C0103(invalid-name), defect_counts] Invalid variable name "v"
+coverity/templates/cim_charts.py:86: [C0103(invalid-name), defect_counts] Invalid variable name "vv"
+coverity/templates/cim_charts.py:89: [C0103(invalid-name), defect_counts] Invalid variable name "t"
+coverity/templates/cim_charts.py:91: [C0103(invalid-name), defect_counts] Invalid variable name "s"
+coverity/templates/cim_charts.py:129: [C0111(missing-docstring), Templite] Missing class docstring
+coverity/templates/cim_charts.py:142: [C0321(multiple-statements), Templite.__init__] More than one statement on a single line
+coverity/templates/cim_charts.py:147: [C0321(multiple-statements), Templite.__init__] More than one statement on a single line
+coverity/templates/cim_charts.py:153: [C0321(multiple-statements), Templite.__init__] More than one statement on a single line
+coverity/templates/cim_charts.py:173: [C0321(multiple-statements), Templite.render] More than one statement on a single line
+coverity/templates/cim_charts.py:174: [C0321(multiple-statements), Templite.render] More than one statement on a single line
+coverity/templates/cim_charts.py:184: [C0111(missing-docstring), Templite.write] Missing method docstring
+coverity/templates/cim_charts.py:185: [C0103(invalid-name), Templite.write] Invalid variable name "a"
+coverity/templates/cim_charts.py:179: [W0201(attribute-defined-outside-init), Templite.render] Attribute '__output' defined outside __init__
+coverity/templates/cim_charts.py:207: [C0103(invalid-name), Template.__call__] Invalid variable name "d"
+coverity/templates/cim_charts.py:214: [C0103(invalid-name), Template.__call__] Invalid variable name "t"
+coverity/templates/cim_charts.py:214: [W0142(star-args), Template.__call__] Used * or ** magic
+coverity/templates/cim_charts.py:216: [C0103(invalid-name), Template.__call__] Invalid variable name "t"
+coverity/templates/cim_charts.py:219: [C0111(missing-docstring), ChartTemplate] Missing class docstring
+coverity/templates/cim_charts.py:502: [C0111(missing-docstring), MetricsChartTemplate] Missing class docstring
+coverity/templates/cim_charts.py:716: [C0103(invalid-name), CSVTemplate.__call__.do_quote] Invalid argument name "x"
+coverity/templates/cim_charts.py:728: [C0103(invalid-name), CSVTemplate.__call__.res] Invalid argument name "x"
+coverity/templates/cim_charts.py:743: [C0103(invalid-name), CSVTemplate.__call__.res] Invalid variable name "v"
+coverity/templates/cim_charts.py:747: [C0103(invalid-name), CSVTemplate.__call__.res] Invalid variable name "v"
+coverity/templates/cim_charts.py:748: [C0103(invalid-name), CSVTemplate.__call__.res] Invalid variable name "e"
+coverity/templates/cim_charts.py:770: [C0111(missing-docstring), CircleChartTemplate] Missing class docstring
+coverity/templates/cim_charts.py:2: [W0611(unused-import), ] Unused import math
+coverity/templates/cim_charts.py:1: [W0611(unused-import), ] Unused import itertools
+************* Module coverity.email.__init__
+coverity/email/__init__.py:19: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:51: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:65: [C0301(line-too-long), ] Line too long (97/80)
+coverity/email/__init__.py:65: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+            compFilter = self._client.config.getDO('componentIdDataObj', name = md.componentName)
+                                                                              ^
+coverity/email/__init__.py:66: [C0301(line-too-long), ] Line too long (92/80)
+coverity/email/__init__.py:68: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:85: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:92: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:94: [C0326(bad-whitespace), ] Exactly one space required after comma
+        self.allow_unassigned = scope.options.unassigned in ('include','only')
+                                                                      ^
+coverity/email/__init__.py:112: [C0301(line-too-long), ] Line too long (95/80)
+coverity/email/__init__.py:113: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:120: [C0301(line-too-long), ] Line too long (105/80)
+coverity/email/__init__.py:123: [C0325(superfluous-parens), ] Unnecessary parens after 'return' keyword
+coverity/email/__init__.py:137: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        self._p.set_defaults(testing = "false")
+                                     ^
+coverity/email/__init__.py:138: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        self._p.set_defaults(raw = "false")
+                                 ^
+coverity/email/__init__.py:139: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+        self._p.set_defaults(quiet = "false")
+                                   ^
+coverity/email/__init__.py:140: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:141: [C0301(line-too-long), ] Line too long (123/80)
+coverity/email/__init__.py:142: [C0301(line-too-long), ] Line too long (126/80)
+coverity/email/__init__.py:143: [C0301(line-too-long), ] Line too long (136/80)
+coverity/email/__init__.py:144: [C0301(line-too-long), ] Line too long (145/80)
+coverity/email/__init__.py:145: [C0301(line-too-long), ] Line too long (101/80)
+coverity/email/__init__.py:146: [C0301(line-too-long), ] Line too long (114/80)
+coverity/email/__init__.py:147: [C0301(line-too-long), ] Line too long (89/80)
+coverity/email/__init__.py:148: [C0301(line-too-long), ] Line too long (106/80)
+coverity/email/__init__.py:149: [C0301(line-too-long), ] Line too long (115/80)
+coverity/email/__init__.py:165: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:171: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:214: [C0326(bad-whitespace), ] Exactly one space required after comma
+    for k,v in reporters.items():
+         ^
+coverity/email/__init__.py:220: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:221: [C0301(line-too-long), ] Line too long (90/80)
+coverity/email/__init__.py:222: [C0301(line-too-long), ] Line too long (85/80)
+coverity/email/__init__.py:228: [C0301(line-too-long), ] Line too long (141/80)
+coverity/email/__init__.py:228: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                return ws.DefectHandler(mergedDefectDO, projectId=scope.projectId, projectDOs=scope.projectDOs, scope = scope.triage_scope())
+                                                                                                                      ^
+coverity/email/__init__.py:230: [C0301(line-too-long), ] Line too long (85/80)
+coverity/email/__init__.py:230: [C0326(bad-whitespace), ] No space allowed around keyword argument assignment
+                return ws.DefectHandler(mergedDefectDO, scope = scope.triage_scope())
+                                                              ^
+coverity/email/__init__.py:237: [C0301(line-too-long), ] Line too long (82/80)
+coverity/email/__init__.py:238: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:242: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+coverity/email/__init__.py:244: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:245: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:246: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:247: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:248: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:249: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:250: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 20
+coverity/email/__init__.py:251: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 24
+coverity/email/__init__.py:252: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 20
+coverity/email/__init__.py:253: [W0311(bad-indentation), ] Bad indentation. Found 20 spaces, expected 24
+coverity/email/__init__.py:267: [C0301(line-too-long), ] Line too long (102/80)
+coverity/email/__init__.py:269: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+coverity/email/__init__.py:270: [W0311(bad-indentation), ] Bad indentation. Found 7 spaces, expected 12
+coverity/email/__init__.py:271: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 16
+coverity/email/__init__.py:272: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 20
+coverity/email/__init__.py:273: [C0301(line-too-long), ] Line too long (83/80)
+coverity/email/__init__.py:273: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 20
+coverity/email/__init__.py:274: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 20
+coverity/email/__init__.py:275: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 24
+coverity/email/__init__.py:275: [C0301(line-too-long), ] Line too long (86/80)
+coverity/email/__init__.py:276: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 20
+coverity/email/__init__.py:277: [W0311(bad-indentation), ] Bad indentation. Found 16 spaces, expected 24
+coverity/email/__init__.py:278: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 16
+coverity/email/__init__.py:279: [W0311(bad-indentation), ] Bad indentation. Found 9 spaces, expected 20
+coverity/email/__init__.py:279: [C0301(line-too-long), ] Line too long (114/80)
+coverity/email/__init__.py:281: [W0311(bad-indentation), ] Bad indentation. Found 6 spaces, expected 8
+coverity/email/__init__.py:281: [C0326(bad-whitespace), ] Exactly one space required after comma
+      for user,defects in email_cid.items():
+              ^
+coverity/email/__init__.py:284: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:285: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:286: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:287: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:288: [C0301(line-too-long), ] Line too long (133/80)
+coverity/email/__init__.py:288: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:289: [C0301(line-too-long), ] Line too long (95/80)
+coverity/email/__init__.py:289: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:290: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:291: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:293: [C0301(line-too-long), ] Line too long (81/80)
+coverity/email/__init__.py:293: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:294: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:295: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:296: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:297: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:298: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:299: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 16
+coverity/email/__init__.py:299: [C0326(bad-whitespace), ] Exactly one space required after comma
+            print '\n',body
+                      ^
+coverity/email/__init__.py:300: [W0311(bad-indentation), ] Bad indentation. Found 8 spaces, expected 12
+coverity/email/__init__.py:303: [C0301(line-too-long), ] Line too long (85/80)
+coverity/email/__init__.py:310: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 16
+coverity/email/__init__.py:310: [C0326(bad-whitespace), ] Exactly one space required after comma
+          user = re.split('\s*[@\[]\s*',user)[0]
+                                       ^
+coverity/email/__init__.py:316: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 16
+coverity/email/__init__.py:317: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 20
+coverity/email/__init__.py:318: [W0311(bad-indentation), ] Bad indentation. Found 10 spaces, expected 16
+coverity/email/__init__.py:319: [W0311(bad-indentation), ] Bad indentation. Found 12 spaces, expected 20
+coverity/email/__init__.py:320: [C0303(trailing-whitespace), ] Trailing whitespace
+coverity/email/__init__.py:321: [C0301(line-too-long), ] Line too long (86/80)
+coverity/email/__init__.py:310: [W1401(anomalous-backslash-in-string), ] Anomalous backslash in string: '\s'. String constant might be missing an r prefix.
+coverity/email/__init__.py:310: [W1401(anomalous-backslash-in-string), ] Anomalous backslash in string: '\['. String constant might be missing an r prefix.
+coverity/email/__init__.py:310: [W1401(anomalous-backslash-in-string), ] Anomalous backslash in string: '\s'. String constant might be missing an r prefix.
+************* Module coverity.email
+coverity/email/__init__.py:1: [C0111(missing-docstring), ] Missing module docstring
+coverity/email/__init__.py:63: [C0103(invalid-name), SubscriberReporter.recipients] Invalid variable name "componentDO"
+coverity/email/__init__.py:65: [C0103(invalid-name), SubscriberReporter.recipients] Invalid variable name "compFilter"
+coverity/email/__init__.py:67: [C0103(invalid-name), SubscriberReporter.recipients] Invalid variable name "componentDO"
+coverity/email/__init__.py:71: [W0702(bare-except), SubscriberReporter.recipients] No exception type(s) specified
+coverity/email/__init__.py:107: [E0202(method-hidden), OwnerReporter.recipients] An attribute affected in coverity.email line 99 hide this method
+coverity/email/__init__.py:124: [W0702(bare-except), OwnerReporter.recipients] No exception type(s) specified
+coverity/email/__init__.py:102: [W0201(attribute-defined-outside-init), OwnerReporter.defects] Attribute 'scope' defined outside __init__
+coverity/email/__init__.py:94: [W0201(attribute-defined-outside-init), OwnerReporter.defects] Attribute 'allow_unassigned' defined outside __init__
+coverity/email/__init__.py:91: [W0201(attribute-defined-outside-init), OwnerReporter.defects] Attribute '_cutoff' defined outside __init__
+coverity/email/__init__.py:134: [C0103(invalid-name), MyOptionParser.__init__] Invalid attribute name "_p"
+coverity/email/__init__.py:152: [C0111(missing-docstring), MyOptionParser.__init__.validate_reporter] Missing function docstring
+coverity/email/__init__.py:152: [W0613(unused-argument), MyOptionParser.__init__.validate_reporter] Unused argument 'args'
+coverity/email/__init__.py:158: [C0111(missing-docstring), MyOptionParser.__init__.validate_format] Missing function docstring
+coverity/email/__init__.py:159: [W0601(global-variable-undefined), MyOptionParser.__init__.validate_format] Global variable 'render_email' undefined at the module level
+coverity/email/__init__.py:159: [C0103(invalid-name), MyOptionParser.__init__.validate_format] Invalid constant name "render_email"
+coverity/email/__init__.py:158: [W0613(unused-argument), MyOptionParser.__init__.validate_format] Unused argument 'args'
+coverity/email/__init__.py:166: [C0111(missing-docstring), MyOptionParser.print_help] Missing method docstring
+coverity/email/__init__.py:169: [C0111(missing-docstring), MyOptionParser.parse_args] Missing method docstring
+coverity/email/__init__.py:172: [C0111(missing-docstring), MyOptionParser.defect_scope] Missing method docstring
+coverity/email/__init__.py:170: [W0201(attribute-defined-outside-init), MyOptionParser.parse_args] Attribute 'args' defined outside __init__
+coverity/email/__init__.py:170: [W0201(attribute-defined-outside-init), MyOptionParser.parse_args] Attribute 'options' defined outside __init__
+coverity/email/__init__.py:179: [R0914(too-many-locals), main] Too many local variables (24/15)
+coverity/email/__init__.py:179: [C0111(missing-docstring), main] Missing function docstring
+coverity/email/__init__.py:202: [C0103(invalid-name), main] Invalid variable name "e"
+coverity/email/__init__.py:214: [C0103(invalid-name), main] Invalid variable name "v"
+coverity/email/__init__.py:219: [C0103(invalid-name), main] Invalid variable name "mergedDefectsPageDO"
+coverity/email/__init__.py:226: [C0103(invalid-name), main.get_defect] Invalid argument name "mergedDefectDO"
+coverity/email/__init__.py:226: [C0111(missing-docstring), main.get_defect] Missing function docstring
+coverity/email/__init__.py:234: [C0103(invalid-name), main.get_defect] Invalid argument name "mergedDefectDO"
+coverity/email/__init__.py:234: [C0111(missing-docstring), main.get_defect] Missing function docstring
+coverity/email/__init__.py:234: [W0613(unused-argument), main.get_defect] Unused argument 'scope'
+coverity/email/__init__.py:237: [C0321(multiple-statements), main] More than one statement on a single line
+coverity/email/__init__.py:242: [C0103(invalid-name), main] Invalid variable name "mergedDefectDO"
+coverity/email/__init__.py:252: [W0702(bare-except), main] No exception type(s) specified
+coverity/email/__init__.py:257: [C0321(multiple-statements), main] More than one statement on a single line
+coverity/email/__init__.py:263: [W0702(bare-except), main] No exception type(s) specified
+coverity/email/__init__.py:321: [C0321(multiple-statements), main] More than one statement on a single line
+coverity/email/__init__.py:179: [R0912(too-many-branches), main] Too many branches (32/12)
+coverity/email/__init__.py:179: [R0915(too-many-statements), main] Too many statements (57/50)

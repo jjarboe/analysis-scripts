@@ -82,6 +82,12 @@ Script providing support for importing JSHint results (see
 http://www.jshint.com/).  The script does not currently support the following
 options: --verbose, --show-non-errors.
 
+pylint\_import.py
+----------------
+Script providing support for importing PyLint results (see
+http://www.pylint.org/).  The script expects to be run with the options
+-r n --msg-template="{path}:{line}: [{msg\_id}({symbol}), {obj}] {msg}"
+
 valgrind\_import.py
 ------------------
 Script providing support for importing Valgrind results (see
