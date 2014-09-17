@@ -29,7 +29,7 @@ class IssueLocation(object):
 class Issue(object):
     UNKNOWN_FILE = '?unknown?'
 
-    def __init__(self, checker, tag, extra='', function='', subcategory='', description=''):
+    def __init__(self, checker, tag, extra='', function='', subcategory='', description='', build_dir=None):
         self.main_event = 0
         self.checker = checker
         self.tag = tag
@@ -39,9 +39,12 @@ class Issue(object):
         self.description = description
         self._locs = []
         self.filename = self.UNKNOWN_FILE
+        self._build_dir = build_dir
 
     def add_location(self, line, filename, description=None, method=None, tag=None, link=None, linktext=None):
         if filename is not None:
+            if not os.path.isabs(filename) and self._build_dir:
+                filename = os.path.join(self._build_dir,filename)
             parts = filter(None, os.path.split(filename))
             if len(parts) <= 1 and filename[1] != ':':
                 raise InvalidFormatException('Filename must be absolute path', filename)
@@ -85,6 +88,11 @@ class CoverityIssueCollector(object):
         self._default_encoding = default_encoding
         if checker_prefix: self._checker_prefix = checker_prefix
         if build_dir is not None: self._build_dir = build_dir
+
+    def create_issue(self, **kw):
+        if 'build_dir' not in kw:
+            kw['build_dir'] = self._build_dir
+        return Issue(**kw)
 
     def add_issue(self, issue):
         self._issues.add(issue)
@@ -139,6 +147,18 @@ class CoverityIssueCollector(object):
             f.close()
  
       return CoverityThirdPartyIntegration(self).output()
+
+def get_opts(myname, argv):
+    if myname in argv[-1]:
+        print 'usage: %s [build_dir_root] <input_file>' % (myname,)
+        print 'build_dir_root: path to prepend to filenames listed in input_file, to'
+        print '                ensure this script\'s output uses absolute paths.'
+        print 'input_file: path to the file which this script will convert'
+        sys.exit(-1)
+    build_dir = ''
+    if myname not in argv[-2]:
+        build_dir = argv[-2]
+    return {'build_dir': build_dir}
 
 def main(collector):
     print collector.run(sys.argv[1:])
