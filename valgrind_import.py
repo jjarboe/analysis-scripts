@@ -1,11 +1,11 @@
-from coverity_import import CoverityIssueCollector, main, Issue
+from coverity_import import CoverityIssueCollector, main, get_opts
 
 import xml.etree.ElementTree as ET
 
 class ValgrindCollector(CoverityIssueCollector):
     '''
     A simple collector for valgrind reports.  The valgrind analysis should use
-    the --xml=yes option.
+    the following options: --xml=yes --tool=memcheck --leak-check=full
     '''
 
     def process(self, f):
@@ -22,11 +22,11 @@ class ValgrindCollector(CoverityIssueCollector):
                     unique = c.text
                 elif c.tag == 'what':
                     verbose = c.text
-                    msg = Issue(checker='valgrind', subcategory=id, description=verbose, tag=verbose, function=None, extra=unique)
+                    msg = self.create_issue(checker='valgrind', subcategory=id, description=verbose, tag=verbose, function=None, extra=unique)
                     stack_context = c.tag
                 elif c.tag == 'xwhat':
                     verbose = c.findtext('text')
-                    msg = Issue(checker='valgrind', subcategory=id, description=verbose, tag=verbose, function=None, extra=unique)
+                    msg = self.create_issue(checker='valgrind', subcategory=id, description=verbose, tag=verbose, function=None, extra=unique)
                     stack_context = c.tag
                 elif c.tag == 'auxwhat':
                     verbose = c.text
@@ -44,9 +44,9 @@ class ValgrindCollector(CoverityIssueCollector):
                         line = f.findtext('./line')
                         file = f.findtext('./dir') + '/' + f.findtext('./file')
                         msg.add_location(line, file, description=verbose)
-                        self._files.add(file)
-                    self._issues.add(msg)
+                    self.add_issue(msg)
 
 if __name__ == '__main__':
     import sys
-    print ValgrindCollector().run(sys.argv[-1])
+    opts = get_opts('valgrind_import.py', sys.argv)
+    print ValgrindCollector(**opts).run(sys.argv[-1])

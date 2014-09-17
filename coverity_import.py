@@ -29,7 +29,7 @@ class IssueLocation(object):
 class Issue(object):
     UNKNOWN_FILE = '?unknown?'
 
-    def __init__(self, checker, tag, extra='', function='', subcategory='', description='', build_dir=None):
+    def __init__(self, checker, tag, extra='', function='', subcategory='', description='', make_absolute=lambda x: x):
         self.main_event = 0
         self.checker = checker
         self.tag = tag
@@ -39,12 +39,11 @@ class Issue(object):
         self.description = description
         self._locs = []
         self.filename = self.UNKNOWN_FILE
-        self._build_dir = build_dir
+        self._make_absolute = make_absolute
 
     def add_location(self, line, filename, description=None, method=None, tag=None, link=None, linktext=None):
         if filename is not None:
-            if not os.path.isabs(filename) and self._build_dir:
-                filename = os.path.join(self._build_dir,filename)
+            filename = self._make_absolute(filename)
             parts = filter(None, os.path.split(filename))
             if len(parts) <= 1 and filename[1] != ':':
                 raise InvalidFormatException('Filename must be absolute path', filename)
@@ -74,6 +73,25 @@ class CoverityThirdPartyIntegration(object):
     def output(self):
         return json.dumps(self.dict())
 
+class AbsHandler(object):
+    '''
+    Acts as a function to return an absolute path for a filename, honoring
+    the build_dir and force_prepend arguments.
+    '''
+    def __init__(self, build_dir, force_prepend):
+        self._build_dir = build_dir
+        self._force_prepend = force_prepend
+ 
+    def __call__(self, filename):
+        if self._force_prepend:
+            if os.path.isabs(filename):
+                filename = filename[1:]
+            if self._build_dir:
+                return os.path.join(self._build_dir,filename)
+        elif not os.path.isabs(filename) and self._build_dir:
+            return os.path.join(self._build_dir,filename)
+        return filename
+        
 class CoverityIssueCollector(object):
     '''
     A basic collector for issue reports.  Not appropriate to be
@@ -82,16 +100,17 @@ class CoverityIssueCollector(object):
     _checker_prefix = None
     _build_dir = None
 
-    def __init__(self, default_encoding='ASCII', checker_prefix=None, build_dir=None):
+    def __init__(self, default_encoding='ASCII', checker_prefix=None, build_dir=None, force_prepend=False):
         self._issues = set()
         self._files = set()
         self._default_encoding = default_encoding
         if checker_prefix: self._checker_prefix = checker_prefix
-        if build_dir is not None: self._build_dir = build_dir
+        self._build_dir = build_dir
+        self._force_prepend = force_prepend
 
     def create_issue(self, **kw):
-        if 'build_dir' not in kw:
-            kw['build_dir'] = self._build_dir
+        if 'make_absolute' not in kw:
+            kw['make_absolute'] = AbsHandler(self._build_dir, self._force_prepend)
         return Issue(**kw)
 
     def add_issue(self, issue):
@@ -151,14 +170,23 @@ class CoverityIssueCollector(object):
 def get_opts(myname, argv):
     if myname in argv[-1]:
         print 'usage: %s [build_dir_root] <input_file>' % (myname,)
+        print ''
         print 'build_dir_root: path to prepend to filenames listed in input_file, to'
-        print '                ensure this script\'s output uses absolute paths.'
+        print '                ensure this script\'s output uses absolute paths'
         print 'input_file: path to the file which this script will convert'
         sys.exit(-1)
-    build_dir = ''
+
+    opts = {
+    'build_dir': '',
+    'force_prepend': False
+    }
     if myname not in argv[-2]:
-        build_dir = argv[-2]
-    return {'build_dir': build_dir}
+        d = argv[-2]
+        if d[0] == '+':
+            opts['force_prepend'] = True
+            d = d[1:]
+        opts['build_dir'] = d
+    return opts
 
 def main(collector):
     print collector.run(sys.argv[1:])

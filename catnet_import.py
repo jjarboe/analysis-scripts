@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-from coverity_import import CoverityIssueCollector, main, Issue
+from coverity_import import CoverityIssueCollector, main, get_opts
 
 import xml.etree.ElementTree as ET
 
@@ -25,7 +25,7 @@ class CatNETCollector(CoverityIssueCollector):
                 confidence_level = res.findtext('ConfidenceLevel')
                 problem = res.findtext('ProblemDescription').replace('\n','').replace('\t',' ')
 
-                msg = Issue(
+                msg = self.create_issue(
                     checker='Cat.NET',
                     subcategory=identifier,
                     description=problem,
@@ -75,4 +75,5 @@ class CatNETCollector(CoverityIssueCollector):
 
 if __name__ == '__main__':
     import sys
-    print CatNETCollector().run(sys.argv[-1])
+    opts = get_opts('catnet_import.py', sys.argv)
+    print CatNETCollector(**opts).run(sys.argv[-1])

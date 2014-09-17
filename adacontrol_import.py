@@ -1,7 +1,7 @@
 import re
 import sys
 import os.path
-from coverity_import import CoverityIssueCollector, main, Issue
+from coverity_import import CoverityIssueCollector, main, get_opts
 
 class AdaControlCollector(CoverityIssueCollector):
     '''
@@ -21,18 +21,13 @@ class AdaControlCollector(CoverityIssueCollector):
             m = self._report_re.match(l)
             if m:
                 f = m.groupdict()
-                msg = Issue(checker='AdaControl',
+                msg = self.create_issue(checker='AdaControl',
                             tag = f['description'],
                             description = f['description'],
                             subcategory = f['subcategory'],
                            )
-                # print '###', self._build_dir
-                if os.path.isabs(f['file']):
-                    msg.add_location(f['line'], f['file'])
-                else:
-                    msg.add_location(f['line'], os.path.join(self._build_dir,f['file']))
-                self._issues.add(msg)
-                self._files.add(f['file'])
+                msg.add_location(f['line'], f['file'])
+                self.add_issue(msg)
             elif l.strip() == 'Counts summary:':
                 break
             else:
@@ -40,7 +35,5 @@ class AdaControlCollector(CoverityIssueCollector):
                 sys.exit(-1)
 
 if __name__ == '__main__':
-    build_dir = '/'
-    if 'adacontrol_import.py' not in sys.argv[-2]:
-        build_dir = sys.argv[-2]
-    print AdaControlCollector(build_dir=build_dir).run(sys.argv[-1])
+    opts = get_opts('adacontrol_import.py', sys.argv)
+    print AdaControlCollector(**opts).run(sys.argv[-1])

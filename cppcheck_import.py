@@ -1,11 +1,12 @@
-from coverity_import import CoverityIssueCollector, main, Issue
+from coverity_import import CoverityIssueCollector, main, get_opts
 
 import xml.etree.ElementTree as ET
 
 class CppCheckCollector(CoverityIssueCollector):
     '''
     A simple collector for cppcheck reports.  The cppcheck analysis should use
-    the --xml-version=2 option.
+    the --xml-version=2 option, and we recommend the following additional
+    options: --enable=all --suppress=missingIncludeSystem
     '''
 
     _checker_prefix = 'cppcheck'
@@ -15,7 +16,7 @@ class CppCheckCollector(CoverityIssueCollector):
         root = tree.getroot()
         for e in root.findall('./errors/error'):
             a = e.attrib
-            msg = Issue(
+            msg = self.create_issue(
                        checker = a['id'],
                        subcategory = a['severity'],
                        tag = a['msg'],
@@ -23,9 +24,9 @@ class CppCheckCollector(CoverityIssueCollector):
                        )
             for loc in e.findall('location'):
                 msg.add_location(loc.attrib['line'], loc.attrib['file'], loc.attrib.get('description'))
-                self._files.add(loc.attrib['file'])
-            self._issues.add(msg)
+            self.add_issue(msg)
 
 if __name__ == '__main__':
     import sys
-    print CppCheckCollector().run(sys.argv[-1])
+    opts = get_opts('cppcheck_import.py', sys.argv)
+    print CppCheckCollector(**opts).run(sys.argv[-1])

@@ -1,6 +1,6 @@
 import os
 
-from coverity_import import CoverityIssueCollector, main, Issue, InvalidFormatException
+from coverity_import import CoverityIssueCollector, main, get_opts, InvalidFormatException
 
 import json
 
@@ -16,11 +16,10 @@ class BrakemanCollector(CoverityIssueCollector):
 
     def process(self, f):
         data = json.load(f)
-        root_dir = ''
         try:
             data['scan_info']
             data['scan_info']['brakeman_version']
-            root_dir = data['scan_info']['app_path']
+            self._build_dir = data['scan_info']['app_path']
         except Exception, e:
             raise InvalidFormatException("Couldn't find attribute", e)
 
@@ -39,10 +38,6 @@ class BrakemanCollector(CoverityIssueCollector):
             #   type:template, template:
             # user_input (affected variable/parameter)
             # confidence
-
-            # Need to normalize "file" via command-line option
-            if not os.path.isabs(issue['file']):
-                issue['file'] = os.path.join(root_dir, issue['file'])
 
             description = []
             if issue['code']:
@@ -64,7 +59,7 @@ class BrakemanCollector(CoverityIssueCollector):
             if issue['line'] is None:
                 issue['line'] = self.find_line(issue)
 
-            msg = Issue(**attrs)
+            msg = self.create_issue(**attrs)
 
             # Do we need to walk over issue['render_path'] to create
             # dataflow events?
@@ -76,9 +71,9 @@ class BrakemanCollector(CoverityIssueCollector):
                 link = issue.get('link', None),
                 linktext = issue.get('link') and '[Brakeman description]' or None
             )
-            self._files.add(issue['file'])
-            self._issues.add(msg)
+            self.add_issue(msg)
 
 if __name__ == '__main__':
     import sys
-    print BrakemanCollector().run(sys.argv[-1])
+    opts = get_opts('brakeman_import.py', sys.argv)
+    print BrakemanCollector(**opts).run(sys.argv[-1])

@@ -1,4 +1,4 @@
-from coverity_import import CoverityIssueCollector, main, Issue
+from coverity_import import CoverityIssueCollector, main, get_opts
 
 import xml.etree.ElementTree as ET
 
@@ -17,15 +17,15 @@ class CheckstyleCollector(CoverityIssueCollector):
                 # <error line="" severity="" message="" source=""/>
                 a = e.attrib
                 cls = a['source'].split('.')
-                msg = Issue(checker = '.'.join(cls[-2:]),
+                msg = self.create_issue(checker = '.'.join(cls[-2:]),
                             subcategory = a['severity'],
                             tag = cls[-1],
                             description = a['message']
                            )
                 msg.add_location(e.attrib['line'], f.attrib['name'])
-                self._files.add(f.attrib['name'])
-                self._issues.add(msg)
+                self.add_issue(msg)
 
 if __name__ == '__main__':
     import sys
-    print CheckstyleCollector().run(sys.argv[-1])
+    opts = get_opts('checkstyle_import.py', sys.argv)
+    print CheckstyleCollector(**opts).run(sys.argv[-1])

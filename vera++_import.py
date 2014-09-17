@@ -1,12 +1,17 @@
 import re
 import sys
 import os.path
-from coverity_import import CoverityIssueCollector, main, Issue
+from coverity_import import CoverityIssueCollector, main, get_opts
 
 class VeraCollector(CoverityIssueCollector):
     '''
     A simple collector for Vera++ reports.  The Vera++ analysis should use
-    the -showrules option.
+    the following options:
+      --show-rule
+      --no-duplicate
+
+    In addition, we recommend the following options:
+    -R L003 -R L004 -R L005 -R L006 -R T008 -R T011 -R T012 -R T019
     '''
     _report_re = re.compile(r'^(?P<file>.+):(?P<line>\d+):\s*\((?P<subcategory>.+)\) (?P<description>.*)$', re.M)
 
@@ -22,18 +27,17 @@ class VeraCollector(CoverityIssueCollector):
             m = self._report_re.match(l)
             if m:
                 f = m.groupdict()
-                msg = Issue(checker='Vera++',
-                            tag = f['description'],
+                msg = self.create_issue(checker='Vera++',
+                            tag = f['subcategory'],
                             description = f['description'],
-                            subcategory = f['subcategory'],
+                            subcategory = f['subcategory']
                            )
-                print '###', self._build_dir
-                msg.add_location(f['line'], os.path.join(self._build_dir,f['file']))
-                self._issues.add(msg)
-                self._files.add(f['file'])
+                msg.add_location(f['line'], f['file'], f['description'])
+                self.add_issue(msg)
             else:
                 print 'Unrecognized input format:', l
                 sys.exit(-1)
 
 if __name__ == '__main__':
-    print VeraCollector(build_dir='/').run(sys.argv[-1])
+    opts = get_opts('vera++_import.py', sys.argv)
+    print VeraCollector(**opts).run(sys.argv[-1])

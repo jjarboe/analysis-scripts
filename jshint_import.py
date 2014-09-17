@@ -1,7 +1,7 @@
 import re
 import sys
 import os.path
-from coverity_import import CoverityIssueCollector, main, Issue
+from coverity_import import CoverityIssueCollector, main, get_opts
 
 class JSHintCollector(CoverityIssueCollector):
     '''
@@ -26,14 +26,13 @@ class JSHintCollector(CoverityIssueCollector):
             m = self._report_re.match(l)
             if m:
                 f = m.groupdict()
-                msg = Issue(checker='JSHint',
+                msg = self.create_issue(checker='JSHint',
                             tag = f['description'],
                             description = f['description'],
                             subcategory = 'Error',
                            )
-                msg.add_location(f['line'], os.path.join(self._build_dir,f['file']))
-                self._issues.add(msg)
-                self._files.add(f['file'])
+                msg.add_location(f['line'], f['file'])
+                self.add_issue(msg)
             elif self._summary_re.match(l):
                 pass
             else:
@@ -41,4 +40,5 @@ class JSHintCollector(CoverityIssueCollector):
                 sys.exit(-1)
 
 if __name__ == '__main__':
-    print JSHintCollector(build_dir='/').run(sys.argv[-1])
+    opts = get_opts('jshint_import.py', sys.argv)
+    print JSHintCollector(**opts).run(sys.argv[-1])
